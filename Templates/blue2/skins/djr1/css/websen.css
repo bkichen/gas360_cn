@@ -1,0 +1,96 @@
+
+/*---------- import ---------*/
+@import url("http://www.madegas.com/Templates/blue2/skins/djr1/-%E4%BE%9B%E5%BA%94--%E6%89%B9%E5%8F%91%E9%87%87%E8%B4%AD-%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%8A%A0%E7%83%AD%E8%AE%BE%E5%A4%87%E7%BD%91_files/layout.css");
+
+/*公共属性*/
+body, dl, dt, dd, ol, ul, pre, form, field, input, p, blockquote, th, td, h1, h2, h3, h4, h5, h6 { margin:0; padding:0; }
+
+a:link, a:visited { text-decoration:none; color:#333;}
+a:hover, a:active { text-decoration:underline; color:#ff7300;}
+a.a_blue:link, a.a_blue:visited { text-decoration:none; color:#2754BB;}
+a.a_blue:hover, a.a_blue:active { text-decoration:underline; color:#ff7300;}
+a.a_yellow:link, a.a_yellow:visited { text-decoration:none; color:#FF7402;}
+a.a_yellow:hover, a.a_yellow:active { text-decoration:underline; color:#FF7402;}
+.blue_link a, .blue_link a:link, .blue_link a:visited{color: #003399;text-decoration: none;}
+.blue_link a:hover{color: #ff7300;text-decoration: underline;}
+.gray_link a, .gray_link a:link, .gray_link a:visited{color: #666;text-decoration: none;}
+.gray_link a:hover{color: #ff7300;text-decoration: underline;}
+
+.clr {clear:both; height:0px; margin:0; padding:0; width:0; border:none; overflow:hidden;}
+.mar7 { margin-top: 7px;}
+.mar12 { margin-top: 12px;}
+.f_l { float:left;}
+.f_r { float:right;}
+.f_n { float:none; margin: 0 auto;}
+.f_w { font-weight:bold;}
+.f14 { font-size:14px;}
+.m_l { margin-left:10px;}
+.m_r { margin-right:10px;}
+.cen { text-align:center; padding-top: 5px; *padding-top: 5px!important; *padding-top: 0px;}
+.hui{color:#666666;}
+.main960 { width: 960px;}
+.main1100 { width:1100px;}
+.main730 { width: 730px;}
+.jiezhi{ display:block;white-space:nowrap;overflow:hidden;   
+    -o-text-overflow: ellipsis;    /* for Opera */   
+    text-overflow:ellipsis;        /* for IE */   }
+
+ 
+/*头部banner*/
+#topbanner{ float:right; width:468px; padding-top: 3px;}
+#big_nav { float: left; width: 650px; height: 57px; margin-top: 7px;}
+#big_z,#big_r { float:left; width: 5px; height: 57px; background:url(http://www.madegas.com/Templates/blue2/skins/images/big_nav_bg.gif) no-repeat;}
+#big_r { background-position: -35px 0px;}
+#big_c { float:left; width:640px; height: 57px; background:url(http://www.madegas.com/Templates/blue2/skins/images/big_nav_bg.gif) -63px -66px repeat-x; overflow:hidden}
+#big_c li { float:left; height: 27px; line-height: 27px;}
+#younar { float:right; width: 258px;}
+#younar .huany { float:left; width: 258px; height: 26px; line-height: 26px; background:url(http://www.madegas.com/Templates/blue2/skins/images/bmdhbgs.gif) 0 -33px no-repeat; text-align:center;}
+/* 头部导航样式 */
+
+
+
+
+
+#t_dh { height: 27px; padding-left: 30px;}
+#t_dh li { float:left; width: 68px; background:url(http://www.madegas.com/Templates/blue2/skins/images/big_nav_bg1.gif) no-repeat;}
+#t_dh li span { width: 51px; padding-left: 17px; font-size:14px; font-weight:bold; display:block; cursor: hand}
+#t_dh1 { height: 27px; padding-left: 10px;}
+.t_dh_bg { background:url(http://www.madegas.com/Templates/blue2/skins/images/big_nav_bg1.gif) 0px -36px no-repeat; color:#FFF;}
+#input { float:left; width: 298px; height: 20px; margin: 2px 5px 0px 0px; line-height: 20px; font-size:14px}
+#button { float:left; width: 79px; height: 27px; background:url(http://www.madegas.com/Templates/blue2/skins/images/zyx_blue.gif) no-repeat; border:0px;}
+#search { float:left; width: 400px;}
+#keywords { float:left; color:#FFF;}
+#search_result a { color:#000;}
+/*导航*/
+#column { height:33px; background:url(http://www.madegas.com/Templates/blue2/skins/images/bmdhbgs.gif) 0 -181px no-repeat;}
+#column ul { padding-top: 4px; padding-left: 40px;}
+#column ul li { float:left; width:68px; height:29px; line-height: 29px; font-weight:bold; font-size: 14px; text-align:center;}
+#column ul li a { color:#FFF;}
+#column .current { background:url(http://www.madegas.com/Templates/blue2/skins/images/bmdhbgs.gif) 0 -133px no-repeat; margin-right: -3px; position:relative;}
+#column .current a { color:#000;}
+#column .co_bg { background:url(http://www.madegas.com/Templates/blue2/skins/images/bmdhbgs.gif) 0 5px no-repeat; padding: 0 3px;}
+.co_bg a, .co_bg a:link, .co_bg a:visited{color: #fff;text-decoration: none;}
+.co_bg a:hover { color:#FFF; text-decoration: underline;}
+#column .no_bg { background: none;}
+
+/*登录框*/
+#mast_top_r { float:left; width: 260px; height: 224px; border: 1px #FDD873 solid; padding: 1px; overflow:hidden;}
+#mast_top_r #login { float:left; width: 244px; height: 79px; background:#FFF9DE; padding: 8px;}
+#mast_top_r #login .login_put { width: 113px; height: 19px; line-height: 19px; padding-left: 5px; background: #FFFFFF; border: 1px #FCB409 solid;}
+#mast_top_r #login span { background:url(http://www.madegas.com/Templates/blue2/skins/images/homeico.gif) no-repeat; padding-left: 13px; height: 20px;}
+#mast_top_r #login span.mizce { background-position: 0 1px;}
+#mast_top_r #login span.gepass { background-position: 0 -18px; padding-left: 20px;}
+#mast_top_r #mare_ry { float:left; width: 254px; height: 125px; background:#FEEBB8; border-top: 4px #FEF0C7 solid; padding: 0px 3px;}
+#mast_top_r #mare_ry ul { float:left; width: 100%; margin-top: 5px;}
+#mast_top_r #mare_ry ul li.list { float:left; width: 124px; height: 33px; line-height: 33px; background:url(http://www.madegas.com/Templates/blue2/skins/images/body-bg_list.gif) no-repeat; margin-bottom: 5px; display:inline;}
+li.list span { float:left; margin-left: 7px; background:url(http://www.madegas.com/Templates/blue2/skins/images/homeico.gif) no-repeat; padding-left: 20px; font: bold 14px/33px "宋体";}
+li.list span.ly { background-position: 0 -33px;}
+li.list span.ly1 { background-position: 0 -62px;}
+li.list span.ly2 { background-position: 0 -90px;}
+li.list span.ly3 { background-position: 0 -120px;}
+
+/*内容结构*/
+.sidebar_l { width:295px;}
+.sidebar_c { width:400px;}
+.sidebar_r { width:245px;}
+.sidebar_r1 { width: 655px;}

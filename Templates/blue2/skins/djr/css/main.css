@@ -1,0 +1,2223 @@
+/* 固定层 */
+*html {
+    background-image: url(about:blank);
+    background-attachment: fixed;
+}
+.fix-right {
+    background: #e6e6e6;
+    width: 36px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    _position: absolute;
+    _right: 0;
+    _top: expression(eval(document.documentElement.scrollTop));
+}
+
+.wode {
+    width: 100%;
+    margin-top: 88px;
+    text-align: center;
+    display: block;
+}
+
+    .wode i {
+        display: inline-block;
+        width: 36px;
+        height: 30px;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -480px;
+    }
+
+.yidong {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 32px;
+}
+
+    .yidong i {
+        display: inline-block;
+        width: 36px;
+        height: 16px;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -515px;
+    }
+
+.fankui {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 210px;
+}
+
+    .fankui i {
+        display: inline-block;
+        width: 36px;
+        height: 18px;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -540px;
+    }
+
+.dingbu {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 32px;
+}
+
+    .dingbu i {
+        display: inline-block;
+        width: 36px;
+        height: 18px;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -560px;
+    }
+
+.guanbi {
+    width: 100%;
+    height: 20px;
+    background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -73px -340px;
+    display: block;
+    text-align: center;
+    margin-top: 32px;
+}
+/* 最顶部 */
+.share_topbar {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+    height: 32px;
+    width: 100%;
+    line-height: 32px;
+    color: #555;
+    clear: both;
+}
+
+    .share_topbar a, .share_topbar a:link, .share_topbar a:visited {
+        text-decoration: none;
+        color: #999;
+    }
+
+        .share_topbar a:hover {
+            color: #ff5e00;
+        }
+
+.share_topbar_main {
+    width: 1190px;
+    margin: auto;
+}
+
+.share_topbar_main_left {
+    float: left;
+}
+
+.share_topbar_main_right {
+    float: right;
+}
+
+.mobile {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 12px 0 16px;
+    margin: 7px 0;
+    background: url(http://www.madegas.com/Content/images/share01.png) no-repeat;
+    background-position: 0 -7px;
+    border-right: 1px #e9e9e9 solid;
+}
+
+.account_sign_register {
+    float: left;
+    background: url(http://www.madegas.com/Content/images/share01.png) no-repeat;
+    background-position: 0 -30px;
+}
+
+    .account_sign_register ul li {
+        float: left;
+    }
+
+.account_signin {
+    float: left;
+    padding: 0 0 0 14px;
+}
+
+.account_signup {
+    float: left;
+    padding: 0 0 0 14px;
+}
+
+#wjwbar .topnav {
+    float: right; /*兼容IE6*/
+    _width: 530px;
+}
+
+    #wjwbar .topnav ul li {
+        float: left;
+    }
+
+    #wjwbar .topnav .list_first {
+        width: 94px;
+    }
+
+#wjwbar .list_first .topnav_title {
+    background: url(http://www.madegas.com/Content/images/share01.png) no-repeat;
+    background-position: right -30px;
+}
+
+#wjwbar .extra {
+    position: relative;
+    z-index: 100;
+}
+
+#wjwbar .topnav li .nav_title {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    padding: 0 9px 0 10px;
+    background: url(http://www.madegas.com/Content/images/share01.png) no-repeat;
+    background-position: right -30px;
+}
+
+#wjwbar .nav_arrow {
+    padding-right: 9px;
+    display: inline-block;
+    height: 29px;
+    background: url(http://www.madegas.com/Content/images/share01.png) no-repeat;
+    background-position: right -60px;
+    cursor: pointer;
+}
+
+    #wjwbar .nav_arrow:hover {
+        padding-right: 9px;
+        display: inline-block;
+        height: 29px;
+        background: url(http://www.madegas.com/Content/images/share01.png) no-repeat;
+        background-position: right -90px;
+        cursor: pointer;
+    }
+
+#wjwbar .nav_hover_prev {
+    padding-right: 9px;
+    display: inline-block;
+    height: 29px;
+    background: url(http://www.madegas.com/Content/images/share01.png) no-repeat;
+    background-position: right -60px;
+    cursor: pointer;
+}
+
+    #wjwbar .nav_hover_prev:hover {
+        padding-right: 9px;
+        display: inline-block;
+        height: 29px;
+        background: url(http://www.madegas.com/Content/images/share01.png) no-repeat;
+        background-position: right -90px;
+        cursor: pointer;
+    }
+
+#wjwbar .topnav .extra:hover .nav_content, #wjbar .topnav .nav_hover .nav_content {
+    display: block;
+    position: absolute;
+    top: 30px;
+    z-index: 2000;
+    padding: 5px 0px 0px;
+}
+
+#wjwbar .topnav li .nav_content {
+    border: solid 1px #d4d4d4;
+    border-top: none;
+    background-color: #fff;
+    display: none;
+}
+
+#wjwbar .topnav_jxbao .nav_content {
+    left: 0;
+    width: 84px;
+}
+
+#wjwbar .topnav_biaowang .nav_content {
+    left: 0;
+    width: 84px;
+}
+
+#wjwbar .topnav_wjtong .nav_content {
+    left: 0;
+    width: 84px;
+}
+
+#wjwbar .topnav_wjtong .nav_content {
+    left: 0;
+    width: 84px;
+}
+
+#wjwbar .topnav_member .nav_content {
+    left: 0;
+    width: 84px;
+}
+
+#wjwbar .topnav_kf .nav_content {
+    left: 0;
+    width: 78px;
+}
+
+#wjwbar .topnav_category .nav_content {
+    right: 0;
+    width: 520px;
+}
+
+
+#wjwbar .nav_content dl {
+    float: left;
+    padding: 0 12px 8px;
+}
+
+    #wjwbar .nav_content dl dd {
+        cursor: pointer;
+        line-height: 24px;
+        white-space: nowrap;
+    }
+
+#wjwbar .hangye_category dl {
+    float: left;
+    padding: 10px 20px;
+}
+
+    #wjwbar .hangye_category dl dt {
+        float: left;
+        width: 60px;
+        font-weight: 600;
+    }
+
+    #wjwbar .hangye_category dl dd {
+        float: left;
+        width: 420px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+        #wjwbar .hangye_category dl dd span {
+            float: left;
+            height: 14px;
+            line-height: 14px;
+            margin: 8px 0;
+            white-space: nowrap;
+            padding: 0px 10px;
+            border-right: solid #ececec 1px;
+        }
+
+.hangye_more {
+    float: left;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    background: #f7f7f7;
+}
+
+    .hangye_more a {
+        text-decoration: underline;
+        margin-right: 20px;
+    }
+
+
+
+.hs-top {
+    width: 750px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    _margin-left:-15px;
+}
+
+    .hs-top li {
+        float: left;
+        margin-left: 0px;
+        font-size:13px;
+    }
+
+.hst-act {
+    color: #ff2200;
+}
+
+.hst-line {
+    color: #e6e6e6;
+}
+
+.hs-main {
+    float: left;
+    width: 800px;
+}
+
+.h-search input {
+    width: 518px;
+    height: 36px;
+    line-height: 38px;
+    border: 2px solid #ff4500;
+    border-right: none;
+    background: #FFF;
+    float: left;
+    padding-left: 10px;
+font-family:"\5FAE\8F6F\96C5\9ED1","\5b8b\4f53";
+}
+
+.hs-main a.sousou {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ff4500;
+    color: #ffffff;
+    float: left;
+    font-size: 18px;
+    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+    font-weight: 600;
+}
+
+.hs-main a.sousou:hover {
+        text-decoration: none;
+    }
+
+.hs-main a.publish {
+    display: inline-block;
+    width: 110px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #dcdcde;
+    text-align: center;
+    background: #fafafa;
+    color: #f53900;
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+    .hs-main a.publish:hover {
+        text-decoration: none;
+        color: #ff5e00;
+    }
+
+.barCode {
+    width: 64px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+    .barCode a {
+        text-align: center;
+        background: url(http://www.madegas.com/Content/images/barCode.jpg) no-repeat left 21px;
+        width: 64px;
+        height: 88px;
+    }
+/* 导航条 */
+.nav {
+    background: #fff;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+}
+
+    .nav a {
+        color: #333;
+    }
+
+.n-ul-market a {
+    color: #fff;
+    margin-left: 18px;
+}
+
+        .nav a:hover {
+            color: #f5390;
+	font-weight:600;
+        }
+
+    .nav .layout-center {
+        position: relative;
+    }
+
+.n-ul, .n-ul li {
+    float: left;
+}
+
+.n-ul {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+    .n-ul li {
+        position: relative;
+        z-index: 2;
+    }
+
+li.n-bg {
+    height: 38px;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 212px;
+    z-index: 1;
+}
+
+.n-bg a:hover {}
+
+.n-ul li a {
+    padding: 0px 20px;
+}
+
+.n-ul-market {
+    width: 180px;
+    padding-left: 8px;
+    background: #f53900 url(http://www.madegas.com/Content/images/marketIcon.png) no-repeat 14px center;
+    z-index: 100;
+    margin-right: 15px;
+    font-weight:600;
+}
+
+.n-line {
+    color: #919191;
+}
+/* 轮播图那一排 */
+/* 左边的菜单 */
+.carousel {
+    font-size: 14px;
+    overflow: hidden;
+    width: auto;
+    height:580px;
+    background: #f5f5f5;
+}
+
+.market-item {
+    width: 188px;
+    height: 544px;
+    padding: 5px 0;
+    background: #fff;
+    float: left;
+    position: relative;
+    /* 为了兼容IE6加的 */
+    z-index: 1000;
+border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(50,50,50,.03)
+}
+
+    .market-item a {
+        color: #222222;
+        
+    }
+
+    .market-item ul.mitem-ul, .market-item ul.mitem-ul li {
+        float: left;
+        width: 186px;
+    }
+
+        .market-item ul.mitem-ul li {
+            height: 34px;
+            line-height: 34px;
+        }
+
+            .market-item ul.mitem-ul li:hover {
+                background: #ff5e00;
+            }
+
+            .market-item ul.mitem-ul li i {
+                display: inline-block;
+                width: 32px;
+                height: 34px;
+                float: left;
+                margin-right: 14px;
+                background-image: url(http://www.madegas.com/Content/images/icon01.png);
+                background-repeat: no-repeat;
+            }
+
+            .market-item ul.mitem-ul li a {
+                display: inline-block;
+                float: left;
+            }
+
+.item1 {
+    background-position: 5px -60px;
+}
+
+.item2 {
+    background-position: 5px -94px;
+}
+
+.item3 {
+    background-position: 5px -128px;
+}
+
+.item4 {
+    background-position: 5px -162px;
+}
+
+.item5 {
+    background-position: 5px -196px;
+}
+
+.item6 {
+    background-position: 5px -230px;
+}
+
+.item7 {
+    background-position: 5px -264px;
+}
+
+.item8 {
+    background-position: 5px -298px;
+}
+
+.item9 {
+    background-position: 5px -332px;
+}
+
+.item10 {
+    background-position: 5px -366px;
+}
+
+.item11 {
+    background-position: 5px -400px;
+}
+
+.item12 {
+    background-position: 5px -434px;
+}
+
+.item13 {
+    background-position: 5px -468px;
+}
+
+.item14 {
+    background-position: 5px -502px;
+}
+
+.item15 {
+    background-position: 5px -536px;
+}
+
+.item16 {
+    background-position: 5px -570px;
+}
+/* 二级菜单 */
+.ce-list {
+    width: 753px;
+    height: 554px;
+    position: absolute;
+    left: 188px;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    float: left;
+border-left:1px solid #e6e6e6;
+    display: none;
+}
+
+.cel-main {
+    width: 485px;
+    height: 520px;
+    background: #FFF;
+    float: left;
+    padding-left: 32px;
+    padding-top: 34px;
+    /*兼容IE6*/
+    _padding-top: 32px;
+}
+
+.celm-title {
+    margin-bottom: 30px;
+    /*兼容IE6*/
+    _margin-bottom: 19px;
+}
+
+    .celm-title i {
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -80px -240px;
+        width: 19px;
+        height: 23px;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .celm-title a {
+        font-size: 17px;
+
+        color: #212121;
+        font-weight: bold;
+    }
+
+        .celm-title a:hover {
+            color: #ff5e00;
+        }
+
+.celm-zu {
+    float: left;
+    width: 485px;
+    height: 152px;
+    /*margin-bottom: 20px;*/
+    /*兼容IE6*/
+    _margin-bottom: 0px;
+}
+
+.celm-div {
+    width: 218px;
+    height: 142px;
+    overflow: hidden;
+    float: left;
+    margin-right: 24px;
+    /*兼容IE6*/
+    _margin-right: 12px;
+    font-size: 12px;
+}
+
+    .celm-div h3 {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ff5e00;
+        margin-bottom: 14px;
+    }
+
+        .celm-div h3:hover {
+            color: #ff5e00;
+        }
+
+.celm-div-ul, .celm-div-ul li {
+    float: left;
+}
+
+    .celm-div-ul li {
+        margin-right: 18px;
+        margin-bottom: 13px;
+        /*兼容IE6*/
+        white-space: nowrap;
+    }
+
+        .celm-div-ul li a:hover {
+            color: #ff5e00;
+        }
+
+.cel-aside {
+    float: right;
+    width: 235px;
+    height: 544px;
+    padding: 5px 0;
+    border-left: 1px solid #e8e8e8;
+    background: #fafafa;
+}
+
+.cel-aside-box {
+    height: 165px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-left: 15px;
+    margin-top: 22px;
+}
+
+    .cel-aside-box h2 {
+        font-size: 16px;
+
+        color: #212121;
+        margin-bottom: 14px;
+    }
+
+    .cel-aside-box a {
+        font-size: 12px;
+
+        color: #878787;
+        display: inline-block;
+        max-width: 76px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 6px 8px;
+        border: 1px solid #d4d4d4;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+        .cel-aside-box a:hover {
+            color: #ff5e00;
+            border: 1px solid #ff5e00;
+            background: #fff;
+        }
+/* 轮播图那一列 */
+.car-box {
+    width: 734px;
+    float: left;
+    margin-left: 20px;
+}
+/*轮播图*/
+.cb-lbt {
+    float: left;
+    margin-top: 16px;
+    width: 734px;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+}
+
+.clbt-ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+    z-index: 1;
+}
+
+    .clbt-ul li {
+        float: left;
+        display: none;
+    }
+
+        .clbt-ul li.cur {
+            display: block;
+        }
+
+.clbt-ol {
+    position: absolute;
+    right: 24px;
+    bottom: 16px;
+    float: left;
+    z-index: 2;
+}
+
+    .clbt-ol li {
+        float: left;
+        display: inline-block;
+        margin-left: 6px;
+        width: 10px;
+        height: 10px;
+        border: 1px solid #fff;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+        /*background: #FFF;*/
+    }
+
+        .clbt-ol li.li-act {
+            border: 1px solid #ff4500;
+            background: #ff4500;
+        }
+
+.cb-prev {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    left: 0;
+    top: 125px;
+    width: 30px;
+    height: 60px;
+    background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -60px;
+}
+
+.cb-next {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    right: 0;
+    top: 125px;
+    width: 30px;
+    height: 60px;
+    background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -160px -60px;
+}
+/* 产品滚动 */
+.c-product {
+    width: 734px;
+    height: 186px;
+    float: left;
+    margin-top: 20px;
+    padding: 14px 0 8px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(50,50,50,.03);
+    border-bottom: 1px solid #eee;
+}
+
+.cbtn-left {
+    width: 20px;
+    height: 38px;
+    display: inline-block;
+    float: left;
+    margin-top: 60px;
+    background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -120px;
+}
+
+    .cbtn-left:hover {
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -158px;
+    }
+
+.cbtn-right {
+    width: 20px;
+    height: 38px;
+    display: inline-block;
+    float: right;
+    margin-top: 60px;
+    background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -150px -120px;
+}
+
+    .cbtn-right:hover {
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -150px -158px;
+    }
+
+.cp-wrap {
+    position: relative;
+    width: 689px;
+    overflow: hidden;
+    left: 0px;
+    float: left;
+    height: 186px;
+}
+
+    .cp-wrap ul {
+        position: absolute;
+        float: left;
+        width: 100%;
+    }
+
+    .cp-wrap li {
+        float: left;
+        width: 125px;
+        margin-right: 16px;
+        text-align: center;
+    }
+
+.pTop {
+    margin: 15px 0 14px;
+
+}
+
+    .pTop a {
+        font-size: 14px;
+        color: #ff5e00;
+    }
+
+        .pTop a:hover {
+            font-size: 14px;
+            color: #ff5500;
+        }
+
+    .pTop strong {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .pTop a span {
+        color: #666666;
+    }
+/* 右边登录那一块 */
+.c-login {
+    width: 230px;
+    height: 540px;
+    float: right;
+    margin-top: 15px;
+}
+
+.clog-xx {
+    float: left;
+    padding: 10px 0;
+    background:#fff;
+}
+
+    .clog-xx a {
+        display: inline-block;
+        float: left;
+        width: 70px;
+        height: 54px;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -180px -480px;
+        cursor: pointer;
+    }
+
+    .clog-xx div {
+        overflow: hidden;
+    }
+
+    .clog-xx p {
+        font-size: 12px;
+        margin-top:5px;
+        float: left;
+        color: #555555;
+    }
+
+.clogXp {
+    color: #878787;
+    /*兼容IE6*/
+    white-space: nowrap;
+}
+
+.clog-btn {
+    width: 100%;
+    height: 48px;
+    float: left;
+    background:#fff;
+}
+
+    .clog-btn a {
+        display: inline-block;
+        text-align: center;
+        width: 88px;
+        height: 28px;
+        line-height: 28px;
+        color:#fff;
+        /*background:#ff4500;*/
+        /*margin:0 10px 0 10px;*/
+        border-radius:2px;
+        float: left;
+    }
+
+        .clog-btn a.cbtn-dl {
+background: #ff4500;
+border:1px solid #ff4500;
+margin-left:20px;
+        }
+.clog-btn a.cbtn-dl:hover {
+color:#fff;
+        }
+
+        .clog-btn a.cbtn-zc {
+            _padding-top: 7px;
+    border: 1px solid #ff4500;
+    color: #ff4500;
+margin-left:10px;
+        }
+
+    .clog-btn .cbtn-dl i {
+        display: inline-block;
+        width: 18px;
+        height: 16px;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -80px -280px;
+        vertical-align: -3px;
+        _margin-top: 0px;
+    }
+
+    .clog-btn .cbtn-dl:hover i {
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -102px -280px;
+    }
+
+.clog-tab {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+background:#fff;
+border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(50,50,50,.03);
+}
+
+.clogT-title, .clogT-title ul, .clogT-title ul li {
+    float: left;
+}
+.clogT-title{
+	width:230px;
+}
+    .clogT-title ul {      
+           /* margin-left: -28px; */
+    width: 230px;
+    /* padding: 0 9px; */
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #f5f5f5;
+    }
+
+    .clogT-title a {
+        color: #333333;
+        font-size: 12px;
+        cursor: inherit;
+    }
+
+        .clogT-title a:hover {
+            color: #ff5e00;
+        }
+
+    .clogT-title ul li {
+            text-align: center;
+            height: 41px;
+            line-height: 40px;
+            width: 76px;
+            cursor: pointer;
+    }
+
+        .clogT-title ul li.ys {
+            border-bottom: 1px solid #fff;
+    background-color: #fff;
+    margin-bottom: -1px;
+border-left: 1px #fff solid;
+border-right: 1px #fff solid;
+        }
+.clogT-title ul li.ys a {
+color:#ff5e00;
+}
+
+.clogT-content {
+    float: left;
+    padding-left: 15px;
+    /*padding-right: 15px;*/
+    padding-top: 18px;
+    padding-bottom: 8px;
+    _padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+    .clogT-content ul {
+        display: none;
+    }
+
+        .clogT-content ul.clogTC-Show {
+            display: block;
+        }
+
+    .clogT-content ul {
+        float: left;
+    }
+
+    .clogT-content li {
+        margin-bottom: 7px;
+        float: left;
+        width: 198px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .clogT-content a {
+        color: #555555;
+        font-size: 12px;
+        /*兼容IE6*/
+        white-space: nowrap;
+    }
+
+        .clogT-content a:hover {
+            color: #ff5e00;
+        }
+
+    .clogT-content .clogTC-first {
+        margin-left: 30px;
+        _margin-left: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+.clogTC-first img, .clogTC-first h2, .clogTC-first h1 {
+    float: left;
+}
+
+.clogTC-first a {
+    float: left;
+    display: inline-block;
+    height: 37px;
+    /* line-height: 37px; */
+}
+
+    .clogTC-first a img {
+        margin-right: 12px;
+        display: inline-block;
+        width: 41px;
+        height: 38px;
+    }
+
+.clogTC-first h2 {
+    font-size: 16px;
+    color: #666666;
+    font-weight: normal;
+}
+
+    .clogTC-first h2:hover {
+        color: #ff5e00;
+    }
+
+.clogTC-first h1 {
+    font-size: 24px;
+    color: #ff5e00;
+    font-family: "Tahoma";
+    font-weight: 500;
+}
+
+.clog-dun, .clog-dun ul, .clog-dun li {
+    float: left;
+}
+
+.clog-dun {
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+    .clog-dun ul {
+        margin-top: 15px;
+        _margin-top:15px;
+    }
+
+    .clog-dun li {
+        width: 50px;
+        text-align: center;
+        margin-left: 18px;
+        cursor: pointer;
+        _margin-left: 9px;
+    }
+
+        .clog-dun li.liDun {
+            _margin-left: 20px;
+            _margin-right: 10px;
+        }
+
+        .clog-dun li i {
+            display: inline-block;
+            float: left;
+            width: 50px;
+            height: 43px;
+            line-height: 43px;
+            text-align: center;
+            background-image: url(http://www.madegas.com/Content/images/icon01.png);
+            background-repeat: no-repeat;
+            margin-bottom: 6px;
+        }
+
+            .clog-dun li i.dun1 {
+                background-position: -130px -200px;
+            }
+
+            .clog-dun li i.dun2 {
+                background-position: -180px -200px;
+            }
+
+            .clog-dun li i.dun3 {
+                background-position: -230px -200px;
+            }
+
+        .clog-dun li a {
+            color: #878787;
+        }
+
+.clog-hd {
+    float: left;
+    width: 215px;
+    height: 46px;
+    line-height: 45px;
+    background: #fff;
+    padding-left: 15px;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px solid #f2f2f2;
+}
+
+.clog-hd-div {
+    width: 36px;
+    height: 45px;
+    float: left;
+}
+
+    .clog-hd-div span {
+        color: #333333;
+        font-size: 12px;
+    }
+
+.clog-hd-box {
+    width: 173px;
+    height: 45px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    top: 0px;
+}
+
+    .clog-hd-box ul {
+        float: left;
+        position: absolute;
+    }
+
+    .clog-hd-box a {
+        color: #555555;
+        font-size: 12px;
+        display: inline-block;
+        width: 173px;
+        height: 45px;
+        line-height: 45px;
+        float: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+        .clog-hd-box a:hover {
+            color: #ff5e00;
+        }
+/* 情报资讯那一列 */
+.zixun {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.zx-title {
+    float: left;
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #999999;
+}
+
+    .zx-title h1 {
+        float: left;
+        font-size: 18px;
+        color: #222222;
+        font-weight: normal;
+    }
+
+        .zx-title h1 a {
+            font-size: 18px;
+            color: #222222;
+        }
+
+    .zx-title span {
+        float: right;
+        margin-top: 6px;
+    }
+
+.zx-main {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.zxm-aside {
+    position: relative;
+    float: left;
+    width: 420px;
+    height: 274px;
+}
+
+.zxmA-news {
+    position: absolute;
+}
+
+.zxmA-mask {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    background: #000;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+
+.zxmA-jieshao {
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+}
+
+    .zxmA-jieshao li {
+        display: none;
+        padding-left: 14px;
+        float: left;
+        overflow: hidden;
+        width: 290px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #fff;
+    }
+
+        .zxmA-jieshao li a {
+            color: white;
+            font-size: 14px;
+        }
+
+            .zxmA-jieshao li a:hover {
+                color: #ff5e00;
+            }
+
+        .zxmA-jieshao li.z-js-active {
+            display: inline-block;
+        }
+
+.zxmA-page {
+    float: right;
+    position: absolute;
+    right: 20px;
+    bottom: 8px;
+}
+
+    .zxmA-page li {
+        float: left;
+        width: 12px;
+        height: 12px;
+        _background: rgb(0, 0, 0);
+        border: 1px solid white;
+        margin-left: 6px;
+    }
+
+        .zxmA-page li.z-pg-active {
+            border: 1px solid #ff5e00;
+            background: #ff5e00;
+        }
+
+.zxm-info {
+    width: 435px;
+    /*height: 274px;*/
+    float: left;
+    margin-left: 28px;
+    margin-bottom: 22px;
+    overflow: hidden;
+}
+
+    .zxm-info h1, .zxm-info ul, .zxm-info li {
+        float: left;
+    }
+
+    .zxm-info h1 {
+        color: #212121;
+        font-size: 22px;
+        /*兼容IE6*/
+        white-space: nowrap;
+    }
+
+        .zxm-info h1 a {
+            color: #212121;
+            font-size: 22px;
+        }
+
+            .zxm-info h1 a:hover {
+                color: #ff5e00;
+            }
+
+    .zxm-info ul {
+        margin-bottom: 16px;
+    }
+
+        .zxm-info ul li {
+            color: #545454;
+            font-size: 12px;
+            margin-top: 12px;
+            margin-right: 10px;
+            width: 204px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+.zxm-rm {
+    width: 274px;
+    float: right;
+}
+
+    .zxm-rm h2 a {
+        color: #212121;
+        font-size: 16px;
+    }
+
+        .zxm-rm h2 a:hover {
+            color: #ff5e00;
+        }
+
+.zxm-rm-pic {
+    margin-top: 12px;
+}
+
+    .zxm-rm-pic a {
+        display: inline-block;
+        width: 130px;
+        float: left;
+    }
+
+.zxm-rm .zxm-rm-pic a span {
+    width: 130px;
+    text-align: center;
+    margin-top: 7px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.zxm-rm ul, .zxm-rm ul li {
+    float: left;
+    /*兼容IE6*/
+    white-space: nowrap;
+}
+
+.zxm-rm li {
+    margin-top: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 274px;
+}
+
+.zx-ad, .zxAD-aside, .zxAD-info {
+    float: left;
+}
+
+.zxAD-aside {
+    width: 421px;
+    height: 122px;
+    float: left;
+    margin-right: 23px;
+}
+
+.zxAD-info {
+    width: 746px;
+    height: 122px;
+    float: left;
+}
+
+    .zxAD-info a {
+        display: inline-block;
+        float: left;
+        width: 140px;
+        height: 48px;
+        color: white;
+        margin-bottom: 2px;
+        margin-right: 3px;
+        text-align: center;
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 12px;
+        overflow: hidden;
+    }
+
+        .zxAD-info a.jishu {
+            background: #e8e8e8;
+            color: #666;
+            _color: #666;
+        }
+
+            .zxAD-info a.jishu:hover {
+                background: #7a91de;
+                color: #fff;
+                _color: white;
+            }
+
+        .zxAD-info a.oushu {
+            background: #e8e8e8;
+            color: #666;
+            _color: #666;
+        }
+
+            .zxAD-info a.oushu:hover {
+                background: #8ea1e0;
+                color: #fff;
+                _color: white;
+            }
+/* 主体部分 */
+.container {
+    width: 100%;
+    background: #f5f5f5;
+    float: left;
+    padding-top: 20px;
+}
+
+    .container .layout-center {
+        margin-top: 0px;
+    }
+
+.con-sidebar {
+    position: fixed;
+    /*left: -47px;
+	top: -4px;*/
+    background: #fff;
+    /*display: none;*/
+    visibility: hidden;
+}
+
+    .con-sidebar a {
+        display: block;
+        width: 37px;
+        height: 34px;
+        line-height: 40px;
+        text-align: center;
+        border-bottom: 1px solid #ededed;
+        background-image: url(http://www.madegas.com/Content/images/icon01.png);
+        background-repeat: no-repeat;
+    }
+
+        .con-sidebar a.conBar-item0 {
+            width: 37px;
+            height: 37px;
+            line-height: 37px;
+            background-position: -78px -60px;
+        }
+
+        .con-sidebar a.conBar-item17 {
+            width: 37px;
+            height: 34px;
+            line-height: 34px;
+            background-position: -78px -100px;
+        }
+
+.con-sort {
+    width: 1190px;
+    float: left;
+}
+
+    .con-sort .cSort-box {
+          width: 582px;
+          height: 353px;
+          background: #FFF;
+          margin-bottom: 22px;
+          float: left;
+          box-shadow: 0 2px 8px rgba(50,50,50,.03);
+          border-bottom: 1px solid #eee;
+    }
+
+.cSBox-main {
+     height: 353px;
+     width: 383px;
+     background: #FFF;
+     border-right: 1px solid #fff;
+     float: right;
+}
+
+.cSBMain-header {
+    height: 50px;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.cSBMH-title {
+    display: inline;
+    float: left;
+    margin-top: 18px;
+    margin-left: 25px;
+}
+
+    .cSBMH-title i {
+        width: 4px;
+        height: 22px;
+        display: inline-block;
+        float: left;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -80px -198px;
+        font-family: "Tahoma";
+        font-size: 14px;
+        color: #f7f7f7;
+        font-style: normal;
+        line-height: 28px;
+    }
+
+    .cSBMH-title h1 {
+           font-size: 18px;
+           color: #212121;
+           float: left;
+           margin-left: 10px;
+           font-weight: normal;
+    }
+
+        .cSBMH-title h1 a {
+            font-size: 18px;
+            color: #212121;
+        }
+
+            .cSBMH-title h1 a:hover {
+                color: #ff5e00;
+            }
+
+    .cSBMH-title h2 {
+        font-size: 12px;
+        font-weight: normal;
+        color: #878787;
+        float: left;
+        margin-top: 4px;
+        margin-left: 34px;
+    }
+
+        .cSBMH-title h2 a {
+            font-size: 12px;
+            color: #878787;
+        }
+
+            .cSBMH-title h2 a:hover {
+                color: #ff5e00;
+            }
+
+.cSBMain-xm {
+    float: left;
+    padding-bottom: 15px;
+}
+
+.cSBMain-xm-left {
+    display: inline;
+    margin-left: 24px;
+    float: left;
+}
+
+    .cSBMain-xm-left dl, .cSBMain-xm-left dd, .cSBMain-xm-left dt {
+        float: left;
+    }
+
+
+
+        .cSBMain-xm-left dl {
+            margin-bottom: 5px;
+        }
+
+            .cSBMain-xm-left dl.jp-dl {
+                margin-bottom: 26px;
+            }
+
+            .cSBMain-xm-left dl.cd-dl {
+                margin-bottom: 13px;
+            }
+
+            .cSBMain-xm-left dl.last-dl {
+                margin-bottom: 0;
+            }
+
+                .cSBMain-xm-left dl.last-dl dd {
+                    width: 132px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+
+        .cSBMain-xm-left dt {
+            width: 100px;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-right: 10px;
+        }
+
+            .cSBMain-xm-left dt a {
+                margin-right: 16px;
+                font-size: 12px;
+                color: #212121;
+                font-weight: bold;
+            }
+
+        .cSBMain-xm-left dd a {
+            font-size: 12px;
+            color: #727378;
+        }
+
+        .cSBMain-xm-left dl dd a.dute {
+            color: #ff5e00;
+        }
+
+        .cSBMain-xm-left dd a:hover {
+            color: #ff5e00;
+        }
+
+        .cSBMain-xm-left dt a:hover {
+            color: #ff5e00;
+        }
+
+        .cSBMain-xm-left dd {
+            width: 110px;
+        }
+
+.cSBMain-xm-right {
+    float: left;
+    border-left: 1px solid #f5f5f5;
+    padding-left: 18px;
+}
+
+    .cSBMain-xm-right ul, .cSBMain-xm-right li {
+        float: left;
+        width: 110px;
+    }
+
+    .cSBMain-xm-right li {
+        margin-bottom: 5px;
+    }
+
+        .cSBMain-xm-right li.last-li {
+            margin-bottom: 0;
+        }
+
+        .cSBMain-xm-right li.center-li {
+            margin-bottom: 22px;
+        }
+
+        .cSBMain-xm-right li a {
+            color: #727378;
+            font-size: 12px;
+        }
+
+            .cSBMain-xm-right li a:hover {
+                color: #ff5e00;
+            }
+
+.cSBMain-bottom {
+    border-top: 1px solid #f5f5f5;
+    /* width: 100%; */
+    float: left;
+    padding-left: 22px;
+    padding-right: 21px;
+}
+
+    .cSBMain-bottom a {
+        display: inline-block;
+        margin-top: 8px;
+        float: left;
+    }
+
+        .cSBMain-bottom a.aLeft20 {
+            margin-left: 0px;
+        }
+
+        .cSBMain-bottom a.aLeft40 {
+            margin-left: 20px;
+        }
+
+.cSBox-aside {
+    float: right;
+}
+
+    .cSBox-aside a {
+        display: block;
+    }
+/*最新抢购那一行*/
+.qianggou {
+    padding-bottom: 50px;
+}
+/*精彩互动*/
+.hudong {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+.hd-title {
+    float: left;
+    width: 100%;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #999999;
+}
+
+    .hd-title h1 {
+        float: left;
+        font-size: 18px;
+        color: #222222;
+        font-weight: normal;
+    }
+
+.hd-bowen {
+    margin-top: 22px;
+    margin-right: 34px;
+    float: left;
+    width: 272px;
+}
+
+    .hd-bowen h3 {
+        float: left;
+        width: 272px;
+        color: #545454;
+        margin-bottom: 14px;
+    }
+
+    .hd-bowen .hdb-pic {
+        width: 272px;
+        height: 120px;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .hd-bowen .hdb-pic .light {
+            position: absolute;
+            left: -272px;
+            top: 0;
+            width: 80px;
+            height: 120px;
+            background-image: -moz-linear-gradient(left,rgba(255,255,255,0)0,rgba(255,255,255,.2)50%,rgba(255,255,255,0)100%);
+            background-image: -o-linear-gradient(left,rgba(255,255,255,0)0,rgba(255,255,255,.2)50%,rgba(255,255,255,0)100%);
+            background-image: -ms-linear-gradient(left,rgba(255,255,255,0)0,rgba(255,255,255,.2)50%,rgba(255,255,255,0)100%);
+            background-image: -webkit-linear-gradient(left,rgba(255,255,255,0)0,rgba(255,255,255,.2)50%,rgba(255,255,255,0)100%);
+            transform: skewx(-25deg);
+            -o-transform: skewx(-25deg);
+            -ms-transform: skewx(-25deg);
+            -moz-transform: skewx(-25deg);
+            -webkit-transform: skewx(-25deg);
+        }
+
+        .hd-bowen .hdb-pic:hover .light {
+            left: 272px;
+            -moz-transition: 0.5s;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+        }
+
+    .hd-bowen ul, .hdb-pic ul li {
+        float: left;
+    }
+
+    .hd-bowen ul {
+        margin-top: 12px;
+    }
+
+        .hd-bowen ul li {
+            margin-bottom: 11px;
+            width: 272px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+            .hd-bowen ul li span.spanLeft {
+                float: left;
+                font-size: 12px;
+                color: #ff5e00;
+                margin-right: 8px;
+            }
+
+            .hd-bowen ul li a {
+                float: left;
+                width: 168px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+        .hd-bowen ul.bigul li a {
+            width: 265px;
+        }
+
+        .hd-bowen ul li span.spanRight {
+            float: right;
+            font-size: 12px;
+            color: #878787;
+        }
+/*友情链接*/
+.friendlink {
+    width: 100%;
+    height: 170px;
+    background: #262626;
+    float: left;
+}
+
+    .friendlink h2 {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 12px;
+        margin-top: 30px;
+    }
+
+        .friendlink h2 em {
+            font-size: 12px;
+            color: #fff;
+        }
+
+    .friendlink a, .friendlink span {
+        float: left;
+        margin-bottom: 6px;
+    }
+
+    .friendlink a {
+        font-size: 12px;
+        color: #999;
+        /*兼容IE6*/
+        white-space: nowrap;
+    }
+
+        .friendlink a:hover {
+            color: #ff5e00;
+        }
+
+    .friendlink span {
+        color: #3b3b3b;
+    }
+/*底部*/
+.footer {
+    width: 100%;
+    background: #292929;
+    float: left;
+}
+
+.footer-top {
+    float: left;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #333;
+}
+
+    .footer-top .fT-xs {
+        float: left;
+        width: 160px;
+        border-right: 1px solid #292929;
+        margin-right: 36px;
+    }
+
+        .footer-top .fT-xs h3 {
+            float: left;
+            width: 160px;
+            margin-top: 0px;
+            padding-bottom: 25px;
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .footer-top .fT-xs ul li {
+            margin-bottom: 12px;
+        }
+
+            .footer-top .fT-xs ul li a {
+                font-size: 12px;
+                color: #878787;
+            }
+
+                .footer-top .fT-xs ul li a:hover {
+                    color: #ff5e00;
+                }
+
+.fT-tel {
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+    .fT-tel h1 {
+        font-size: 25px;
+        color: #ffffff;
+        font-family: "Arial";
+        font-weight: 500;
+    }
+
+    .fT-tel p {
+        font-size: 12px;
+        color: #878787;
+        margin-top: 8px;
+    }
+
+    .fT-tel a {
+        display: inline-block;
+        width: 126px;
+        height: 32px;
+        margin-top: 14px;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -300px;
+    }
+
+.footer-bottom {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+	margin-bottom:10px;
+}
+
+    .footer-bottom p {
+        margin-top: 10px;
+    }
+
+    .footer-bottom .fB-p1 a {
+        color: #707070;
+    }
+
+        .footer-bottom .fB-p1 a:hover {
+            color: #ff5e00;
+        }
+
+    .footer-bottom .fB-p1 span {
+        color: #707070;
+    }
+
+    .footer-bottom .fB-p2 span {
+        color: #707070;
+        margin-right: 5px;
+    }
+
+.fB-p3 {
+    color: #454545;
+    font-size: 12px;
+}
+
+.footer-bottom p.fB-p4 {
+    margin-top: 23px;
+}
+
+.fB-p4 a {
+    background: url(http://www.madegas.com/Content/images/icon01.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 112px;
+    height: 35px;
+    filter: alpha(opacity=22);
+    opacity: 0.22;
+}
+
+    .fB-p4 a:hover {
+        filter: alpha(opacity=80);
+        opacity: 0.8;
+    }
+
+    .fB-p4 a.p4-authority1 {
+        background-position: -130px -340px;
+        margin-right: 10px;
+    }
+
+    .fB-p4 a.p4-authority2 {
+        background-position: -130px -380px;
+        margin-right: 10px;
+    }
+
+    .fB-p4 a.p4-authority3 {
+        background-position: -130px -420px;
+    }
+
+#dreamsdiv1 iframe {
+    z-index: 0 !important;
+}
+
+
+.jm-right {
+box-shadow: 0 2px 8px rgba(50,50,50,.03);
+border-bottom: 1px solid #eee;
+}
+
+  .chang {
+        padding-top: 0px;
+background:#f5f5f5;
+    }
+
+    .chang-title {
+        padding-bottom: 10px;
+    }
+
+        .chang-title h1 {
+            font-size: 20px;
+            color: #454545;
+            font-weight: normal;
+        }
+
+    .changLogo {
+        display: inline-block;
+        width: 32px;
+        height: 28px;
+        background: url(http://www.madegas.com/Content/images/changLogo.png) no-repeat center;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    .chang-join {
+        font-size: 14px;
+        color: #808080;
+        line-height: 32px;
+    }
+
+    .chang-list {
+        margin-right: -18px;
+    }
+
+    .chang-item {
+        width: 242px;
+        padding: 20px 20px 20px;
+        margin-right: 18px;
+        margin-bottom: 18px;
+        float: left;
+        text-align: center;
+        border: 1px solid #fff;
+        border-top-color: #ff5f25;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+        background:#fff;
+        border-bottom: 1px solid #eee;
+            height: 70px;
+    }
+
+    .chang-gs-logo {
+        display: inline-block;
+        width: 96px;
+        height: 37px;
+        border: 1px solid #e8e8e8;
+    }
+
+    .chang-name {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+
+        .chang-name a {
+            font-size: 14px;
+            color: #333;
+            margin: 0;
+            font-weight: normal;
+        }
+
+    .chang-zy {
+        margin-top: 10px;
+    }
+
+        .chang-zy a {
+            color: #727378;
+            font-size: 12px;
+            display: inline-block;
+            padding: 3px 8px;
+            border: 1px solid #e8e8e8;
+            margin: 0 1px;
+            border-radius: 20px;
+        }
+
+    .chang-name a:hover {
+        color: #ff5e00;
+    }
+
+    .chang-zy a:hover {
+        color: #ff5e00;
+        border-color: #ff5e00;
+    }
+
+    .chang-name {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+
+    .w1200 {
+				width: 1200px;
+				margin: 0 auto;
+				padding-bottom: 30px;
+			}
+			.recommend {
+				background-color: #f5f5f5;
+			}
+			.recommend-title {
+				padding-top: 20px;
+				padding-bottom: 25px;
+			}
+			.recommend-title img {
+				width: 100%;
+			}
+			.recommend-list {
+				margin-right: -15px;
+			}
+			.recommend-item {
+				width: 228px;
+				background: #fff;
+				padding-bottom: 13px;
+				float: left;
+				margin-right: 15px;
+				margin-bottom: 15px;
+			}
+			.recommend-a {
+				display: block;
+				height: 228px;
+				overflow: hidden;
+			}
+			.recommend-a img {
+				width: 100%;
+				-moz-transition: all 1s ease 0s;
+			    -o-transition: all 1s ease 0s;
+			    -webkit-transition: all 1s ease 0s;
+			    transition: all 1s ease 0s;
+			}
+			.recommend-a:hover img {
+				-webkit-transform: scale(1.1);
+			    -moz-transform: scale(1.1);
+			    -ms-transform: scale(1.1);
+			    -o-transform: scale(1.1);
+			    transform: scale(1.1);
+			}
+			.recommend-info {
+				padding: 0 15px;
+			}
+			.recommend-name {
+				margin: 16px 0 0;
+				height: 36px;
+				overflow: hidden;
+			}
+			.recommend-name a {
+				font-size: 12px;
+				color: #3d3d3d;
+				line-height: 1.5;
+			}
+			.recommend-name a:hover {
+				color: #ff5e00;
+			}
+			.recommend-price {
+				font-size: 12px;
+				color: #fe5945;
+				margin-top: 2px;
+			}
+			.recommend-price .integer {
+				font-size: 16px;
+			}

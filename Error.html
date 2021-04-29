@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"><meta http-equiv="refresh" content="5;url=Default.aspx"><title>
+	信息提示－中国电加热设备网
+</title><link rel="stylesheet" href="Css/System/General.css" type="text/css">
+
+    <script language="javascript" type="text/javascript">
+function Refresh(t)
+{ 
+    var tt=t-1; 
+    if (tt > 0){
+        setTimeout("Refresh("+tt+")",1000);
+    }else{
+       window.location.href=document.getElementById("hidpath").getAttribute("Value"); 
+       }
+       return;   
+    }
+}
+var timer=setTimeout("Refresh(3)",1000);
+    </script>
+
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+    <form name="form1" method="post" action="Error.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzA4MTkzNTUyZGTp0e+AC+q5NSGtWhw1c6Hc/XZAlQ==">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AB827D4F">
+        <input type="hidden" name="hidpath" id="hidpath">
+        <div id="nopage" style="float: none; margin: 0 auto; width: 476px; height: 90px;
+            background: url(Images/errerror.gif) no-repeat; padding-top: 132px; margin-top: 200px;">
+            <div id="message" style="width: 200px; margin-left: 136px; color: #000000; text-align:center; line-height:24px">
+                <span id="ss">3</span>秒后将转到首页
+            </div>
+            <span id="labError"></span><br>
+        </div>
+        
+        
+    </form>
+
+    <script language="javascript" type="text/javascript">
+        var timer=setTimeout("Refresh(3)",1000);
+    </script>
+
+</body>
+</html>

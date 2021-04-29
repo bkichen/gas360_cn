@@ -1,0 +1,63 @@
+/* CSS Document */
+* {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND: #fff
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+
+.clr{
+     clear: both
+}
+a:link{
+	color: #333333;text-decoration: none
+}
+a:visited{
+	color: #333333;text-decoration: none
+}
+a:hover{
+	color: #FF6600;text-decoration: underline
+}
+
+.center_720 { 
+	float:none; margin: 0px auto; width: 720px; margin-top: 30px;
+}
+#shenxi { 
+    float: none; margin: 0px auto; width: 718px; height: 25px; color:#FF0000; text-align: left; font-size:14px; font-weight:bold; border-bottom: 3px #FF0000 solid; padding-left: 5px; margin-top: 10px
+}
+/* 头部&导航 */
+#logo { 
+	float:left;
+}
+#muve_top { float: right; width: 495px; margin: 5px 0px;}
+#muve_top li { float:right;}
+#muve_top li span { float:left; height: 17px; line-height: 17px; text-align:center;}
+#login_button { width: 38px; background:url(../../Templates/blue2/images/login_button.gif) no-repeat; margin-left: 10px;}
+#reg_button { width:60px; background:url(../../Templates/blue2/images/register_button.gif) no-repeat;}
+#muve_nav { float: right; width: 495px; height: 28px; border-bottom: 4px #0197D8 solid; border-left: 1px #0197D8 solid; border-right: 1px #0197D8 solid; border-top: 1px #0197D8 solid;}
+#muve_nav li { float:left; width: 61px; height: 28px; background:url(../../Templates/blue2/images/tagBG.gif) repeat-x; text-align:center; line-height: 28px; font-size:14px; font-weight:bold;}
+#muve_nav li.bre { border-right: 1px #0197D8 solid;} 
+.height{
+float:none; margin:0 auto; width:720px; height:20px;
+}
+.center_banner{
+float:none; margin:0 auto; width:720px;
+}
+.center_banner li{
+	float:left;	width:355px; 
+}
+#main_bottom{
+	float:none; margin:0 auto; width:700px; text-align:center; padding:10px; border-top:1px #B0B0B0 solid; margin-top:10px;
+}
+#main_bottom li{
+	text-align:center;
+}

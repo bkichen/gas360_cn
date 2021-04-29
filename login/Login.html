@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html;charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"><title>
+	会员登录--江苏中辉燃气有限公司
+</title><link rel="stylesheet" href="../css/login/login.css" type="text/css"><link rel="stylesheet" href="http://madegas.host.hqlf.cn/Templates/blue2/skins/djr1/css/common.css"><link rel="stylesheet" href="http://madegas.host.hqlf.cn/Templates/blue2/skins/djr1/css/base.css"><link rel="stylesheet" href="http://madegas.host.hqlf.cn/Templates/blue2/skins/djr1/css/Product.css"><link rel="stylesheet" href="http://madegas.host.hqlf.cn/Templates/blue2/skins/djr1/css/websen.css"><link rel="stylesheet" href="http://madegas.host.hqlf.cn/Templates/blue2/skins/djr1/css/websen_class.css"><script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body onload="checkCookieExist()">
+        <link rel="stylesheet" href="../Templates/blue2/skins/djr/images/home.css">
+    <link rel="stylesheet" href="../Templates/blue2/skins/djr/images/reset.css">
+      <link href="../Templates/blue2/skins/djr/css/main.css" rel="stylesheet">
+    <link href="../Templates/blue2/skins/djr/css/reset.css" rel="stylesheet">
+<div id="m-topnav">
+        <div class="g-row">
+            <div id="comeBmlink" class="fl">
+                欢迎来到中国天然气工业网 ! <a class="font_c1" href="" rel="nofollow">请登录</a><em>|</em><a class="font_c2" href="register.html" rel="nofollow">免费注册</a><a class="font_c1">免费咨询：13328156677</a></div>
+            <dl class="tnr clearfix">
+                <dd>
+                    <a href="../index.html">首页</a></dd>
+                <dd>
+                    <a href="../Error.html" rel="nofollow">关于我们</a>
+                </dd>
+                <dd>
+                    <a href="../Error.html" rel="nofollow">联系我们</a></dd>
+            </dl>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            var nowTime = new Date().getTime(); //当前时间的毫秒数
+            var starTime = Date.parse("Sep 30, 2017"); //假期开始时间的毫秒数
+            var endTime = Date.parse("Oct 8, 2017"); //假期结束时间的毫秒数
+            if (starTime <= nowTime && nowTime < endTime) {
+                $("#topNotice").show();
+            } else {
+                $("#topNotice").hide();
+            }
+        })
+    </script>
+    <div class="Tg_gg" style="padding-bottom: 10px">
+        <a href="#" rel="nofollow">
+            <img src="../Templates/blue2/skins/djr/images/319691787157064.jpg" heigth="70" width="1190"><i class="icon_tg"></i></a></div>
+    <div class="Tg_gg">
+        <a href="#" rel="nofollow">
+            <img src="../Templates/blue2/skins/djr/images/599283073842192.jpg" alt=" " heigth="70" width="1190"><i class="icon_tg"></i></a></div>
+    <div class="m-header">
+        <div class="header">
+            <div class="logo">
+            </div>
+            <div class="m-search">
+                <form method="get" onsubmit="return checkform(this);" action="#">
+                <ul class="lisearch">
+                    <li class="lisIn" data-index="0">供应</li>
+                    |
+                    <li class="" data-index="2">采购</li>
+                    |
+                    <li class="" data-index="4">资讯</li>
+                    |
+                    <li class="" data-index="5">招商</li>
+                    |
+                    <li class="" data-index="1">企业</li>
+                    |
+                    <li class="" data-index="3">行情</li>
+                </ul>
+                <div class="search">
+                    <input type="hidden" name="type" value="0">
+                    <input class="text" id="" name="key" type="text" placeholder="">
+                    <button type="submit" class="button">
+                        搜索</button>
+                </div>
+                </form>
+            </div>
+            <div class="btnLink">
+                <a href="" rel="nofollow">快速发布求购</a> <a href="register.html" rel="nofollow">快速成为代理</a>
+            </div>
+            <div class="weixin">
+            </div>
+        </div>
+        <div class="m-nav menu1">
+            <ul>
+                <li><a href="../index.html">行网首页</a> </li>
+                <li><a href="../news/index.html">新闻中心</a></li>
+                <li><a href="../product/trade.html">产品中心</a> </li>
+                <li><a href="../Supply/Trade.html">材料供应</a> </li>
+                <li><a href="../purchase/trade.html">材料求购</a> </li>
+                <li><a href="../company/trade.html">企业文库</a> </li>
+                <li><a href="../expo/index.html">行业展会</a> </li>
+                <li><a href="../know/index.html">知道</a> </li>
+                <li><a href="../Help/Trade.html">帮助</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hpx8">
+    </div>
+    <form name="form1" method="post" action="Login.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTczMTU5NjA4Mw8WAh4GaXNDb2RlBQVGYWxzZRYEAgMPFgIeBFRleHQF7SQgICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSJodHRwOi8vd3d3Lm1hZGVnYXMuY29tL1RlbXBsYXRlcy9ibHVlMi9za2lucy9kanIvaW1hZ2VzL2hvbWUuY3NzIiAvPg0KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9UZW1wbGF0ZXMvYmx1ZTIvc2tpbnMvZGpyL2ltYWdlcy9yZXNldC5jc3MiIC8+DQogICAgICA8bGluayBocmVmPSJodHRwOi8vd3d3Lm1hZGVnYXMuY29tL1RlbXBsYXRlcy9ibHVlMi9za2lucy9kanIvY3NzL21haW4uY3NzIiByZWw9InN0eWxlc2hlZXQiIC8+DQogICAgPGxpbmsgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9UZW1wbGF0ZXMvYmx1ZTIvc2tpbnMvZGpyL2Nzcy9yZXNldC5jc3MiIHJlbD0ic3R5bGVzaGVldCIgLz4NCjxkaXYgaWQ9Im0tdG9wbmF2Ij4NCiAgICAgICAgPGRpdiBjbGFzcz0iZy1yb3ciPg0KICAgICAgICAgICAgPGRpdiBpZD0iY29tZUJtbGluayIgY2xhc3M9ImZsIj4NCiAgICAgICAgICAgICAgICDmrKLov47mnaXliLDkuK3lm73lpKnnhLbmsJTnvZEgISA8YSBjbGFzcz0iZm9udF9jMSIgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9sb2dpbi9Mb2dpbi5hc3B4IiByZWw9Im5vZm9sbG93Ij7or7fnmbvlvZU8L2E+PGVtPnw8L2VtPjxhIGNsYXNzPSJmb250X2MyIg0KICAgICAgICAgICAgICAgICAgICBocmVmPSJodHRwOi8vd3d3Lm1hZGVnYXMuY29tL2xvZ2luL3JlZ2lzdGVyLmFzcHgiIHJlbD0ibm9mb2xsb3ciPuWFjei0ueazqOWGjDwvYT48YSBjbGFzcz0iZm9udF9jMSI+5YWN6LS55ZKo6K+i77yaMTMzMjgxNTY2Nzc8L2E+PC9kaXY+DQogICAgICAgICAgICA8ZGwgY2xhc3M9InRuciBjbGVhcmZpeCI+DQogICAgICAgICAgICAgICAgPGRkPg0KICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwOi8vd3d3Lm1hZGVnYXMuY29tLyI+6aaW6aG1PC9hPjwvZGQ+DQogICAgICAgICAgICAgICAgPGRkPg0KICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwOi8vd3d3Lm1hZGVnYXMuY29tL3NlYXJjaC9zb2xlbHkuYXNweD91cmw95YWz5LqO5oiR5LusIiByZWw9Im5vZm9sbG93Ij7lhbPkuo7miJHku6w8L2E+DQogICAgICAgICAgICAgICAgPC9kZD4NCiAgICAgICAgICAgICAgICA8ZGQ+DQogICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHA6Ly93d3cubWFkZWdhcy5jb20vc2VhcmNoL3NvbGVseS5hc3B4P3VybD3ogZTns7vmiJHku6wiIHJlbD0ibm9mb2xsb3ciPuiBlOezu+aIkeS7rDwvYT48L2RkPg0KICAgICAgICAgICAgPC9kbD4NCiAgICAgICAgPC9kaXY+DQogICAgPC9kaXY+DQogICAgPHNjcmlwdD4NCiAgICAgICAgJChmdW5jdGlvbiAoKSB7DQogICAgICAgICAgICB2YXIgbm93VGltZSA9IG5ldyBEYXRlKCkuZ2V0VGltZSgpOyAvL+W9k+WJjeaXtumXtOeahOavq+enkuaVsA0KICAgICAgICAgICAgdmFyIHN0YXJUaW1lID0gRGF0ZS5wYXJzZSgiU2VwIDMwLCAyMDE3Iik7IC8v5YGH5pyf5byA5aeL5pe26Ze055qE5q+r56eS5pWwDQogICAgICAgICAgICB2YXIgZW5kVGltZSA9IERhdGUucGFyc2UoIk9jdCA4LCAyMDE3Iik7IC8v5YGH5pyf57uT5p2f5pe26Ze055qE5q+r56eS5pWwDQogICAgICAgICAgICBpZiAoc3RhclRpbWUgPD0gbm93VGltZSAmJiBub3dUaW1lIDwgZW5kVGltZSkgew0KICAgICAgICAgICAgICAgICQoIiN0b3BOb3RpY2UiKS5zaG93KCk7DQogICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICQoIiN0b3BOb3RpY2UiKS5oaWRlKCk7DQogICAgICAgICAgICB9DQogICAgICAgIH0pDQogICAgPC9zY3JpcHQ+DQogICAgPGRpdiBjbGFzcz0iVGdfZ2ciIHN0eWxlPSJwYWRkaW5nLWJvdHRvbTogMTBweCI+DQogICAgICAgIDxhIGhyZWY9IiMiIHJlbD0ibm9mb2xsb3ciPg0KICAgICAgICAgICAgPGltZyBzcmM9Imh0dHA6Ly93d3cubWFkZWdhcy5jb20vVGVtcGxhdGVzL2JsdWUyL3NraW5zL2Rqci9pbWFnZXMvMzE5NjkxNzg3MTU3MDY0LmpwZyINCiAgICAgICAgICAgICAgICBoZWlndGg9IjcwIiB3aWR0aD0iMTE5MCI+PGkgY2xhc3M9Imljb25fdGciPjwvaT48L2E+PC9kaXY+DQogICAgPGRpdiBjbGFzcz0iVGdfZ2ciPg0KICAgICAgICA8YSBocmVmPSIjIiByZWw9Im5vZm9sbG93Ij4NCiAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwOi8vd3d3Lm1hZGVnYXMuY29tL1RlbXBsYXRlcy9ibHVlMi9za2lucy9kanIvaW1hZ2VzLzU5OTI4MzA3Mzg0MjE5Mi5qcGciDQogICAgICAgICAgICAgICAgYWx0PSIgIiBoZWlndGg9IjcwIiB3aWR0aD0iMTE5MCI+PGkgY2xhc3M9Imljb25fdGciPjwvaT48L2E+PC9kaXY+DQogICAgPGRpdiBjbGFzcz0ibS1oZWFkZXIiPg0KICAgICAgICA8ZGl2IGNsYXNzPSJoZWFkZXIiPg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibG9nbyI+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im0tc2VhcmNoIj4NCiAgICAgICAgICAgICAgICA8Zm9ybSBtZXRob2Q9ImdldCIgb25zdWJtaXQ9InJldHVybiBjaGVja2Zvcm0odGhpcyk7IiBhY3Rpb249IiMiPg0KICAgICAgICAgICAgICAgIDx1bCBjbGFzcz0ibGlzZWFyY2giPg0KICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3M9Imxpc0luIiBkYXRhLWluZGV4PSIwIj7kvpvlupQ8L2xpPg0KICAgICAgICAgICAgICAgICAgICB8DQogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iIiBkYXRhLWluZGV4PSIyIj7ph4fotK08L2xpPg0KICAgICAgICAgICAgICAgICAgICB8DQogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iIiBkYXRhLWluZGV4PSI0Ij7otYTorq88L2xpPg0KICAgICAgICAgICAgICAgICAgICB8DQogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iIiBkYXRhLWluZGV4PSI1Ij7mi5vllYY8L2xpPg0KICAgICAgICAgICAgICAgICAgICB8DQogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iIiBkYXRhLWluZGV4PSIxIj7kvIHkuJo8L2xpPg0KICAgICAgICAgICAgICAgICAgICB8DQogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iIiBkYXRhLWluZGV4PSIzIj7ooYzmg4U8L2xpPg0KICAgICAgICAgICAgICAgIDwvdWw+DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ic2VhcmNoIj4NCiAgICAgICAgICAgICAgICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0idHlwZSIgdmFsdWU9IjAiPg0KICAgICAgICAgICAgICAgICAgICA8aW5wdXQgY2xhc3M9InRleHQiIGlkPSIiIG5hbWU9ImtleSIgdHlwZT0idGV4dCIgcGxhY2Vob2xkZXI9IiI+DQogICAgICAgICAgICAgICAgICAgIDxidXR0b24gdHlwZT0ic3VibWl0IiBjbGFzcz0iYnV0dG9uIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIOaQnOe0ojwvYnV0dG9uPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDwvZm9ybT4NCiAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYnRuTGluayI+DQogICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9sb2dpbi9Mb2dpbi5hc3B4IiByZWw9Im5vZm9sbG93Ij7lv6vpgJ/lj5HluIPmsYLotK08L2E+IDxhIGhyZWY9Imh0dHA6Ly93d3cubWFkZWdhcy5jb20vbG9naW4vcmVnaXN0ZXIuYXNweCIgcmVsPSJub2ZvbGxvdyI+5b+r6YCf5oiQ5Li65Luj55CGPC9hPg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ3ZWl4aW4iPg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvZGl2Pg0KICAgICAgICA8ZGl2IGNsYXNzPSJtLW5hdiBtZW51MSI+DQogICAgICAgICAgICA8dWw+DQogICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cubWFkZWdhcy5jb20vIj7ooYznvZHpppbpobU8L2E+IDwvbGk+DQogICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly93d3cubWFkZWdhcy5jb20vbmV3cy9pbmRleC5hc3B4Ij7mlrDpl7vkuK3lv4M8L2E+PC9saT4NCiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9wcm9kdWN0L3RyYWRlLmFzcHgiPuS6p+WTgeS4reW/gzwvYT4gPC9saT4NCiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9TdXBwbHkvVHJhZGUuYXNweCI+5p2Q5paZ5L6b5bqUPC9hPiA8L2xpPg0KICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vd3d3Lm1hZGVnYXMuY29tL3B1cmNoYXNlL3RyYWRlLmFzcHgiPuadkOaWmeaxgui0rTwvYT4gPC9saT4NCiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9jb21wYW55L3RyYWRlLmFzcHgiPuS8geS4muaWh+W6kzwvYT4gPC9saT4NCiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9leHBvL2luZGV4LmFzcHgiPuihjOS4muWxleS8mjwvYT4gPC9saT4NCiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9rbm93L2luZGV4LmFzcHgiPuefpemBkzwvYT4gPC9saT4NCiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL3d3dy5tYWRlZ2FzLmNvbS9IZWxwL1RyYWRlLmFzcHgiPuW4ruWKqTwvYT48L2xpPg0KICAgICAgICAgICAgPC91bD4NCiAgICAgICAgPC9kaXY+DQogICAgPC9kaXY+ZAIFD2QWBAINDxYCHgdWaXNpYmxlaGQCEw8WAh8BBZojICAgIDxkaXYgc3R5bGU9IndpZHRoOiAwcHg7IGhlaWdodDogMHB4OyBvdmVyZmxvdzogaGlkZGVuIj4NCiAgICAgICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIGxhbmd1YWdlPSJqYXZhc2NyaXB0IiBzcmM9Imh0dHA6Ly9tYWRlZ2FzLmhvc3QuaHFsZi5jbi9UZW1wbGF0ZXMvYmx1ZTIvc2tpbnMvZGpyL2ltYWdlcy9iYWlkdXRvbmdqaS5qcyI+PC9zY3JpcHQ+DQogICAgPC9kaXY+DQogICAgPGRpdiBjbGFzcz0iZm9vdGVyIj4NCiAgICAgICAgPGRpdiBjbGFzcz0ibGF5b3V0LWNlbnRlciBjbGVhcmZpeCI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmb290ZXItdG9wIj4NCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmVC14cyI+DQogICAgICAgICAgICAgICAgICAgIDxoMz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHA6Ly9tYWRlZ2FzLmhvc3QuaHFsZi5jbi9zZWFyY2gvc29sZWx5LmFzcHg/dXJsPeWFs+S6juaIkeS7rCIgcmVsPSJub2ZvbGxvdyIgc3R5bGU9ImNvbG9yOiAjRkZGOyI+5YWz5LqO5oiR5LusPC9hPjwvaDM+DQogICAgICAgICAgICAgICAgICAgIDx1bD4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vbWFkZWdhcy5ob3N0LmhxbGYuY24vc2VhcmNoL3NvbGVseS5hc3B4P3VybD3lhbPkuo7miJHku6wiIHJlbD0ibm9mb2xsb3ciPuWFrOWPuOeugOS7izwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9tYWRlZ2FzLmhvc3QuaHFsZi5jbi9zZWFyY2gvc29sZWx5LmFzcHg/dXJsPeiBlOezu+aIkeS7rCIgcmVsPSJub2ZvbGxvdyI+6IGU57O75oiR5LusPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL21hZGVnYXMuaG9zdC5ocWxmLmNuL2xvZ2luL3JlZ2lzdGVyLmFzcHgiIHJlbD0ibm9mb2xsb3ciPuWKoOWFpeaIkeS7rDwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICA8L3VsPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZULXhzIj4NCiAgICAgICAgICAgICAgICAgICAgPGgzPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cDovL21hZGVnYXMuaG9zdC5ocWxmLmNuL3NlYXJjaC9zb2xlbHkuYXNweD91cmw95Lya5ZGY5pyN5YqhIiByZWw9Im5vZm9sbG93IiBzdHlsZT0iY29sb3I6ICNGRkY7Ij7mnI3liqHmnaHmrL48L2E+PC9oMz4NCiAgICAgICAgICAgICAgICAgICAgPHVsPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9tYWRlZ2FzLmhvc3QuaHFsZi5jbi9zZWFyY2gvc29sZWx5LmFzcHg/dXJsPemakOengeetlueVpSIgcmVsPSJub2ZvbGxvdyI+6ZqQ56eB5aOw5piOPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cDovL21hZGVnYXMuaG9zdC5ocWxmLmNuL3NlYXJjaC9zb2xlbHkuYXNweD91cmw954mI5p2D5LiO6JGX5L2c5p2DIiByZWw9Im5vZm9sbG93Ij7niYjmnYPkuI7okZfkvZzmnYM8L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vbWFkZWdhcy5ob3N0LmhxbGYuY24vc2VhcmNoL3NvbGVseS5hc3B4P3VybD3mrKLov47lkIjkvZwiIHJlbD0ibm9mb2xsb3ciPuasoui/juWQiOS9nDwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICA8L3VsPg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZULXhzIj4NCiAgICAgICAgICAgICAgICAgICAgPGgzPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cDovL21hZGVnYXMuaG9zdC5ocWxmLmNuL25ld3MvaW5kZXguYXNweCIgcmVsPSJub2ZvbGxvdyIgc3R5bGU9ImNvbG9yOiAjRkZGOyI+5ZKo6K+i5Lit5b+DPC9hPjwvaDM+DQogICAgICAgICAgICAgICAgICAgIDx1bD4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vbWFkZWdhcy5ob3N0LmhxbGYuY24vTmV3cy9UcmFkZS0yNC5hc3B4IiByZWw9Im5vZm9sbG93Ij7ooYzkuJrmlrDpl7s8L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vbWFkZWdhcy5ob3N0LmhxbGYuY24vTmV3cy9UcmFkZS0xNS5hc3B4IiByZWw9Im5vZm9sbG93Ij7lsZXkvJrlkqjor6I8L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vbWFkZWdhcy5ob3N0LmhxbGYuY24vTmV3cy9UcmFkZS0xMC5hc3B4IiByZWw9Im5vZm9sbG93Ij7mlL/nrZbms5Xop4Q8L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgPC91bD4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmVC14cyI+DQogICAgICAgICAgICAgICAgICAgIDxoMz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9IiMiIHJlbD0ibm9mb2xsb3ciIHN0eWxlPSJjb2xvcjogI0ZGRjsiPuWuo+S8oOacjeWKoTwvYT48L2gzPg0KICAgICAgICAgICAgICAgICAgICA8dWw+DQogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iIyIgcmVsPSJub2ZvbGxvdyI+6K+a5oub5Yqg55ufPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iIyIgcmVsPSJub2ZvbGxvdyI+5bm/5ZGK5pyN5YqhPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iIyIgcmVsPSJub2ZvbGxvdyI+55Sz6K+36ZO+5o6lPC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgIDwvdWw+DQogICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZlQteHMiPg0KICAgICAgICAgICAgICAgICAgICA8aDM+DQogICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwOi8vbWFkZWdhcy5ob3N0LmhxbGYuY24vcHJvZHVjdC90cmFkZS5hc3B4IiByZWw9Im5vZm9sbG93IiBzdHlsZT0iY29sb3I6ICNGRkY7Ij7kuqflk4HkuK3lv4M8L2E+PC9oMz4NCiAgICAgICAgICAgICAgICAgICAgPHVsPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9tYWRlZ2FzLmhvc3QuaHFsZi5jbi9wdXJjaGFzZS90cmFkZS5hc3B4IiByZWw9Im5vZm9sbG93Ij7kuqflk4HmsYLotK08L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwOi8vbWFkZWdhcy5ob3N0LmhxbGYuY24vU3VwcGx5L1RyYWRlLmFzcHgiIHJlbD0ibm9mb2xsb3ciPuS6p+WTgeS+m+W6lDwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHA6Ly9tYWRlZ2FzLmhvc3QuaHFsZi5jbi9sb2dpbi9Mb2dpbi5hc3B4IiByZWw9Im5vZm9sbG93Ij7nlLPor7fpk77mjqU8L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgPC91bD4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJmVC10ZWwiPg0KICAgICAgICAgICAgICAgICAgICA8aDEgc3R5bGU9ImZvbnQtZmFtaWx5OiAn5b6u6L2v6ZuF6buRJywgJ01pY3Jvc29mdCBZYWhlaSc7IGZvbnQtc2l6ZTogMjBweDsiPg0KICAgICAgICAgICAgICAgICAgICAgICAg5Lit5Zu95aSp54S25rCU572RPC9oMT4NCiAgICAgICAgICAgICAgICAgICAgPHA+DQogICAgICAgICAgICAgICAgICAgICAgICAxMzMyODE1NjY3NzwvcD4NCiAgICAgICAgICAgICAgICAgICANCjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij52YXIgY256el9wcm90b2NvbCA9ICgoImh0dHBzOiIgPT0gZG9jdW1lbnQubG9jYXRpb24ucHJvdG9jb2wpID8gIiBodHRwczovLyIgOiAiIGh0dHA6Ly8iKTtkb2N1bWVudC53cml0ZSh1bmVzY2FwZSgiJTNDc3BhbiBpZD0nY256el9zdGF0X2ljb25fMTI3MzU4MTczMCclM0UlM0Mvc3BhbiUzRSUzQ3NjcmlwdCBzcmM9JyIgKyBjbnp6X3Byb3RvY29sICsgInMxMy5jbnp6LmNvbS96X3N0YXQucGhwJTNGaWQlM0QxMjczNTgxNzMwJTI2c2hvdyUzRHBpYzEnIHR5cGU9J3RleHQvamF2YXNjcmlwdCclM0UlM0Mvc2NyaXB0JTNFIikpOzwvc2NyaXB0Pg0KPCEtLeWPr+S/oee9keermeWbvueJh0xPR0/lronoo4XlvIDlp4stLT4JDQo8c2NyaXB0IHNyYz0iaHR0cDovL2t4bG9nby5rbmV0LmNuL3NlYWxsb2dvLmRsbD9zbj1lMTgwNjExMzIwMzAwNzQyNjZwZGZrMDAwMDAwJnNpemU9NCI+PC9zY3JpcHQ+DQo8IS0t5Y+v5L+h572R56uZ5Zu+54mHTE9HT+Wuieijhee7k+adny0tPg0KDQogICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDwhLS3kuIvlupXpg6gtLT4NCiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZvb3Rlci1ib3R0b20iPg0KICAgICAgIA0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvZGl2Pg0KICAgIDwvZGl2Pg0KZGR13MFdFOC18AOnrQgI3oioXZg+NQ==">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1806D926">
+        <div class="center_720">
+            <div id="shenxi">
+                你目前进行的操作，需要“登录”后才能继续……
+            </div>
+            <div align="center">
+                <span id="Label1" style="left: -303px; position: relative; top: -8px"></span>&nbsp;
+            </div>
+            <table width="720" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="408" height="130">
+                        <table width="300" border="0" align="left" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <img src="../Images/signin_01.gif">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="161" align="center" valign="top" background="../Images/signin_02.gif">
+                                    <table width="87%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td height="23">
+                                                <div id="divError" style="font-size: 12px">
+                                                    请输入登录名和密码，按“登录”即可。
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                    <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td height="30" align="right">
+                                                <strong><span style="font-size: 14px; color: #000000">登录名：</span></strong>
+                                            </td>
+                                            <td height="30">
+                                                <input name="txtLoginName" type="text" id="txtLoginName" tabindex="1">
+                                            </td>
+                                            <td height="30">
+                                                <span style="color: #000000">
+                                                    <a id="HyperLink1" href="register.html">还没有注册？</a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="30" align="right">
+                                                <strong><span style="font-size: 14px; color: #000000">密&nbsp;码：</span></strong>
+                                            </td>
+                                            <td height="30">
+                                                <input name="txtPassword" type="password" id="txtPassword" tabindex="2">
+                                            </td>
+                                            <td height="30">
+                                                <span style="color: #000000">
+                                                    <a id="HyperLink3" href="javascript:;">忘记了密码？</a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td width="26%" height="30">&nbsp;
+                                            </td>
+                                            <td width="47%">
+                                                <input type="submit" name="btnServer" value="登  录" id="btnServer" style="font-size:10pt;font-weight:bold;width:90px;">
+                                            </td>
+                                            <td width="27%">&nbsp;<div id="dd">
+                                            </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="352">
+                        <table width="300" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <img src="../Images/signin_03.gif" width="352" height="26">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="register.html" target="_blank">
+                                        <img src="../Images/signin_04.gif" width="352" height="118" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="register.html" target="_blank">
+                                        <img src="../Images/signin_05.gif" border="0"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="height" style="clear: both; height: 20px;">
+        </div>
+        <div class="center_banner">
+            <ul>
+                <li style="margin-right: 10px;">
+                    <script type='text/javascript' src='http://www.madegas.com/js/Advertisement/44.js'></script>
+                </li>
+                <li>
+                    <script type='text/javascript' src='http://www.madegas.com/js/Advertisement/45.js'></script>
+                </li>
+            </ul>
+        </div>
+        <div class="clear">
+        </div>
+            <div style="width: 0px; height: 0px; overflow: hidden">
+        <script type="text/javascript" language="javascript" src="http://madegas.host.hqlf.cn/Templates/blue2/skins/djr/images/baidutongji.js"></script>
+    </div>
+    <div class="footer">
+        <div class="layout-center clearfix">
+            <div class="footer-top">
+                <div class="fT-xs">
+                    <h3>
+                        <a href="javascript:;" rel="nofollow" style="color: #FFF;">关于我们</a></h3>
+                    <ul>
+                        <li><a href="javascript:;" rel="nofollow">公司简介</a></li>
+                        <li><a href="javascript:;" rel="nofollow">联系我们</a></li>
+                        <li><a href="javascript:;" rel="nofollow">加入我们</a></li>
+                    </ul>
+                </div>
+                <div class="fT-xs">
+                    <h3>
+                        <a href="javascript:;" rel="nofollow" style="color: #FFF;">服务条款</a></h3>
+                    <ul>
+                        <li><a href="javascript:;" rel="nofollow">隐私声明</a></li>
+                        <li><a href="javascript:;" rel="nofollow">版权与著作权</a></li>
+                        <li><a href="javascript:;" rel="nofollow">欢迎合作</a></li>
+                    </ul>
+                </div>
+                <div class="fT-xs">
+                    <h3>
+                        <a href="javascript:;" rel="nofollow" style="color: #FFF;">咨询中心</a></h3>
+                    <ul>
+                        <li><a href="javascript:;" rel="nofollow">行业新闻</a></li>
+                        <li><a href="javascript:;" rel="nofollow">展会咨询</a></li>
+                        <li><a href="javascript:;" rel="nofollow">政策法规</a></li>
+                    </ul>
+                </div>
+                <div class="fT-xs">
+                    <h3>
+                        <a href="#" rel="nofollow" style="color: #FFF;">宣传服务</a></h3>
+                    <ul>
+                        <li><a href="#" rel="nofollow">诚招加盟</a></li>
+                        <li><a href="#" rel="nofollow">广告服务</a></li>
+                        <li><a href="#" rel="nofollow">申请链接</a></li>
+                    </ul>
+                </div>
+                <div class="fT-xs">
+                    <h3>
+                        <a href="javascript:;" rel="nofollow" style="color: #FFF;">产品中心</a></h3>
+                    <ul>
+                        <li><a href="javascript:;" rel="nofollow">产品求购</a></li>
+                        <li><a href="javascript:;" rel="nofollow">产品供应</a></li>
+                        <li><a href="javascript:;" rel="nofollow">申请链接</a></li>
+                    </ul>
+                </div>
+                <div class="fT-tel">
+                    <h1 style="font-family: '微软雅黑', 'Microsoft Yahei'; font-size: 20px;">
+                        中国天然气工业网</h1>
+                    <p>
+                        13328156677</p>
+                   
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273581730'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1273581730%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+<!--可信网站图片LOGO安装开始-->	
+<script src="http://kxlogo.knet.cn/seallogo.dll?sn=e18061132030074266pdfk000000&size=4"></script>
+<!--可信网站图片LOGO安装结束-->
+
+                </div>
+            </div>
+            <!--下底部-->
+            <div class="footer-bottom">
+       
+            </div>
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>

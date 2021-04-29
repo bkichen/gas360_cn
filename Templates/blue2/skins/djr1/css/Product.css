@@ -1,0 +1,34 @@
+/* 产品库样式 */
+a:link, a:visited { text-decoration:none; color:#333;}
+a:hover, a:active { text-decoration:underline; color:#FF7300;}
+a.a1:link, a.a1:visited { text-decoration:none; color:#CC0000;}
+a.a1:hover, a.a1:active { text-decoration:underline; color:#FF7300;}
+a.a2:link, a.a2:visited { text-decoration:none; color:#003278;}
+a.a2:hover, a.a2:active { text-decoration:underline; color:#FF7300;}
+.C_raght { float:right; margin-right: 10px; font-size:12px; line-height: 25px; font-weight:normal;}
+#Classifies { float: none; margin: 0 auto;  border: 1px #3C92DD solid; margin-top: 10px;}
+#Classifies #C_title { float:left; width: 99%; height: 24px; line-height: 24px; padding-left: 10px; border-bottom: 1px #CDE4F2 solid; border-top: 1px #CDE4F2 solid; background:#EBF5FB; margin-bottom: 10px;}
+#Classifies #C_content { float:left; width: 940px; padding: 0px 10px;} 
+#Classifies #C_content td { padding-bottom: 10px;}
+#C_search { float:none; margin: 0 auto; width: 970px; margin-top: 10px; padding-bottom: 5px; font-weight:bold; border-bottom: 1px #CCCCCC dashed;}
+#main #C_left { float:left; width: 819px; border-right: 1px #CCCCCC dashed;}
+#main #C_right { float:left; width: 120px; padding: 0 10px;}
+.product_list { float:left; width: 814px; border-bottom: 1px #CCCCCC solid; padding-bottom: 10px; margin-bottom: 10px;}
+.product_list .induction { float:left; width: 814px; margin-bottom: 5px;}
+.product_list .induction dt { float:left; width: 809px; height: 25px; background:#EBF5FB; margin-bottom: 5px; font: bold 14px/25px "宋体"; padding-left: 5px;}
+.product_list .induction dd.img { float:left; width: 90px; height: 90px; margin-right: 10px; background:url(http://www.madegas.com/Templates/blue2/skins/images/ad/1207202364567477533.gif) no-repeat;}
+.product_list .induction dd.text { float:left; width:700px; height: 85px; line-height: 20px; padding-top: 5px; padding-right: 14px; overflow:hidden;}
+.product_list .incompany { float:left; width: 809px; height: 25px; background: #F2FAFD; font-weight:bold; line-height: 25px; padding-left: 5px;}
+.product_list .incompany_cont { float:left; width: 814px; padding-top: 15px;}
+
+/* 产品库内容页样式*/ 
+.Det_title { float:left; width: 960px; height: 30px; border-bottom: 2px #2979DF solid; background:url(http://www.madegas.com/Templates/blue2/skins/images/tiutbg.gif) 0 1px repeat-x;}
+.Det_title .titbgleft { float:left; width: 6px; height: 30px; background:url(http://www.madegas.com/Templates/blue2/skins/images/titbgleft.gif) 0 1px no-repeat;}
+.Det_title .titbgright { float:right; width: 6px; height: 30px; background:url(http://www.madegas.com/Templates/blue2/skins/images/titbgright.gif) 0 1px no-repeat;}
+.Det_title .nav_dq { float:left; display:block; height: 20px; padding-top: 10px; margin-left: 10px;}
+.Det_title .Cotion { float:right; height: 20px; padding-top: 10px; margin-right: 10px; display:block;}
+.Det_content { float:left; width: 958px; border: 1px #4B9AFF solid; overflow:hidden}
+.Det_content .Attribute { float:left; width: 958px; height:30px; line-height: 30px; border-top: 2px #CFCFCF solid; border-bottom: 1px #A8CAE0 solid;}
+.Det_content .D_content { float:left; width: 928px; padding: 15px 20px;}
+.Det_content .D_content .photo { float:left; width: 166px; height: 166px; margin-right: 20px; border: 1px #CCCCCC dotted;}
+.Det_content .D_content .I_cont { float:left; width: 722px; height: 166px; padding-left: 5px; margin-left: 5px; overflow-y: scroll; overflow-x: hidden; text-align: left; voice-family: inherit; border: 1px #CCCCCC solid;} 

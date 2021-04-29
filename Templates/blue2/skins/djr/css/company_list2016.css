@@ -1,0 +1,355 @@
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, select, input, textarea, button, p, blockquote, th, td, img ,iframe { margin: 0; padding: 0; }
+table{ border-collapse: collapse; border-spacing: 0; }
+input,button,textarea,option { font: 12px "\5b8b\4f53", Arial, Helvetica, sans-serif; }
+ul, li, div{ list-style: none; border: 0px; }
+img{ border: 0px; }
+.clear{ font: 0px/0px serif; display: block; clear: both; }
+html{ -webkit-text-size-adjust: none; }
+input{ outline: none; }
+button{ border:none; }
+textarea{ resize: none; }
+a{ text-decoration: none; }
+body:nth-of-type(1) input:focus,textarea:focus{ outline: none;}
+body{ font: 12px "\5b8b\4f53","Tahoma","Arial","Microsoft Yahei"; color: #333; background: #fff; position: relative;}
+
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+#header {
+	width: 100%;
+	height: 35px;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	background: #f5f5f5;
+	margin: 0 auto;
+}
+.header {
+	width: 1100px;
+	margin: 0 auto;
+
+}
+.header ul {
+	color: #666;
+}
+.header ul li.name {
+	margin-right: 30px;
+}
+.header ul li {
+
+	margin-right: 10px;
+}
+.header ul li a {
+	color: #666;
+}
+.header ul li a:hover {
+	color: #ff6600;
+}
+.header p a:hover {
+	color: #ff6600;
+}
+.header p {
+	line-height: 35px;
+	color: #666;
+	float: right;
+	margin-right: 110px;
+}
+.header p a {
+	color: #666;
+	margin: 0 5px;
+	display: inline-block;
+}
+.header p a.mobile {
+	background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/product/bg.png) 0 10px no-repeat;
+	padding: 0 0 0 16px;
+	margin-left: 10px;
+}
+.weixin {
+	width: 1100px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 99999;
+}
+.weixinTop {
+	position: absolute;
+	padding: 0 0 0 28px;
+	top: -39px;
+	right: 26px;
+	cursor: pointer;
+	color: #666;
+	line-height: 38px;
+	background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/product/bg.png) 0 -24px no-repeat
+}
+.weixinBot {
+	position: absolute;
+	right: 10px;
+	top: -1px;
+	display: none;
+	border: 1px solid #d1d1d1;
+}
+
+.banneradv{width: 1100px;margin: 10px auto 0;}
+
+
+
+.headerNav {
+    width: 1100px;
+    margin: 0 auto;}
+.headerNav p {
+    color: #888;
+    line-height: 12px;
+    height: 12px;
+    width: 1100px;
+    overflow: hidden;
+    margin-top: 10px;
+    font-family: "microsoft yahei";
+	}
+.headerNav p a {
+    color: #888;
+    margin: 0 4px;
+}
+.headerNav p a:hover{
+	color: #FF6600;
+}
+#nav{width: 100%;margin: 0 auto 0;background: #0070ce;}
+.nav{width: 1100px;
+    margin: 0 auto;
+    height: 50px;position: relative;}
+.nav .menuList{width: 1100px;margin: 0 auto;height: 50px;}
+.nav .menuList a{width: 122px; text-align: center; float: left;display: inline-block;height:50px;font:16px/50px "Microsoft Yahei";color:#fff}
+.nav .menuList .focus{background: #3c96e2;}
+.nav .menuList a:hover{background: #3c96e2;}
+
+.location{width: 1100px;height: 35px;margin: 15px auto 0;background: #f1f1f1;position: relative;}
+.location p{line-height: 35px;display:inline-block;float:left;padding-left: 7px;margin-left: 10px;background: url(../../../../../images/topicsList2016/topic.png) 0 -120px no-repeat;}
+.location p i{display: inline-block;float: left;padding-left: 20px;color: #565252;font-style: normal;}
+.location p a{display: inline-block;line-height: 35px;padding: 0 14px 0 11px;color: #565252;background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 100% -422px;}
+.location p a:hover{ text-decoration: underline; color: #ff6600; }
+.choose{display: block;float: left; line-height: 35px; padding:0 7px; color: #888; line-height: 20px; margin-top: 7px; background-color: #fff;border: 1px solid #e8e8e8;}
+.choose b{font-weight: normal; color:#666;}
+.choose a.close{padding: 0 5px;margin-left: 6px; background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/close.png) 0 1px no-repeat; cursor: pointer;}
+.location span{display: block;position: absolute;right: 16px;top: 0;line-height: 35px;color: #565454;}
+.location span b{ font-family: "tahoma"; color: #ff6600; margin: 0 5px; }
+.parameter{ position: absolute; left:360px; top: 7px; }
+.parameter a{ display: inline-block; line-height: 20px; border:1px solid #e8e8e8; background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 100% -127px; padding: 0 20px 0 7px; color: #666666; margin-right: 8px; }
+.parameter a:hover{ border:1px solid #ffa162; background: #fff7f0 url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 100% -150px; color: #ff6600; }
+.location p a.noBg{ background: none; }
+.companyPar{ width: 1096px; margin: 15px auto 0; border:2px solid #e0e0e0; }
+.companyPar dl{ width: 1096px; background: #f8f8f8; border-bottom:1px solid #f0f0f0; float: left; }
+.companyPar dl.noBor{ border:0; }
+.companyPar dl dt{ width: 110px; height: 42px; float: left; line-height: 42px; text-indent: 15px; color: #474544; }
+.companyPar dl dd{ width: 937px; float: right; border-left: 1px solid #f0f0f0; background: #fff; padding: 9px 24px; }
+.all{ float: left; line-height: 24px; width: 51px; }
+.all a{color: #0070ce;font-weight: bold;}
+ul.area,ul.model,ul.number{ width: 838px; float: left; height: 24px; overflow: hidden; }
+ul.area li,ul.model li,ul.number li{ width: 83px; float: left; height: 18px; padding: 3px 0; }
+ul.area li a,ul.model li a,ul.number li a{ color: #474544; line-height: 18px; padding:0 4px; display: inline-block; font-family: "tahoma"; }
+ul.area li a:hover,ul.model li a:hover,ul.number li a:hover{ color: #fff; background: #0070ce; }
+.companyPar dl dd.oneLine ul.area{ height: 100%; }
+.more{ width: 48px; float: right; }
+.more a{ width: 46px; height: 16px; border:1px solid #dddddd; background: #f8f8f8 url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat -58px -174px; display: block; color: #898989; line-height: 16px; text-indent: 18px; border-radius: 2px; margin-top: 3px; }
+ul.industry{ width: 838px; float: left; height: 24px; overflow: hidden; }
+ul.industry li{ float:left; line-height:24px; margin:3px 26px 3px 0; display:inline; white-space: nowrap;}
+ul.industry li a{ color: #474544; line-height: 18px; padding:0 4px; display: inline-block; font-family: "tahoma"; }
+ul.industry li a:hover{color: #fff;background: #0070ce;}
+.companyPar dl dd.oneLine ul.industry{ height: 100%; }
+.industy{ width: 838px; float: left; word-wrap:break-word; }
+.industy a{ color: #474544; line-height: 18px; padding:0 4px; display: inline-block; margin: 3px 36px 3px 0; }
+.industy a:hover{ color: #fff; background: #0070ce; }
+.newCompanyPar{ margin: 0 auto; border-top: 0; }
+.all a:hover{ color: #ff6600; }
+.allCompanyTop{ width: 1098px; height: 36px; margin:15px auto 0; border:1px solid #e4e4e4; background: #fafafa; position: relative; z-index:999999;}
+.allCompanyTop h3{width: 110px;height: 38px;position: absolute;top: -1px;left: -1px;background: #0070ce;font: bold 16px/38px "Microsoft Yahei";color: #fff;text-align: center;}
+.allCompanyTop h3 a{color: #fff;font: bold 16px/38px "Microsoft Yahei";}
+ul.sort{ position: absolute; left: 120px; top: 8px; }
+ul.sort li{ width: 112px; height: 22px; float: left; position: relative; }
+.sortTop,.active_on,.active_out{ width: 99px; height: 20px; background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 100% -197px; position: absolute; z-index: 1; border:1px solid #cccccc; line-height: 20px; text-indent: 7px; cursor: pointer; }
+.sortBot{ width: 99px; position: absolute; border: 1px solid #cdcdcd; z-index: 9999; top: 21px; left: 0px; background: #fff; display: none; }
+.sortBot ul{ float: left; width: 99px; padding: 5px 0; }
+.sortBot ul li{ float: left; width: 99px; }
+.sortBot ul li a{ display: block; float: left; line-height: 22px; text-indent: 10px; text-decoration: none; color: #868a8f; width: 99px; }
+.sortBot ul li a:hover{ background: #0070ce; color: #fff; }
+.newSortBot{ width: 297px; }
+.newSortBot ul{ width: 297px; }
+.companyList{ width: 1100px; margin:15px auto 0; }
+.companyList dl{ width: 1098px; float: left; border:1px solid #d1d1d1; }
+.companyList dl dt{ width: 100%; height: 150px; float: left; position: relative; border-right: 1px solid #d1d1d1; }
+.companyName{ width: 500px; height: 30px; position: absolute; overflow: hidden; font: normal 22px/30px "Microsoft Yahei"; left: 26px; top: 15px; }
+.companyName a{ color: #333333; }
+.companyName a:hover{ color: #51910a; }
+.companyList dl dt b{ display: block; width: 79px; height: 16px; position: absolute; left: 27px; top: 57px; }
+.companyList dl dt b.free{ background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 0 0px; }
+.companyList dl dt b.primary{ background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 0 -25px; }
+.companyList dl dt b.intermediate{ background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 0 -51px; }
+.companyList dl dt b.senior{ background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 0 -78px; }
+.companyList dl dt b.topLevel{ background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 0 -102px; }
+.companyList dl dt span{ display: block; position: absolute; left: 120px; top: 55px; color: #766969; letter-spacing: 10px; line-height: 20px; }
+.companyList dl dt span strong{font:normal 20px/20px "Tahoma";color: #ff00s2f;vertical-align: top;letter-spacing: 0;padding-right: 10px;}
+.companyList dl dt p{width: 500px;height: 26px;position: absolute;overflow: hidden;font: normal 14px/26px "Tahoma";left: 24px;top: 96px;color: #333333;}
+.companyList dl dt p.abstract{ top: 123px; }
+.companyList dl dt p i{width: 63px;height: 19px;display: inline-block;text-align: center;font: normal 14px/19px "Microsoft Yahei";color: #fff;background: #0070ce;margin-right: 8px;}
+.companyList dl dt p.abstract i{ background: #7ca4cb; }
+.companyList dl dt ul{  width:520px; float:right; margin-top:20px;}
+.companyList dl dt ul li{width: 260px;height: 40px;float: left;font: normal 14px/22px "Tahoma";overflow: hidden;}
+.companyList dl dt ul li i{ font-style: normal; color: #888888; }
+.companyList dl dt ul li i em{ padding: 0 12px; }
+.companyList dl dt ul li a{color: #1e92f3;text-decoration: underline;font-weight: bold;word-break: break-all;}
+.companyList dl dt ul li a:hover{ color: #ff6600; text-decoration: none; }
+.companyList dl dd{ width: 542px; height: 256px; float: right; position: relative; background: #f8f8f8; }
+.companyList dl dd a.goShow{ width: 62px; height: 19px; display: block; position: absolute; top: 18px; right: 110px; z-index: 1; background: #ff6600; color: #fff; font: normal 12px/19px "Microsoft Yahei"; text-align: center; }
+.companyList dl dd a.contactUs{ width: 62px; height: 19px; display: block; position: absolute; top: 18px; right: 31px; z-index: 2; background: #3f6db8; color: #fff; font: normal 12px/19px "Microsoft Yahei"; text-align: center; }
+.companyList dl dd span{letter-spacing:3px; display: inline-block; font:normal 22px/30px "Microsoft Yahei";line-height: 258px; text-align: center;width: 542px;}
+ul.showCode{ width: 33px; height: 33px; position: absolute; top: 0px; right: 0px; z-index: 9; cursor: pointer; }
+ul.showCode li{ width: 33px; height: 33px; position: relative; float: left; }
+.backCode{ width: 33px; height: 33px; display: block; position: absolute; top: 0px; right: 0px; z-index: 2; background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat -46px -231px; cursor: pointer; }
+.backCodeOut{ width: 33px; height: 33px; display: block; position: absolute; top: 0px; right: 0px; z-index: 10; background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat -46px -274px; }
+.code{ width: 180px; height: 256px; position: absolute; top: 0; right: 0; border-left: 1px solid #dddddd; background: #fff; color: #aaaaaa; text-align: center; z-index: 1; display: none; }
+.code img{ margin:56px 0 38px 0; }
+ul.productList{ width: 510px; position: absolute; top: 50px; left: 14px; z-index: 4; }
+ul.productList li{ width: 142px; float: left; padding: 0 14px; }
+ul.productList li table{ float: left; border:0; margin-bottom: 5px; }
+ul.productList li table tr td{ width: 142px; height: 142px; text-align: center; vertical-align: middle; border:1px solid #d1d1d1; background: #fff; }
+ul.productList li p{ width: 142px; height: 20px; float: left; overflow: hidden; font:normal 12px/20px "Arial"; color: #444040; text-align: center; }
+ul.productList li p a{ color: #444040; }
+ul.productList li p i{ color: #ff6600; margin-left: 5px; font: bold 12px "tahoma"; }
+ul.productList li p a:hover{ color: #ff6600; }
+
+.companyListBot{ width: 1094px; display: inline; float: left; height: 4px; overflow: hidden; background: #e9e9e9; margin-left: 3px; }
+.hover dl{border: 1px solid #7dc1f9;}
+.hover dl dt{border: 3px solid #7dc1f9;border-right: 0;width: 553px;height: 250px;}
+.hover dl dt .companyName{ left: 23px; top: 12px; }
+.hover dl dt b{ left: 24px; top: 54px; }
+.hover dl dt span{ left: 117px; top: 52px; }
+.hover dl dt p{ left: 21px; top: 93px; }
+.hover dl dt p.abstract{ left: 21px; top: 120px; }
+.hover dl dt ul{ left: 24px; top: 164px; }
+.hover dl dd{background: #7dc1f9;}
+.hover dl dd table tr td{ border:1px solid #fff; }
+.hover dl dd p a{ color: #fff; }
+.hover dl dd p a:hover{ color: #333; }
+.hover dl dd p{ color: #fff; }
+.page{ width: 1100px; height: 40px; margin: 0 auto; padding: 18px 0; text-align: center; font:normal 12px/40px "Tahoma"; }
+.page a{ width: 40px; height: 38px; display: inline-block; border:1px solid #e6e6e6; border-left: 0; text-align: center; font:normal 12px/38px "Tahoma"; color: #666666; vertical-align: middle; }
+.page a.ft{border-left: 1px solid #e6e6e6;border-right:0;background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat -56px -530px;}
+.page a.next{margin-right:15px;background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 15px -530px;}
+.page a.prev{ width: 68px; background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 8px -467px; border-left: 1px solid #e6e6e6; }
+.page a.lt{ width: 68px; background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 8px -497px; }
+.page a.on{background: #0070ce;border: 1px solid #0070ce;border-left: 0;color: #fff;font-weight: bold;}
+.page input{ width: 38px; height: 38px; display: inline-block; text-align: center; border: 1px solid #e6e6e6; font:normal 12px/38px "Tahoma"; margin: 0 10px; vertical-align: middle; }
+.page button{ width: 52px; height: 40px; display: inline-block; text-align: center; border: 1px solid #e6e6e6; font:normal 12px/40px "Tahoma"; vertical-align: middle; cursor: pointer; background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/company2016/companyList.png) no-repeat 0 -386px; }
+/*newspages
+.newspages .prev,.newspages .prev:hover,.newspages .next,.newspages .next:hover{ background:#f2f2f2 url(../images/lists/pagearrow.gif) no-repeat;}
+.newspages{ width:1100px; margin:10px auto 0; padding:15px 0; line-height:30px; color:#666; text-align: center; font-family:"Tahoma","\5b8b\4f53";}
+.newspages a{ width:30px; height:30px; border:1px solid #c9c9c9; background:#f2f2f2; color:#666; display:inline-block; font-size:14px; line-height:30px; margin:0 3px; text-align:center; vertical-align: middle;}
+.newspages .on{ border:1px solid #4f663e; background-color:#5b7648; cursor:default; color:#fff;}
+.newspages .ft,.newspages .lt{ display: none;}
+.newspages .page_etc{ color:#999; margin:0 10px;}
+.newspages .page_turn{ position:relative; margin-left:10px;}
+.newspages .page_turn b{ padding:0 5px;}
+.newspages .jump input{ width:45px; height:21px; display:inline-block; margin:0 4px; border:1px solid #e4e4e4; text-align:center; color:#666; line-height:21px;}
+.newspages button{ height:22px; padding:0 10px; border:1px solid #c9c9c9; background:#fff; color:#666; cursor:pointer; margin-left:2px; _margin-left:4px; _padding:0 5px;}
+.newspages .prev{ background-position:2px -19px;}
+.newspages .prev:hover{ background-position:2px 4px;}
+.newspages .next{ background-position:-24px -19px;}
+.newspages .next:hover{ background-position:-24px 4px;}
+.newspages a:hover{ color:#000;}
+.newspages .on:hover{ color:#fff;}*/
+
+
+.publicbox{width: 100%}
+.lostpro{width:450px;background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/lostpro.jpg) no-repeat;margin: 45px auto;padding-left: 165px;}
+.lostpro span{font: 22px/44px "Microsoft Yahei";color: #333;}
+.lostproab{font: 12px/30px "\5b8b\4f53";color: #767676;}
+.lostproab a{background: url(http://www.madegas.com/Templates/blue2/skins/djr/images/caigouSearch.png) no-repeat -145px -35px;padding-left: 12px;}
+#footer {
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	color: #818181;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+#footer .footNav {
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	background-color: #0070ce;
+	color: #fff;
+	text-align: center;
+}
+#footer .footNav a {
+	color: #fff;
+	margin: 0 10px;
+}
+#footer span {
+	display: inline-block;
+	color: #333333;
+	font: normal 14px/60px \5b8b\4f53;
+}
+#footer strong {
+	font-weight: normal;
+	margin: 0 30px 0 0;
+	font-family: tahoma, "\5b8b\4f53";
+}
+#footer strong img {
+	vertical-align: middle;
+	margin-left: 3px;
+}
+#footer a:hover {
+	text-decoration: underline;
+	color: #ff6600;
+}
+#footer ul {
+	width: 600px;
+	display: block;
+	margin: 15px auto 0;
+}
+#footer ul li {
+	display: block;
+	float: left;
+	padding: 0px 4px;
+}
+#footer ul li a {
+	width: 112px;
+	height: 47px;
+	display: block;
+	float: left;
+	background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr/images/channel/footer.png) no-repeat -1px 0px;
+}
+#footer ul li a.bg1 {
+	background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr/images/channel/footer.png) no-repeat -122px 0px;
+}
+#footer ul li a.bg2 {
+	background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr/images/channel/footer.png) no-repeat -243px 0px;
+}
+#footer ul li a.bg3 {
+	background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr/images/channel/footer.png) no-repeat -364px 0px;
+}
+#footer ul li a.bg4 {
+	background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr/images/channel/footer.png) no-repeat -483px 0px;
+}
+
+.backHome{ width:54px; position: relative;}
+.backHome a{ width:54px; height:19px; display:block; float:left; background:#5b7648; text-align:center; font:normal 11px "Microsoft Yahei","simhei"; color:#fff; padding:35px 0px 0 0px; margin:2px 0; opacity:0.7; filter:alpha(opacity=70); background:url(http://www.madegas.com/Templates/blue2/skins/djr/images/index/rightBar.png) no-repeat 0 0; overflow: hidden; text-decoration: none; }
+.backHome a:hover{ opacity:1; filter:alpha(opacity=100); }
+.backHome a.guest,.backHome a.guest:hover{ background:url(http://www.madegas.com/Templates/blue2/skins/djr/images/index/rightBar.png) no-repeat 0 -114px; opacity: 0.7; filter:alpha(opacity=70); }
+.backHome a.price{ background:url(http://www.madegas.com/Templates/blue2/skins/djr/images/index/rightBar.png) no-repeat 0px -57px; }
+.backHome a.rightWx{ background:url(http://www.madegas.com/Templates/blue2/skins/djr/images/index/rightBar.png) no-repeat 0px -228px; }
+.backHome img{
+    position: absolute;
+    right: 65px;
+    top: 130px;
+    display: none;
+}
+.toTop{ width:54px; height:54px; position:fixed; _position:absolute; top:494px; _top:expression(eval(document.documentElement.scrollTop+321)); display:none;font:normal 11px "Microsoft Yahei","simhei"; }
+.toTop a,.toTop a:hover{ display:block; width:54px; height: 19px; padding:35px 0px 0 0px; background:url(http://www.madegas.com/Templates/blue2/skins/djr/images/index/rightBar.png) no-repeat 0px -171px; opacity: 0.6; filter:alpha(opacity=60); color: #fff; text-decoration: none; text-align: center; }
+.toTop a:hover{ opacity:1; filter:alpha(opacity=100); }
+#goTop { position:fixed; _position:absolute; top:260px; display:block; right:10px; z-index: 99999; }
+*html, * html body { background-attachment:fixed; }
+*html #goTop { position:absolute; right:expression(eval(document.documentElement.scrollLeft+10)); top:expression(eval(document.documentElement.scrollTop+145)); }
+i.companyAuth{ display: inline-block; width: 23px; height: 22px; margin-left:10px; vertical-align: middle; background: url("http://www.madegas.com/NewShowStand/images/authentication.png") no-repeat 0 0; display: none;}
+i.personAuth{ display: inline-block; width: 23px; height: 22px; margin-left:10px; vertical-align: middle;background: url("http://www.madegas.com/NewShowStand/images/authentication.png") no-repeat -31px 0; display: none;}
+i.noAuth{ display: inline-block; width: 23px; height: 22px; margin-left:10px; vertical-align: middle;background: url("http://www.madegas.com/NewShowStand/images/authentication.png") no-repeat -62px 0; display: none;}

@@ -1,0 +1,364 @@
+
+body, dl, dt, dd, ol, ul, pre, form, field, input, blockquote, h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-size:12px;}
+img{border:0;}
+ul, ol { list-style:none;}
+
+.clr {clear:both; height:0px; margin:0; padding:0; width:0; border:none; overflow:hidden;}
+.mar7 { margin-top: 7px; margin-bottom:7px;}
+.mar12 { margin-top: 12px;}
+.f_l { float:left;}
+.f_r { float:right;}
+.f_n { float:none; margin: 0 auto;}
+.f_w { font-weight:bold;}
+.f14 { font-size:14px;}
+.m_l { margin-left:10px;}
+.m_r { margin-right:10px;}
+.cen { text-align:center; padding-top: 5px; *padding-top: 5px!important; *padding-top: 0px;}
+.hui{color:#666666;}
+.main960 { width: 960px;}
+.main730 { width: 730px;}
+.jiezhi{ display:block;white-space:nowrap;overflow:hidden;   
+    -o-text-overflow: ellipsis;    /* for Opera */   
+    text-overflow:ellipsis;        /* for IE */   }
+
+.wpx980{width:980px;}
+.hpx4{height:4px;overflow:hidden}
+.hpx6{height:6px;overflow:hidden}
+.hpx8{height:8px;overflow:hidden}
+.hpx10{height:10px;overflow:hidden}
+.redline{background-image:url("../../image/index_337.jpg");}
+.divcenter{margin:0 auto;}
+.rednotopline{
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #cc3300;
+	border-left-color: #cc3300;
+	border-bottom-color: #cc3300;
+}
+.rednotoplineb
+{
+    border-bottom:1px solid #cc3300;
+}
+.wz_right
+{
+    float:left; margin-top:0px; 
+}
+.wz_right1
+{
+    float:left; margin-top:5px; margin-left:10px;
+}
+.wz_right2
+{
+    float:right; margin-top:5px;
+}
+.redbottomline{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cc3300;
+}
+.src_inpurt { float:left; height: 18px; background:#FFFFFF; border: 1px #086DBE solid; padding-left: 5px; margin-top:7px; font-size:14px; line-height:18px; color:#666666}
+#main_right
+{
+    float: right;padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;font-size: 14px;
+}
+
+.main960 { width: 990px;}
+#column { height:33px; margin:0 auto; background:url(../../images/bmdhbgs.gif) 0 -181px no-repeat;}
+#column ul { padding-top: 4px; padding-left: 40px;}
+#column ul li { float:left; width:68px; height:29px; line-height: 29px; font-weight:bold; font-size: 14px; text-align:center;}
+#column ul li a { color:#FFF;}
+#column .current { background:url(../../images/bmdhbgs.gif) 0 -133px no-repeat; margin-right: -3px; position:relative;}
+#column .current a { color:#000;}
+#column .co_bg { background:url(../../images/bmdhbgs.gif) 0 5px no-repeat; padding: 0 3px;}
+.co_bg a, .co_bg a:link, .co_bg a:visited{color: #fff;text-decoration: none;}
+.co_bg a:hover { color:#FFF; text-decoration: underline;}
+.spannews a,.spannews a:link, .spannews a:visited{ color:Red;text-decoration: none;}
+.spannews a:hover{ color:Black; text-decoration: underline;}
+#column .no_bg { background: none;}
+
+.gongy td
+{
+    padding-left:10px;
+}
+/*按钮*/
+.xjbg { width:72px; height: 21px; cursor: hand; background:url(../../../../Images/but6.gif); border:0px;}
+.job_buttom { width:97px; height: 26px; cursor: hand; background:url(../../../../Images/rightlogin.gif) no-repeat; border:0px;}/* 人才登录按钮*/
+.job_leftbtm { width:100px; height:25px; cursor: hand; background:url(../../../../Images/job_leftbtm.jpg) no-repeat; border:0px;}/* 人才登录按钮*/
+.gridColumn{ float:left; width:700px; font:12px/30px "宋体"; height:40px; text-align:center;} 
+/*人才简历注册页面*/
+.main_box {
+	float:none; margin: 0px auto; width: 730px; overflow: hidden; margin-top:10px;
+}
+.nav_main {
+	 float:none; margin: 0px auto; width: 570px; padding-left: 50px;
+}
+.nav_main li {
+	float:left; height: 27px; margin-right: 30px; text-align:center; color:#999999; font: bold 14px/25px "宋体"; 
+}
+.nav_main li.nov_now6
+{
+	width: 168px; background:url(http://www.madegas.com/Templates/blue2/Images/tbg.gif) no-repeat; color: #FFFFFF; 
+}
+.main_box970 
+{
+	BORDER-RIGHT: #2971A5 1px solid; BORDER-TOP: #2971A5 3px solid; FILTER: progid:DXImageTransform.Microsoft.Shadow(color=#8E8E8E,direction=90,strength=7); PADDING-BOTTOM: 10px; MARGIN: 0px auto 12px; BORDER-LEFT: #2971A5 1px solid; WIDTH: 720px; BORDER-BOTTOM: #2971A5 4px solid; HEIGHT: auto; BACKGROUND-COLOR: #ffffff; overflow:hidden
+}
+.table {
+	border: 1px solid #CCCCCC;	line-height: 100%; width: 827px; padding:10px;float: right;
+}
+.left1{
+    background-color:#f7f7f7; width:100px; padding-right: 5px; padding-left: 24px; text-align:right; font-size: 12px; padding-bottom: 5px; line-height: 22px; padding-top: 5px;  font-weight:bold;
+}
+.left2 {
+    padding-left: 5px; text-align:left;  padding-top: 5px;  padding-bottom: 5px;
+}
+.top1 {
+   	background-image: url(http://www.madegas.com/Templates/blue2/job/Image/tag_bg_0.gif); background-repeat: repeat-x;	font-size: 12px; font-weight: bold;	color: #000;	height: 25px;
+}
+.top11 {
+	border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #ca0f1b; font: bold 12px/25px "宋体";padding-left:5px; background:url(http://www.madegas.com/Templates/blue2/Images/job_bg_03.gif) no-repeat; height:25px; padding-left:25px;
+}
+.top_add {
+	font: bold 12px/25px "宋体"; padding-left:5px;  height:25px; padding-left:25px; border-bottom:1px #2971A5 solid; margin-bottom:10px; background:url(http://www.madegas.com/Templates/blue2/Images/icqn_09.gif) 5px 5px no-repeat; margin-top:10px;
+}
+.divBox
+{
+    min-height:250px;
+    height:auto !important;
+    height:250px;
+    overflow:visible;
+}
+.divBox1
+{
+    min-height:250px;
+    height:auto !important;
+    height:250px;
+    overflow:visible;
+}
+.divBox2
+{
+    min-height:200px;
+    height:auto !important;
+    height:200px;
+    overflow:visible;
+}
+.divBox2 li{line-height:2em; margin-left:20px}
+.srye li
+{
+    float:left; width:93px;
+}
+.zp_tit { float: none; margin: 0 auto; width: 700px; height: 25px; border-bottom: 1px #ccc solid; font-weight:bold; text-align:right}
+.zp_tit .zp1 { float:left; width: 100px; text-align:center;}
+
+.zp_tit .zp2 { float:left; width: 155px;}
+
+.zp_tit .zp3 { float:left; width: 160px;}
+
+.zp_tit .zp4 { float:left; width: 122px;}
+
+.zp_tit .zp5 { float:left; width: 145px;}
+
+.zp_tit .zp11 { float:left; width: 70px; text-align:center}
+
+.zp_tit .zp22 { float:left; width: 160px; text-align:right}
+
+.zp_tit .zp33 { float:left; width: 120px;}
+
+.zp_tit .zp44 { float:left; width: 100px;}
+
+.zp_tit .zp55 { float:left; width: 100px;}
+
+.zp_tit .zp66 { float:left; width: 100px;}
+.zp_text { float:none; margin:0 auto; width: 700px;}
+
+.zp_text .zt1 { float:left; width: 120px; background:url(../../images/index_70.gif) 0 6px no-repeat; padding-left: 12px; margin-left: 15px;}
+
+.zp_text .zt2 { float:left; width: 190px;word-break:keep-all;/* 不换行 */
+white-space:nowrap;/* 不换行 */}
+
+.zp_text .zt3 { float:left; width: 100px; text-align: center;}
+
+.zp_text .zt4 { float:left; width: 80px; text-align:right; margin-right: 100px;}
+
+.zp_text .zt5 { float:right; width: 70px;}
+
+.zp_text .zt11 { float:left; width: 100px; background:url(../../images/index_70.gif) 0 6px no-repeat; padding-left: 12px; margin-left: 5px;}
+
+.zp_text .zt22 { float:left; width: 107px; text-align:right}
+
+.zp_text .zt33 { float:left; width: 100px; text-align: right;}
+
+.zp_text .zt44 { float:left; width: 120px; text-align:right; margin-right: 60px;}
+
+.zp_text .zt55 { float:left; width: 70px; margin-right: 25px;}
+
+.zp_text .zt66 { float:left; width: 70px;}
+.text1 li
+{
+    float:left;
+    margin-top:7px;
+}
+
+.page_tion {  margin: 0 auto; height:33px; }
+.page_tion li { width: 100%; text-align:center; font-size:14px; font-weight:bold; color:#000000;}
+
+.page_tion A { COLOR: #000;}
+
+.page_tion A:visited { COLOR: #000;}
+
+.page_b { padding: 1px 3px; background:#0F7CD4; text-align:center; color:#FFFFFF;}
+.pages
+{
+    margin-left:50px; 
+}
+.blue_link a, .blue_link a:link, .blue_link a:visited{color: #003399;text-decoration: none;}
+.blue_link a:hover{color: #ff7300;text-decoration: underline;}
+.gray_link a, .gray_link a:link, .gray_link a:visited{color: #666;text-decoration: none;}
+.gray_link a:hover{color: #ff7300;text-decoration: underline;}
+/*资讯内容页*/
+#content_nav { float: none; margin: 0 auto; width: 960px; padding: 10px 0px; color:#023378} 
+#content_nav a { color:#023378}
+#content_nav span { color:#000;}
+#main_cont { float:none; margin: 0 auto; width: 990px; margin-bottom: 10px; clear:both;}
+#main_cont #cont_left { float:left; width: 628px; border: 1px #B1E6EC solid; background:#F5FAFE; margin-right: 10px; overflow:hidden;}
+#main_cont #cont_right { float:left; width: 320px; overflow:hidden}
+#main_cont #cont_left .title { float:none; margin: 0 auto; width: 618px; padding-bottom: 7px; margin-top: 30px; }
+#main_cont #cont_left .title h1 { float:left; width: 618px; text-align: center; font-size:22px;}
+#main_cont #cont_left .infomation{ float:left; width: 618px; text-align:center; margin-top: 15px; color:#062F89; background:#D3EAFC; height: 25px; line-height: 25px;}
+#main_cont #cont_left #artical { float:left; width: 602px; min-height:400px; padding: 10px 18px; line-height: 28px; font-size:14px; color:#383C3F; overflow:hidden; text-indent: 2em;}
+#main_cont #cont_left #artical p { line-height: 28px; font-size:14px; text-indent: 2em; }
+#rel_AD { float:left; width: 300px; padding: 9px;}
+.rel_title { float:left; width: 318px; height: 25px; border-bottom: 1px #CBD7EC solid; border-top: 1px #CBD7EC solid; background:url(http://www.madegas.com/Templates/blue2/images/infobox_1x25.gif) repeat-x;}
+.rel_title h3 { float:left; margin-left: 10px; background:url(http://www.madegas.com/Templates/blue2/images/newsinfo_ricon_4x12.gif) 0px 7px no-repeat; padding-left: 10px; font-size:14px; color:#039; line-height: 25px;}
+.rel_cont { float:left; width: 300px; padding: 9px;}
+/* 行业资讯样式 */
+.news_l { width: 300px;}
+.news_c { width: 402px;}
+.news_r { width: 238px;}
+.news_z { width: 712px;}
+.n351 { width: 351px;}
+.n710 { width: 710px;}
+.n404 { width: 394px; overflow:hidden}
+.flash { float:left; width: 296px; height: 234px; overflow:hidden; border: 1px #B1E6EC solid; padding: 1px;}
+.midlst { float:left; width: 372px; overflow:hidden; background:url(../../images/bg_midlst.gif) no-repeat; padding: 17px 15px 0;}
+.midlst .touti { border-bottom: 1px #939393 dotted; padding-bottom: 5px; text-align:center; font-size:16px;}
+.midlst .touti p { text-align:left; text-indent: 2em; padding-top: 5px; line-height: 19px;}
+.nows li { float:left; width: 175px; margin-right: 15px; line-height: 23px;}
+.youbir { border: 1px #B1E6EC solid;}
+.youbir .you_tit { background:url(../../images/bg_blocktit.gif) repeat-x; height: 32px; line-height: 32px; padding: 0 10px;}
+.youbir .you_tit h3 { font-size:14px;}
+.youbir .you_text { padding: 5px;}
+/*顶一下*/
+#digg { float:none; margin: 0 auto; width: 150px; height:52px; margin-top: 10px; margin-bottom: 10px;}
+#digg #digg_left { float:left; width: 53px; height:52px; background: url(../../images/bg_digg.gif) no-repeat;}
+#digg #digg_right { float:right; width:53px; height:52px; background: url(../../images/bg_digg.gif) -62px 0px no-repeat;}
+#digg #digg_left li,#digg #digg_right li { text-align:center;}
+.disu { font-weight:bold; color:#fff; line-height:34px;}
+.disa { color:#077AC7; cursor: hand;}
+.digg_list li { height: 18px; line-height: 18px; padding-bottom: 5px;}
+.digg_list li a { float:left; display:block; height: 13px;}
+.digg_list li span { float:left; width: 16px; height: 11px; font: bold 12px/11px "宋体"; text-align:center; padding-top: 2px; color:#FFFFFF; background:url(../../images/news_digg_bg.gif) no-repeat; margin-right: 5px; margin-top: 1px; display:inline;}
+/*资讯分页*/
+.info_page { float:none; margin: 0 auto; width:400px; height:30px; border-bottom: 1px #CCC solid; padding-bottom: 10px; margin-top: 40px; margin-bottom: 20px; text-align:center;}
+.info_page p A { COLOR: #000;}
+.info_page p A:visited { COLOR: #000;}
+.page_b { padding: 1px 3px; background:#0F7CD4; text-align:center; color:#FFFFFF;}
+/*评论*/
+.commentbox { float:none; margin: 0 auto; border: 1px #BDE3FD solid;}
+.commenthead{ background:#EDF8FE; color:#09c; border:1px solid #fff; line-height:26px; height:26px; padding:0 6px; font-size: 12px;}
+.commenthead img{ float:right; margin:7px 10px 0 0; }
+.commenttext{ padding:10px;}
+.commenttext p{ font-size:14px; padding:5px; text-indent:2em;}
+
+.Commentary_title { float:left; width: 604px; height: 30px; border: 1px #CBD7EC solid; background: #E3EEF9; font: bold 14px/30px "宋体"; padding-left: 10px; margin-left: 10px; display:inline; margin-top: 30px;}
+.Commentary { float:left; width: 610px; margin-top: 10px; margin-left: 14px; display:inline;}
+.Commentary .usrey { float:left; width: 610px; margin-bottom: 5px;}
+.Commentary .usrey span { float:right;}
+.Commentary .usrey input { border: 1px #BBBBBB solid; height: 18px; line-height: 18px;}
+.Commentary .comtent { float:left; width: 610px; margin-bottom: 5px;}
+.Commentary .comtent .conmot { width: 601px; height: 120px; border: 1px #CBD7EC solid; padding: 3px; background:url(../../../../Images/logo_bg.jpg) center center  no-repeat}
+.class_list1 { line-height:24px}
+.Mark2 a { text-decoration:none; color:#062D75;}
+.Mark2 a:hover { text-decoration:none; color:#ff3300;}
+.Mark2 { background:url(../../Images/dl.gif) 0px 5px no-repeat; padding-left:13px;} 
+.Mark { background:url(../../Images/dl.gif) 0px 8px no-repeat; padding-left:11px;}
+.gongy1{ font-size:14px; padding-left:20px}
+.content li
+{
+    float: left;width: 100%;line-height: 25px;font-size: 14px;text-align: left;
+}
+.content li span
+{
+    float: right;font-size: 12px;color: #666666;
+}
+#main { margin-top: 0px;}
+#main #main_right1 { float:right; width: 195px; overflow:hidden}
+
+.classblock
+{
+    width:280px; float:left; margin-left:10px; margin-right:5px; margin-top:10px;
+}
+.classblock dl
+{
+    height:80px;
+}
+.classblock dl dt
+{
+    border-bottom:1px dashed #d6d6d6;
+}
+.classblock dl dt a
+{
+    background:url("../../image/czx.jpg") no-repeat center left;padding-left:10px;color: #114e8a; font-size: 12px; line-height:30px; width:100px; font-weight: bold; text-align:left;
+}
+.hongse_gy5 ul
+{
+    width:306px; margin-top:5px; margin-left:5px; margin-bottom:2px;
+}
+.divindex ul
+{
+    margin-top:5px; margin-left:5px; margin-bottom:2px;
+}
+.newsindexdiv ul
+{
+    width:514px;
+}
+.newsindexdiv ul li
+{
+    float:left; width:240px; text-align:left; margin-left:10px;
+}
+.newsindexdiv a
+{
+    color:#069;
+}
+.xiaof a
+{
+    color:Red;
+}
+.Indexsupplytd
+{
+    padding-left:10px; height:25px; padding-top:0px;
+}
+.Indexsupplytd span
+{
+    color:Red;
+}
+.zhindex
+{
+     width:320px;
+}
+#qiye_1,#qiye_2
+{
+    height:183px; width:320px;
+}
+.Wdate
+{
+    padding-left:10px; padding-top:5px; font-size:14px;
+}
+.logreg { line-height:2em; font-size:14px}
+.reg2_t{font-weight:bold; color:#C00}

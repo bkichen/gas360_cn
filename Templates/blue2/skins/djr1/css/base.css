@@ -1,0 +1,1144 @@
+/*reset*/ 
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea{ margin:0; padding:0; }
+body, button, input, select, textarea { font-size:12px; font-family:"微软雅黑", "Microsoft Yahei", "宋体";color:#333; }
+button, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-size:100%; }
+h2, h3 { font-size:14px; } 
+button, input, select, textarea, label { vertical-align:middle; }
+img { vertical-align:top; border:none;  }
+ul, ol { list-style:none; }
+a { text-decoration:none; color:#333; vertical-align:baseline; cursor:pointer; }
+a:hover { text-decoration:underline; color:#cc0000; }
+body { _height:100%; _background:url(about:blank) fixed; }
+/*导航*/
+.g-top { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) 0 -60px; }
+.g-top ul { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) 0 -60px; height:26px; }
+.g-top .left, .g-top .right { height:25px; line-height:25px; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat; }
+.g-top .left { float:left; padding-right:19px; background-position:right 7px; }
+.g-top .right { float:right; padding-left:20px; background-position:-84px 7px; }
+.g-top .menu { background-image:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png); background-repeat:no-repeat; background-position:right -119px; float:left; line-height:25px; height:25px; overflow:hidden; padding-right:15px; padding-left:5px; margin:0 -5px; }
+.g-top .hover { line-height:23px; height:23px; margin:0 -6px; background-position:right -120px; }
+.g-top .entitymenu .menu{ background-image:url(); background-repeat:no-repeat; background-position:right 7px; padding-right:10px; }
+.g-top .entitymenu .hover{ background-position:right 6px; }
+.g-top .list { right:-6px; top:23px; }
+.g-top .sub { right:13px; }
+.g-top .product { line-height:18px; }
+.g-top .ibs { line-height:18px; }
+.g-top .g-drop { z-index:4; }
+#login_tip { top:27px; left:70px; }
+.topmb{ position:relative;}
+.mbpic{position:absolute;background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/shoujipic.gif) no-repeat;;width:236px;height:27px;display:block;top:20px;left:37px; }
+/*hack*/
+.g-top .left, .g-top .right { *padding-top:3px;
+*height:22px;
+*line-height:22px;
+}
+.g-top .p-t-0 { padding-top:0px; }
+.g-top .en, .g-top .g-drop { *padding-top:0px;
+
+
+
+*height:25px;
+*line-height:25px;
+}
+.g-top .menu { *line-height:28px;
+}
+.g-top .hover { *line-height:26px;
+}
+.g-top .sub { _right:12px; }
+
+#subLogo { margin-top:8px; }
+#subLogo { margin-left:20px; }
+.g-search { padding:30px 0 0; height:70px; margin-left:280px; }
+#search_tabs { overflow:hidden; z-index:2; padding-left: 1px; }
+#search_tabs li {padding: 0 10px 0 11px; margin: 0 10px 0 -10px; background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/icon2015.png) no-repeat 0 -41px; float:left;  }
+#search_tabs li a { display:block; _display: inline-block; overflow:hidden; height:22px; text-align:center;  }
+#search_tabs .cur a { color: #cc0000; font-weight:bold; }
+#search_form {  }
+#search_form .text { height:40px;  background:#fff; z-index:3; }
+
+#search_form .select { width:115px; line-height:22px; border:#ddd solid 1px; position:absolute; right:0; top:38px; z-index:3; background-color:#fff; }
+#search_form .hotkw{ margin-left: 10px;padding: 13px 0;}
+#search_form .hotkw a {margin: 0 5px; color: #666;}
+#search_form .hotkw a:hover{ color: #cc0000;}
+#search_form .select a { display:block; padding:0 8px; height:22px; }
+#search_form .select a:hover { background-color:#1057A7; color:#fff; text-decoration:none; }
+.search_keywords { border: 2px solid #cc0000; *margin-top: -1px; _margin-top: -1px;
+border-right: none;  padding: 10px 10px; height:16px; line-height:16px; width:280px;   font-size:12px; color:#999; outline: 0; }
+
+#search_isexact {  position: absolute; z-index: 2;
+right: 35px;top: 14px; *height: 12px; *width:12px; *overflow: hidden }
+#search_label { position: absolute; z-index: 2;
+right: 8px;
+top: 13px;}
+#search_select { position:absolute; top:2px; right: 0; z-index: 2;  background:#fff url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat 33px -477px; cursor:pointer; height:36px; line-height:36px; width:110px; padding-left:5px; overflow:hidden; border-left:#ddd solid 1px; border-right:#ddd solid 1px; }
+#search_submit { width:99px; background: #cc0000;font-family: "微软雅黑", Arial, "宋体"; font-size: 18px; color: #fff; height:40px; outline:none; border:0 none;  vertical-align:top; cursor:pointer; }
+#search_tip { left:0; top:46px; }
+#onlineNum { position:absolute; bottom:33px; left: 866px; }
+#inquiryNum { position:absolute; bottom:13px; left: 866px; }
+/*hack*/
+#search_tabs { _padding-left: 2px; }
+
+#search_form .select { _right:-1px; }
+
+#search_select { *line-height:33px;
+}
+#search_box { background:#fff; position:absolute; left:0px; top:38px; width:395px; border:#c00 solid 1px; display:none; }
+#search_box li { display:block; height:24px; line-height:24px; overflow:hidden; padding:0 5px; cursor:default; }
+#search_box li.hover { background:#f0f0f0; text-decoration:none; }
+
+
+/*菜单*/
+.g-menu, .g-menu li, .g-menu .cur a, .g-menu li b { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat; }
+.g-menu { margin-bottom:10px; background-color:#fff; background-repeat:repeat-x; background-position:0 -270px; }
+.g-menu li { float:left; height:38px; padding-left:10px; background-position:-92px -310px; }
+.g-menu .first { background-position:0 -190px; }
+.g-menu .last { float:right; background-position:-80px -230px; }
+.g-menu li a, .g-menu li b { float:left; overflow:hidden; height:38px; }
+.g-menu li a { width:65px; text-align:center; font-size:14px; font-weight:bold; line-height:38px; }
+.g-menu .first a { width:77px; }
+.g-menu li b { width:10px; background-position:-80px -310px; }
+.g-menu .cur { background-position:-92px -350px; }
+.g-menu .fcur { background-position:-92px -230px; }
+.g-menu .cur a { color:#cc0000; background-repeat:repeat-x; background-position:0 -390px; }
+.g-menu .cur b { background-position:-80px -350px; }
+#head_customer { background-image:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/ico.png); background-repeat:no-repeat; background-position:10px -1247px; display: block; cursor:pointer; height:25px; width:74px; margin-left:20px; margin-top:7px; }
+#head_customer.hover { margin-left:19px; margin-top:6px; }
+.head_customer { right:0px; top:31px; width:107px; }
+.g-menu .g-drop a { font-size: 12px; font-weight: normal; text-align: left; width: auto; float: none; height: 21px; line-height: 21px; overflow: hidden; }
+/*
+#head_hqm { background:url(../../../hqmim.hqew.com/ico/@hqm=8869387&ty=1&r=81&s=5&g=88c61d9e35ff055d0fdc6b437ee04747) 0 3px no-repeat; }
+*/
+/*hack*/
+.g-menu li a { *line-height:40px;
+}
+.head_customer { _right:-1px; }
+/*下拉菜单*/
+.g-drop { position:relative; z-index:3; }
+.g-drop .menu { }
+.g-drop .hover { border:#cfcfcf solid 1px; border-bottom:0 none; background-color:#fff; position:relative; z-index:10; }
+.g-drop .list { background-color:#fff; border:#cfcfcf solid 1px; padding-top:5px; padding-bottom:5px; padding-left:10px; position:absolute; z-index:9; white-space:nowrap; line-height:22px; }
+.g-drop .list h4 { margin-top:5px; }
+.g-drop .list p a { margin-right:10px; }
+/*面包屑*/
+.DSP-cf li a{height:44px;}
+.DSP-cf li a:hover{text-decoration:none;color:#FFF;}
+.g-crumb { background-position:0 -766px !important; font-family:Simsun; }
+
+.g-crumb div { display:inline-block; }
+.g-crumb .dn { display:none; }
+.g-crumb a { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) right -812px no-repeat; display:inline-block; padding-right:20px; margin-right:-2px; }
+/*hack*/
+.g-crumb { *background-position:0 -767px !important;
+}
+.g-crumb a { *background-position:right -813px;
+}
+/*翻页*/
+.g-page { margin-bottom:20px; }
+.g-page a { height:27px; overflow:hidden; border: 1px solid #CFCFCF; margin:0 2px; vertical-align:middle; display:inline-block; text-decoration:none; }
+.g-page .num:hover, .g-page .p:hover, .g-page .n:hover { border: 1px solid #c00; }
+.g-page .prev, .g-page .next, .g-page .btn { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat; cursor:default; }
+.g-page .p, .g-page .n, .g-page .b { cursor:pointer; }
+.g-page .prev, .g-page .next { width:27px; }
+.g-page .prev { background-position:0 -990px; }
+.g-page .p { background-position:0 -1020px; }
+.g-page .next { background-position:0 -930px; }
+.g-page .n { background-position:0 -960px; }
+.g-page .btn { width:104px; height:39px; border: 0; margin-bottom:20px; background-position:0 -850px; }
+.g-page .b { background-position:0 -890px; }
+.g-page .num { font-size:18px; line-height:27px; padding:0 10px; }
+.g-page .cur { border: 1px solid #c00; background-color: #FFE7E7; color: #c00; cursor:default; }
+.g-page2 a { height: 24px; }
+.g-page2 .prev { width:24px; background-position:-1px -1171px; }
+.g-page2 .p { background-position:-1px -1201px; }
+.g-page2 .next { width:62px; background-position:-1px -1231px; }
+.g-page2 .n { background-position:-1px -1261px; }
+.g-page2 .num { font-size:14px; line-height:24px; font-weight:bold; }
+
+/*底部*/
+.footer .links {
+	text-align: center;
+	border-top:#B9080A solid 2px;
+	padding: 20px 0 0
+}
+.footer .links a {
+	margin: 0 5px
+}
+.footer .authentication {
+	background: #fff;
+	padding: 10px 0;
+	line-height:2em;
+}
+.footer .authentication div {
+	line-height:2em;
+	text-align: center;
+}
+.footer .authentication a {
+	margin: 0 10px;
+	display: inline-block;
+	opacity: .8
+}
+.footer .authentication a:hover {
+	opacity: 1
+}
+.footer .anquanorg, .footer .cnnic, .footer .ebs, .footer .ebs2, .footer .ghwsx, .footer .icp, .footer .sz110, .footer .szfwlt {
+	display: inline-block;
+	height: 44px;
+	width: 144px;
+	border: 1px solid #ddd;
+	background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/bg_authentication.png) no-repeat #fff
+
+}
+.footer .sz110, .footer .cnnic, .footer .icp, .footer .ebs,.footer .ebs2,.footer .ghwsx  { display:inline-block; height:44px; width:144px; border:#ddd solid 1px; background:#fff url(http://www.madegas.com/Templates/blue2/skins/djr1/css/foot.gif) no-repeat; }
+.footer .sz110 { background-position:2px 2px; }
+.footer .icp { background-position:2px -48px; }
+.footer .ebs { background-position:2px -98px; }
+.footer .cnnic { background-position:2px -148px; }
+.footer .ghwsx { background-position:2px -197px; }
+.footer .ebs2 { background-position:2px -247px; }
+
+/*友情链接*/
+.link_title { width:66px; }
+.ml0{margin-left:0 !important;}
+.w910{width:910px;}  
+.linklist a {   
+    float: left;
+    margin: 0 10px;
+    white-space: nowrap;}
+
+/*box*/
+.g-box-g, .g-box-o { margin-bottom: 10px; }
+.g-box-g .bar{  height: 30px; line-height: 30px; }
+.g-box-o .bar { overflow:hidden; height: 30px; line-height: 30px; }
+.g-box-g .bar h2, .g-box-o .bar h2 { color: #333; padding-left:10px; padding-right:15px; }
+.g-box-g .bar .cur, .g-box-o .bar .cur { font-weight:bold;}
+.g-box-g .bar a, .g-box-o .bar a { float: right; margin-right:-5px; padding-right:16px; line-height:30px; }
+.g-box-g .con, .g-box-o .con { overflow:hidden;}
+.g-box-g { border-width:0 1px 1px; border-color:#ddd; border-style:solid; }
+.g-box-g .bar {border:#ddd solid 1px; border:1px 0; background:#eee}
+.g-box-g .bar .cur { border-color:#ddd; border-style:solid; border-width:0; }
+.g-box-o { border:1px #edce84 solid; border-top:0; }
+.g-box-o .bar { background: #fff3dd url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) 0 -1650px; }
+.g-box-o .bar .cur { border-color:#edce84; border-style:solid; border-width:0; }
+/*hack*/
+.g-box-g .bar, .g-box-o .bar { *line-height:32px;
+}
+.g-box-g .bar a, .g-box-o .bar a { *line-height:32px;
+}
+/*滑签*/
+.g-box-t h2 { font-weight:normal; float: left; min-width:85px; }
+.g-box-t .cur { background-color:#fff !important; border-width:0 1px !important; margin-left:-1px; }
+.g-con-t a { background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) right 7px no-repeat; float: left; line-height: 25px; height:25px; overflow:hidden; padding-right: 20px; }
+/*hack*/
+.g-con-t a { line-height:28px \9; }
+:root .g-con-t a { line-height:25px \9; }
+/*列表-表格*/
+.g-list-cols ul { padding-left:10px; overflow:hidden; height:24px; line-height:24px; border-bottom: #CCC dashed 1px;}
+.g-list-cols li { float:left; word-wrap: break-word; word-break: break-all; padding-right:10px; height:inherit; }
+/*列表-文本*/
+.g-list-txt {line-height:22px;}
+.g-list-txt li { word-wrap:break-word; word-break:break-all; vertical-align:top; margin-left:10px; margin-right:10px; overflow:hidden; }
+.g-list-txt table { width:100%; }
+.g-list-dot li, .g-ico-dot { background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat 0 -740px; padding-left: 10px; }
+/*列表-图文*/
+.g-list-mix { border-bottom:1px solid #eeeeee; margin-left:10px; margin-right:10px; padding-bottom:12px; padding-top:9px; }
+.g-list-mix-mtb10 { padding-bottom:7px; padding-top:4px; min-height:76px; _height:76px; }
+.g-list-mix h4, .g-list-mix li { overflow:hidden; height:18px; line-height:18px; }
+.g-list-mix p { line-height:18px; }
+.g-list-mix h4, .g-list-mix p, .g-list-mix li { word-wrap:break-word; word-break:break-all; }
+.g-list-mix img { float:left; margin-right:10px;border:#dddddd solid 1px; width:84px; height:61px;padding:2px;}
+.g-list-mix li a, .g-list-mix p a { margin-right:5px; }
+/*列表-图片*/
+.g-list-img { padding:0 9px; }
+.g-list-img img { border:#dddddd solid 1px; width:84px; height:61px;padding:2px;}
+.g-list-img li { float:left; text-align:center; padding:0 5px; }
+
+.g-list-img li p { margin-bottom:10px; word-wrap:break-word; word-break:break-all; overflow:hidden; height:22px; line-height:22px; }
+/*图片*/
+.g-img-new-sma img, .g-img-new-mid img, .g-img-new-big img, .g-img-pro-sma img, .g-img-pro-mid img, .g-img-pro-big img, .g-img-com-sma img, .g-img-com-mid img, .g-img-com-big img, .g-img-peo-sma img, .g-img-peo-mid img { border:#dddddd solid 1px;padding:2px;}
+.g-img-new-sma img { width:75px; height:53px; }
+.g-img-new-mid img { width:84px; height:61px; }
+.g-img-new-big img { width:350px; height:210px; }
+.g-img-pro-sma img { width:34px; height:28px; }
+.g-img-pro-mid img { width:56px; height:39px; }
+.g-img-pro-big img { width:256px; height:216px; }
+.g-img-com-sma img { width:76px; height:29px; }
+.g-img-com-mid img { width:84px; height:61px; }
+.g-img-com-mid2 img { width:100px; height:84px; }
+.g-img-com-big img { width:236px; height:136px; }
+.g-img-peo-sma { padding-top:5px; padding-bottom:10px; }
+.g-img-peo-sma img { width:46px; height:46px; }
+.g-img-peo-mid img { width:76px; height:76px; }
+/*文本框*/
+.g-ipt { color: #7F7F7F; height: 21px; line-height: 23px; border:#ccc solid 1px; padding-left:5px; }
+/*按钮*/
+.g-btn-12, .g-btn-14, .g-btn-12 em, .g-btn-14 em, .g-btn-12 b, .g-btn-14 b { display:inline-block; vertical-align:middle; }
+.g-btn-12, .g-btn-14, .g-btn-12 b, .g-btn-14 b { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat; }
+.g-btn-12, .g-btn-14 { padding-left:3px; color:#fff; }
+.g-btn-12 em, .g-btn-14 em { padding:0 8px; font-style:normal; overflow:hidden; background-color:#1057a7; }
+.g-btn-12 b, .g-btn-14 b { width:3px; }
+.g-btn-12, .g-btn-12 em, .g-btn-12 b { height:25px; }
+.g-btn-12 { background-position:-101px -615px; }
+.g-btn-12 b { background-position:0 -615px; }
+.g-btn-12 em { font-size:12px; line-height:25px; }
+.g-btn-14, .g-btn-14 em, .g-btn-14 b { height:27px; }
+.g-btn-14 { background-position:-101px -675px; }
+.g-btn-14 b { background-position:0 -675px; }
+.g-btn-14 em { font-size:14px; line-height:27px; font-weight:bold; }
+.g-btn-12:hover, .g-btn-14:hover { text-decoration:none; color:#fff; }
+.g-btn-12:hover { background-position:-101px -645px; }
+.g-btn-12:hover b { background-position:0 -645px; }
+.g-btn-12:hover em, .g-btn-14:hover em { background-color:#3878c0; }
+.g-btn-14:hover { background-position:-101px -705px; }
+.g-btn-14:hover b { background-position:0 -705px; }
+/*hack*/
+.g-btn-12 em { *line-height:28px;
+}
+.g-btn-14 em { *line-height:30px;
+}
+/*灰按钮*/
+.g-btn-12-g { background-position:-101px -1780px; color:#404040; }
+.g-btn-12-g b { background-position:0 -1780px; }
+.g-btn-12-g em { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) 0 -1805px; }
+.g-btn-12-g:hover { background-position:-101px -1780px; color:#404040; }
+.g-btn-12-g:hover b { background-position:0 -1780px; }
+/*14大按钮*/
+.g-btn-14-2, .g-btn-14-2 em, .g-btn-14-2 b { height:31px; }
+.g-btn-14-2 { background-position:-101px -1770px; }
+.g-btn-14-2 b { background-position:0 -1770px; }
+.g-btn-14-2 em { line-height:31px; }
+.g-btn-14-2:hover { background-position:-101px -1810px; }
+.g-btn-14-2:hover b { background-position:0 -1810px; }
+/*hack*/
+.g-btn-14-2 em { *line-height:33px; }
+/*分类展开收缩*/
+.g-sort-show, .g-sort-hide { background: #D6D6D6 url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat; cursor: pointer; height: 10px; width: 100px; overflow: hidden; display:inline-block; }
+.g-sort-show { background-position: center -1149px; }
+.g-sort-hide { background-position: center -1139px; }
+.g-sort-show:hover, .g-sort-hide:hover { background-color:#c00 }
+/*焦点图*/
+.g-focus { position:relative; padding:4px; background-color:#f6f6f6; width:50%}
+.g-focus .pictuer { border:#cfcfcf solid 1px; }
+.g-focus .pictuer img{width:100%;max-width:700px;}
+.g-focus .index { position:absolute; right:5px; bottom:27px; z-index:10; height:13px; }
+.g-focus .index a { display:inline-block; height:13px; width:22px; overflow:hidden; margin-left:1px; background:#999 url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat; cursor:pointer; }
+.g-focus .index .n0 { background-position:0 -1326px; }
+.g-focus .index .n1 { background-position:0 -1339px; }
+.g-focus .index .n2 { background-position:0 -1352px; }
+.g-focus .index .n3 { background-position:0 -1365px; }
+.g-focus .index .n4 { background-position:0 -1378px; }
+.g-focus .index .cur { background-color:#CC0000; }
+.g-focus .title { height:22px; line-height:22px; font-weight:bold; }
+/*布局*/
+.g-w-a { width:auto; }
+.g-w-1200 { width:1200px; }
+.g-w-1190 { width:1190px; }
+.g-w-1100 { width:1100px; }
+.g-w-900 { width:900px;}
+.g-w-270 { width:270px}
+.g-w-990 { width:990px; }
+.g-w-730 { width:730px; }
+.g-w-250 { width:250px; }
+.g-w-240 { width:240px; }
+.g-w-600 { width:600px; }
+.g-w-670 { width:670px; }
+.g-w-310 { width:310px; }
+.g-w-320 { width:320px; }
+.g-w-334 { width:334px; }
+.g-w-340 { width:340px; }
+.g-w-360 { width:360px; }
+.g-w-470 { width:470px; }
+.g-w-220 { width:220px; }
+.g-w-440 { width:440px; }
+.g-w-690 { width:690px; }
+.g-w-260 { width:260px; }
+.g-w-288 { width:288px; }
+.g-w-475 { width:475px; }
+.g-w-205 { width:205px; }
+.g-w-960 { width:960px; }
+.g-w-735{width:735px;}
+/*width*/
+.g-w-334 { width:334px; }
+.g-w-300 { width: 300px; }
+.g-w-200 { width: 200px; }
+.g-w-190 { width: 190px; }
+.g-w-180 { width: 180px; }
+.g-w-170 { width: 170px; }
+.g-w-160 { width: 160px; }
+.g-w-150 { width: 150px; }
+.g-w-140 { width: 140px; }
+.g-w-130 { width: 130px; }
+.g-w-120 { width: 120px; }
+.g-w-110 { width: 110px; }
+.g-w-100 { width: 100px; }
+.g-w-90 { width: 90px; }
+.g-w-80 { width: 80px; }
+.g-w-70 { width: 70px; }
+.g-w-60 { width: 60px; }
+.g-w-50 { width: 50px; }
+.g-w-40 { width: 40px; }
+.g-w-24 { width: 24px; }
+.g-w-245{width:245px;}
+/*广告*/
+.g-ad-random li{display:none;}
+.g-ad-440-189, .g-ad-310-172, .g-ad-310-70, .g-ad-310-80, .g-ad-310-40, .g-ad-310-204, .g-ad-250-70, .g-ad-250-80, .g-ad-250-150, .g-ad-250-250, .g-ad-990-70, .g-ad-730-70, .g-ad-730-150, .g-ad-670-70, .g-ad-470-70, .g-ad-240-50, .g-ad-473-166, .g-ad-260-90, .g-ad-690-70, .g-ad-440-166, .g-ad-670-204, .g-ad-470-166, .g-ad-730-120, .g-ad-250-90,.g-ad-730-240,.g-ad-730-160,.g_ad-220-250{ overflow:hidden; background-color:#fafafa; margin-bottom:10px;border:1px solid #ddd;}
+.g-ad-440-189 { width:438px; height:187px }
+.g-ad-310-172 { width:308px; height:237px }
+.g-ad-310-70 { width:308px; height:68px }
+.g-ad-310-80 { width:308px; height:78px }
+.g-ad-310-40 { width:308px; height:38px }
+.g-ad-310-204 { width:308px; height:202px }
+.g-ad-250-70 { width:248px; height:68px }
+.g-ad-250-80 { width:248px; height:78px }
+.g-ad-250-150 { width:248px; height:148px }
+.g-ad-250-250 { width:248px; height:248px }
+.g-ad-990-70 { width:988px; height:68px }
+.g-ad-730-70 { width:728px; height:68px }
+.g-ad-730-150 { width:728px; height:148px }
+.g-ad-670-70 { width:668px; height:68px }
+.g-ad-470-70 { width:468px; height:68px }
+.g-ad-240-50 { width:238px; height:48px }
+.g-ad-473-166 { width:471px; height:164px }
+.g-ad-260-90 { width:258px; height:88px }
+.g-ad-690-70 { width:688px; height:68px }
+.g-ad-440-166 { width:438px; height:164px }
+.g-ad-670-204 { width:668px; height:202px }
+.g-ad-470-166 { width:468px; height:164px }
+.g-ad-730-120 { width:728px; height:118px }
+.g-ad-250-90 { width:248px; height:88px }
+.g-ad-730-240{width:728; height:238px}
+.g-ad-730-160{width:728; height:158px}
+.g-ad-735-180{width:733px;height:173px;}
+.g-ad-730-103{width:730px;height:103px;}
+.g_ad-220-250{width:218px;height:248px;}
+.g-ad-735-160{width:735px;height:160px;}
+.g-ad-270-205{width:270px;height:205px;}
+.g-ad-900-90{width:900px;height:90px; background: #eee;}
+.g-ad-270-90{width:270px;height:90px;background: #eee; }
+.focus-img img{cursor: pointer;}
+.focus-img p{margin-top:10px; width:100%; text-align:center;}
+.focus-img p a,.focus-img p a.cur{background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat; width:11px; height:11px;_height:5px;margin:0px 5px;}
+.focus-img p a{background-position:-21px -1759px; display:inline-block;}
+.focus-img p a.cur{background-position:0 -1759px;}
+
+/* 鼠标指针 */
+.g-c-p{ cursor: pointer !important}
+/*ico图标*/
+.g-ico-bidding, .g-ico-iscp, .g-ico-stockzt, .g-ico-member, .g-ico-honestyeasy, .g-ico-qq, .g-ico-qq-off, .g-ico-pdf, .g-ico-annex, .g-ico-show, .g-ico-hide, .g-ico-del, .g-ico-edit, .g-ico-cart, .g-ico-right, .g-ico-wrong, .g-ico-notice, .g-ico-subs, .g-ico-mer, .g-ico-phone, .g-ico-phone-red, .g-ico-manage, .g-ico-unsolve, .g-ico-solve, .g-ico-answer, .g-ico-ic, .g-ico-sp, .g-ico-ecoin, .g-ico-mall, .g-ico-hqepay, .g-ico-honesty1, .g-ico-honesty2, .g-ico-honesty3, .g-ico-honesty4, .g-ico-honesty5, .g-ico-pro1, .g-ico-pro2, .g-ico-pro3, .g-ico-pro5 { display:inline-block; height:21px; line-height:21px; overflow:hidden; padding-left:20px; vertical-align:middle; }
+.g-ico-bidding, .g-ico-iscp, .g-ico-stockzt, .g-ico-member, .g-ico-honestyeasy, .g-ico-qq, .g-ico-qq-off, .g-ico-pdf, .g-ico-annex, .g-ico-show, .g-ico-hide, .g-ico-del, .g-ico-edit, .g-ico-cart, .g-ico-right, .g-ico-wrong, .g-ico-notice, .g-ico-subs, .g-ico-mer, .g-ico-phone, .g-ico-phone-red, .g-ico-manage, .g-ico-unsolve, .g-ico-solve, .g-ico-answer, .g-ico-user, .g-ico-msg, .g-ico-ic, .g-ico-sp, .g-ico-ecoin, .g-ico-mall, .g-ico-hqepay, .g-ico-honesty1, .g-ico-honesty2, .g-ico-honesty3, .g-ico-honesty4, .g-ico-honesty5, .g-ico-list, .g-ico-hot, .g-ico-tuan, .g-ico-qt, .g-ico-qt-off { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/ico.png) no-repeat; _background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/ico.gif) no-repeat; }
+
+/*最佳本土制造厂商*/
+.g-ico-pro1 {background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/pro3.gif) 0 7px no-repeat;height:28px;  }
+/*最具潜力分销企业*/
+.g-ico-pro3 {background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/pro4.gif) 0 7px no-repeat; height:28px; }
+/*诚信品牌*/
+.g-ico-pro5 {background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/pro5.gif) 0 7px no-repeat; height:28px; }
+/*竞价*/
+.g-ico-bidding { background-position:0 2px; }
+/*ISCP*/
+.g-ico-iscp { background-position:0 -19px; }
+/*酷管家、优质供应商*/
+.g-ico-stockzt{ background-position:0 -40px; }
+/*会员*/
+.g-ico-member { background-position:0 -61px; }
+/*诚易通*/
+.g-ico-honestyeasy { background-position:0 -82px; }
+/*洽洽*/
+.g-ico-qq { background-position:0 -102px; }
+.g-ico-qq-off { background-position:0 -144px; }
+/*pdf*/
+.g-ico-pdf { background-position:0 -165px; }
+/*附件*/
+.g-ico-annex { background-position:0 -186px; }
+/*展开*/
+.g-ico-show { background-position:0 -207px; }
+/*收缩*/
+.g-ico-hide { background-position:0 -228px; }
+/*删除*/
+.g-ico-del { background-position:0 -253px; width:11px; height:11px; padding-left:0; }
+/*编辑*/
+.g-ico-edit { background-position:0 -738px; }
+/*购物车*/
+.g-ico-cart { background-position:0 -768px; line-height:19px; }
+.g-ico-cart { line-height:23px \9; *line-height:19px;
+_line-height:21px; }
+:root .g-ico-cart { margin-top:3px \9; line-height:21px \9; }
+/*错误*/
+.g-ico-wrong { background-position:0 -798px; }
+/*成功*/
+.g-ico-right { background-position:0 -828px; }
+/*提示*/
+.g-ico-notice { background-position:0 -858px; }
+/*订阅*/
+.g-ico-subs { background-position:0 -888px; }
+/*合并*/
+.g-ico-mer { background-position:0 -918px; }
+/*电话*/
+.g-ico-phone { background-position:0 -948px; }
+.g-ico-phone-red { background-position:0 -1158px; }
+/*管理*/
+.g-ico-manage { background-position:0 -978px; }
+/*未解决问题*/
+.g-ico-unsolve { background-position:0 -1068px; }
+/*已解决问题*/
+.g-ico-solve { background-position:0 -1098px; }
+/*回答问题*/
+.g-ico-answer { background-position:0 -1128px; }
+/*会员*/
+.g-ico-user { background-position:0 -1041px; padding-left:20px; }
+/*消息*/
+.g-ico-msg { background-position:0 -1011px; padding-left:20px; }
+/*洽谈*/
+.g-ico-qt { background-position:0 -735px; width:60px; height:20px; display:inline-block; }
+.g-ico-qt-off { background-position:0 -760px; width:60px; height:20px; display:inline-block; }
+/*中国芯样片*/
+.g-ico-ic { background-position:4px -126px; }
+/*超级买家*/
+.g-ico-sp { background-position:4px -276px; }
+/*电子币*/
+.g-ico-ecoin { background-position:0 -712px; padding-left:14px; }
+/*商城购买*/
+.g-ico-mall { background-position:0 -295px; padding-left:44px; }
+.g-ico-hqepay { background-position:-43px -251px; }
+/*列表1-10*/
+.g-ico-list { padding-left:34px; background-repeat:no-repeat; background-position:10px -449px; }
+/*诚信交易火爆型号*/
+.g-ico-hot { background-repeat:no-repeat; background-position:0 -676px; width:27px; height:27px; position:absolute; z-index:1; top:0; left:0; }
+/*PIC团购*/
+.g-ico-tuan { background-repeat:no-repeat; background-position:right -676px; width:27px; height:27px; position:absolute; z-index:1; top:10px; left:62px; }
+/*诚易通等级*/
+.g-ico-honesty1, .g-ico-honesty2, .g-ico-honesty3, .g-ico-honesty4, .g-ico-honesty5 { padding-left:57px; }
+.g-ico-honesty1 { background-position:0 -318px; }
+.g-ico-honesty2 { background-position:0 -339px; }
+.g-ico-honesty3 { background-position:0 -360px; }
+.g-ico-honesty4 { background-position:0 -381px; }
+.g-ico-honesty5 { background-position:0 -402px; }
+.g-arr-g { background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) 0 -762px no-repeat; padding-left: 6px; }
+.g-arr-r { background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) 0 -783px no-repeat; padding-left: 6px; }
+/*提示信息*/
+.g-notice { position:absolute; z-index:2; line-height:16px; padding:3px 5px; background-color:#fff3dd; border:#edce84 solid 1px; white-space:nowrap; color:#cc0000; }
+.g-notice i, .g-notice s, .g-notice u, .g-notice q, .g-notice b { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/base.png) no-repeat; }
+.g-notice i { position:absolute; top:-6px; left:5px; height:6px; width:11px; overflow:hidden; background-position:0 -170px; }
+.g-notice s { position:absolute; top:5px; left:-6px; height:11px; width:6px; overflow:hidden; background-position:-20px -170px; }
+.g-notice u { position:absolute; bottom:-6px; left:5px; height:6px; width:11px; overflow:hidden; background-position:-40px -170px; }
+.g-notice q { position:absolute; top:5px; right:-6px; height:11px; width:6px; overflow:hidden; background-position:-60px -170px; }
+.g-notice b { position:absolute; right:5px; top:5px; height:9px; width:9px; overflow:hidden; background-position:-80px -170px; cursor:pointer; }
+.g-notice span { margin-right:14px; display:block; }
+/*弹出层*/
+#g-popup, .g-popup-mask, .g-popup-mask iframe, .g-popup-box { width:100%; height:100%; }
+.g-popup-mask, .g-popup-box { position:fixed; top:0; left:0; z-index:10000; _position:absolute; _top:expression(documentElement.scrollTop + "px");
+}
+.g-popup-mask { background:#000; filter:alpha(opacity=30); opacity: 0.3; }
+.g-popup-mask iframe { filter:alpha(opacity=0); opacity: 0; }
+.g-popup-form { padding:30px; }
+.g-popup-form table { width:100%; }
+.g-popup-form th { vertical-align:text-top; text-align:right; }
+.g-popup-form th, .g-popup-form td { padding:5px; }
+.g-popup-alert { padding:30px 40px 30px 60px; }
+.g-popup-alert .ico-success { width:63px; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/pop_ico.png) no-repeat; }
+.g-popup-alert .ico-error { }
+.g-popup-alert .ico-other { }
+/*顶底边框*/
+.g-b-dd { border:1px solid #dddddd; }
+.g-b-ed { border:1px solid #edce84; }
+.g-bt-n { border-top:none; }
+.g-bb-n { border-bottom:none; }
+.g-bt-ed { border-top:1px solid #edce84; }
+.g-bt-dd { border-top:1px solid #ddd4b2; }
+.g-bb-dd { border-bottom:1px solid #ddd4b2; }
+.g-bt-cf { border-top:1px solid #cfcfcf; }
+.g-bb-cf { border-bottom:1px solid #cfcfcf; }
+.g-bt-ee { border-top:1px solid #eeeeee; }
+.g-bb-ee { border-bottom:1px solid #eeeeee; }
+/*背景色*/
+.g-bc-a, .g-bc-f3, .g-bc-ff { background-color:#f3f6fd; }
+.g-bc-b { background-color:#fff3dd; }
+.g-bc-w { background-color:#fff }
+.g-bc-f0 { background-color:#f0f0f0; }
+.g-bc-5a { background-color:#5A5A5A; }
+.g-bc-ea { background-color:#EAF1F9; }
+.g-bc-f7 { background-color:#f7f7f7; }
+.g-bi-n { background-image:none !important; }
+/*字体红色*/
+.g-c-c0 { color:#cc0000; }
+/*字体灰色*/
+.g-c-22 { color:#222; }
+.g-c-33 { color:#333; }
+.g-c-66 { color:#666; }
+.g-c-99 { color:#999; }
+.g-c-55{ color:#555;}
+.g-mny-num{color:#E02D23;}
+.g-star{ color:#cc0000;font-family:"宋体";}
+/*字体蓝色*/
+.g-c-b { color:#1057a7; }
+/*字体白色*/
+.g-c-w { color:#fff; }
+/*清浮*/
+.g-cf:after { content:""; clear:both; display:table; }
+.g-cf { zoom:1; }
+/*浮动*/
+.g-f-l { float:left !important; _display:inline; }
+.g-f-r { float:right !important; _display:inline; }
+/*显示隐藏*/
+.g-d-n { display:none; }
+.g-d-b { display:block; }
+.g-d-i { display:inline; }
+.g-d-ib { display:inline-block;*display:inline; *zoom:1; }
+.g-v-h { visibility:hidden; }
+/*字体宋体*/
+.g-ff-s { font-family:Simsun; }
+/*字体风格*/
+.g-fs-n { font-style:normal; }
+/*字体加粗*/
+.g-fw-b { font-weight:bold; }
+.g-fw-n { font-weight:normal; }
+/*字体大小*/
+.g-fz-18 { font-size:18px; }
+.g-fz-20 { font-size:20px;}
+.g-fz-24 { font-size:24px;}
+.g-fz-16 { font-size:16px; }
+.g-fz-15 { font-size:15px; }
+.g-fz-14 { font-size:14px; }
+.g-fz-12 { font-size:12px; }
+/*行高*/
+.g-h-21 { height:21px !important; }
+.g-h-22 { height:22px !important; }
+.g-h-24 { height:24px !important; }
+.g-h-25 { height:25px !important; }
+.g-h-a { height:auto !important; }
+.g-lh-18 { line-height:18px !important; }
+.g-lh-22 { line-height:22px !important; }
+.g-lh-24 { line-height:24px !important; }
+.g-lh-25 { line-height:25px !important; }
+.g-lh-25 { line-height:28px \9 !important; }
+:root .g-lh-25 { line-height:25px \9 !important; }
+.g-lh-30{line-height:30px !important;}
+/*最小高度*/
+.g-mh-20 { min-height:20px; _height:20px; }
+.g-mh-50 { min-height:50px; _height:50px; }
+.g-mw-40{width:auto !important;width:40px; min-width:40px;}
+/*外边距*/
+.g-mlr-a { margin-left:auto; margin-right:auto; overflow:hidden;}
+.g-m-10 { margin:10px; }
+.g-mtb-10 { margin-top:10px; margin-bottom:10px; }
+.g-mlr-10 { margin-left:10px; margin-right:10px; }
+.g-mt-10 { margin-top:10px; }
+.g-mt-20 { margin-top:20px;}
+.g-mb-10 { margin-bottom:10px; }
+.g-ml-10 { margin-left:10px; }
+.g-mr-10 { margin-right:10px; }
+.g-m-5 { margin:5px; }
+.g-mtb-5 { margin-top:5px; margin-bottom:5px; }
+.g-mlr-5 { margin-left:5px; margin-right:5px; }
+.g-mt-5 { margin-top:5px; }
+.g-mb-5 { margin-bottom:5px; }
+.g-ml-5 { margin-left:5px; }
+.g-mr-5 { margin-right:5px; }
+/*内边距*/
+.g-p-10 { padding:10px; }
+.g-ptb-10 { padding-top:10px; padding-bottom:10px; }
+.g-plr-10 { padding-left:10px; padding-right:10px; }
+.g-pt-10 { padding-top:10px; }
+.g-pb-10 { padding-bottom:10px; }
+.g-pl-10 { padding-left:10px; }
+.g-pr-10 { padding-right:10px; }
+.g-p-5 { padding:5px; }
+.g-ptb-5 { padding-top:5px; padding-bottom:5px; }
+.g-plr-5 { padding-left:5px; padding-right:5px; }
+.g-pt-5 { padding-top:5px; }
+.g-pb-5 { padding-bottom:5px; }
+.g-pl-5 { padding-left:5px; }
+.g-pr-5 { padding-right:5px; }
+/*overflow*/
+.g-o-h { overflow:hidden !important; }
+.g-o-a { overflow:auto !important; }
+/*vertical-align*/
+.g-v-m{vertical-align:middle;}
+.g-v-b{vertical-align:baseline;}
+.g-v-t{vertical-align:top;}
+/*相对定位*/
+.g-p-r { position:relative; }
+/*绝对定位*/
+.g-p-a { position:absolute; }
+/*居右、中、左*/
+.g-ta-r { text-align:right; }
+.g-ta-c { text-align:center; }
+.g-ta-l { text-align:left; }
+/*缩进2个字符*/
+.g-ti-2 { text-indent:2em; }
+/*不换行*/
+.g-ws-w { white-space:nowrap; }
+/*强制换行*/
+.g-ww-bw { white-space:normal; word-wrap: break-word; word-break: break-all; }
+
+/*cloud公共样式*/
+
+/*cloud头*/
+.cloudHead-bx{}
+.cloudHead-bx .cloudHead-wp .r{margin-top:35px; line-height:18px;}
+.cloudHead-bx .cloudHead-wp .r .num{color:#e02d23;font-weight:bold;}
+.cloudHead-bx .cloudHead-wp .r img{margin-right:5px;}
+/*cloud后台管理box*/
+.cloudMng-bx{background:#f6f4f1;}
+.cloudMng-bx .cloudMng-wp{background:url(http://www.madegas.com/Templates/blue2/skins/images/cloud/cloudMngBoxBg.jpg) left top repeat-x;padding-top:15px;}
+.cloudMng-bx .cloudMng-wp  table{border-top:#e4e2e2 solid 1px;border-left:#e4e2e2 solid 1px;}
+.cloudMng-bx .cloudMng-wp  table td{border-bottom:#e4e2e2 solid 1px;border-right:#e4e2e2 solid 1px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx{width:175px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li{line-height:38px;border-bottom:#FFF solid 1px;background:#b5b5b5;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li a{font-weight:bold;display:block;color:#666666;font-size:14px;background:#f7f5f5;padding:0px 10px;height:38px;border-bottom:#d9d8d8 solid 1px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li a em{display:inline-block;vertical-align:middle;width:21px;height:19px;margin-right:5px;background-image:url(http://www.madegas.com/Templates/blue2/skins/images/cloud/cloudMngNavPign.gif);background-repeat:no-repeat;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.splMng a em{background-position:0px 0px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.splInfoMng a em{background-position:0px -35px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.payRecord a em{background-position:0px -63px;height:20px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.buyer a em{background-position:0px -93px;height:26px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.splMng a:hover em{background-position:-25px 0px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.splInfoMng a:hover em{background-position:-25px -35px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.payRecord a:hover em{background-position:-25px -63px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.buyer a:hover em{background-position:-25px -93px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li a i{margin-top:15px;width:0px;height:0px;zoom:1;overflow:hidden;border-left:#e02d23 solid 6px;border-top:dotted 3px transparent;border-bottom:dotted 3px transparent;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li a:hover{text-decoration:none;background:url(http://www.madegas.com/Templates/blue2/skins/images/cloud/cloudMngNavHover.jpg) left top repeat-x;color:#FFF;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li a:hover i{border-left:#FFF solid 6px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li a.cur{background:url(http://www.madegas.com/Templates/blue2/skins/images/cloud/cloudMngNavHover.jpg) left top repeat-x;color:#FFF;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li a.cur i{border-left:#FFF solid 6px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.splMng a.cur em{background-position:-25px 0px;}
+.cloudMng-bx .cloudMng-wp .cloudMngNav-bx li.splInfoMng a.cur em{background-position:-25px -35px;}
+.cloudMng-bx .cloudMng-wp .cloudMng-r{background:#FFF;}
+.cloudMng-bx .cloudMng-wp .cloudMng-r .cloudMng-r-til{font-weight:bold;background:url(http://www.madegas.com/Templates/blue2/skins/images/cloud/cloudMngRtilBg.gif) left bottom repeat-x;height:38px;line-height:38px;border-bottom:#e4e2e2 solid 1px;padding-left:20px;color:#e02d23;font-size:16px;}
+.cloudMng-bx .cloudMng-wp .cloudMng-r .cloudMng-r-con{padding:15px 25px;}
+
+/*cloud分页*/
+.cloudMng-bx .g-pagerwp{line-height:24px;height:24px;}
+.cloudMng-bx .g-pager {
+    font-size: 12px;
+    text-align: right;
+}
+.cloudMng-bx .g-pager a, .g-pager input {
+    border: 1px solid #b9b9b9;
+    color: #E02D23;
+    cursor: pointer;
+    margin: 0 2px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+.cloudMng-bx .g-pager a.cur, .g-pager a:hover {
+    background-color: #fbe8e5;
+    color: #e02d23!important;
+    border:#dd3a22 solid 1px;
+    text-decoration:none;
+}
+.cloudMng-bx .g-pager a.no {
+    background-color: #f5f5f5;
+    border-color: #A3A3A3;
+    color: #A3A3A3;
+    cursor:default;
+}
+.cloudMng-bx .g-pager a.no:hover{
+color:#A3A3A3;
+text-decoration:none;
+}
+.cloudMng-bx .g-pager span {
+    margin-right: 10px;
+}
+.cloudMng-bx .g-pager input {
+    cursor: default;
+    padding: 4px 6px;
+    width: 28px;
+    color:#E02D23;
+}
+
+/*面对面*/
+
+/*主体内容盒子*/
+.FTF-warp-bx{background:#f4f4f4;padding-bottom:28px;}
+.FTF-warp-bx .FTF-warp{background: none repeat scroll 0 0 #FFFFFF;
+    padding: 25px 30px;
+   -moz-border-radius:0px 0px 5px 5px;
+-webkit-border-radius:0px 0px 5px 5px; 
+border-radius:0px 0px 5px 5px;
+}
+/*文章区块box*/
+.FTF-section .section-til{
+ border-left: 4px solid #2772BD;
+    color: #2772BD;
+    font-size: 22px;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 12px;
+}
+.FTF-section .section-con{
+    margin-top:20px;
+}
+
+/*加入我们模块*/
+.FTF-mode-join{width:302px;}
+.FTF-mode-join .join-til{font-size:18px;margin-bottom:10px;}
+.FTF-mode-join .join-bx{
+	width:302px;
+	height:285px;
+	background:url(http://www.madegas.com/Templates/blue2/skins/images/mianduimian/mode-join-bg.gif) left top no-repeat;
+}
+.FTF-mode-join .join-wp{
+padding:15px 20px;
+}
+.FTF-mode-join .col1{width:55px;margin-right:8px;}
+.FTF-mode-join .col1 .g-d-ib{background:#d6eaf5;padding:2px;width:50px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+.FTF-mode-join .col2{width:195px;line-height:22px;}
+.FTF-mode-join .join-btn{margin-top:15px;}
+/*导航*/
+.mdm-nav-bx{background:#2772bd;height:45px;line-height:45px;}
+.mdm-nav-bx .item{display:inline-block;padding:0px 36px;color:#FFF;font-size:14px;}
+.mdm-nav-bx .item:hover{text-decoration:none;background:#0d57a2;}
+.mdm-nav-bx .visited{background:#0d57a2;}
+
+/*banner*/
+.mdm-banner-bx {height:301px;}
+.mdm-banner-bx .meetInfo-bx{width:415px;padding-top:30px;font-size:14px;line-height:22px;}
+.mdm-banner-bx .meetInfo-bx .c-b{color:#2772bd;width:75px;text-align:justify;}
+.mdm-banner-bx .show-bx{height:301px;width:100%;left:0px;top:0px;}
+.mdm-banner-bx .show{height:301px;}
+.mdm-banner-bx .joinBtn{top:183px;left:77px;}
+.mdm-banner-bx .nav-bx{height:35px;width:100%;bottom:0px;left:0px;line-height:35px;background:url(http://www.madegas.com/Templates/blue2/skins/images/mianduimian/toumingBg.png);}
+.mdm-banner-bx .nav{background:url(http://www.madegas.com/Templates/blue2/skins/images/mianduimian/toumingBg80.png); overflow: hidden;}
+.mdm-banner-bx .nav .item{padding:0 30px; height:35px;border-right:1px solid #d7dcdd;text-align:center;font-size:16px;color:#7e7e7e; cursor: pointer;}
+.mdm-banner-bx .nav .no-b{border-right:0px solid #d7dcdd;}
+.mdm-banner-bx .nav .c-b{color:#2772bd;padding:0px 10px;}
+#topic_focus { height:250px; }
+#topic_focus img {width: 278px;	height: 160px; }
+/* 全站公用图标 */ 
+.g-icon-write,
+.g-icon-text,
+.g-icon-weibo,
+.g-icon-qiaqia,
+.g-icon-tel,
+.g-icon-Q,
+.g-icon-weixin,
+.g-icon-topArrow,
+.g-icon-downArrow,
+.g-icon-refresh,
+.g-icon-viewCount,
+.g-icon-messageCount,
+.g-icon-timeDown,
+.g-icon-cshop-gray{ background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/icon2015.png) no-repeat; display: inline-block; vertical-align: middle}
+
+.g-icon-write{ background-position: 0 -144px; width: 16px; height: 16px;  }
+.g-icon-text{ background-position: 0 -114px; width: 16px; height: 16px; }
+.g-icon-weibo{ background-position: 0 -248px;  width: 20px; height: 17px; }
+.g-icon-weixin{background-position: 0 -199px;  width: 20px; height: 18px; }
+.g-icon-qiaqia{ background-position: 0px -226px;  width: 20px; height: 15px; }
+.g-icon-tel{ background-position: 0 -313px;  width: 20px; height: 18px;}
+.g-icon-Q{ background-position: -2px -281px;  width: 20px; height: 18px;}
+.g-icon-topArrow{ background-position: 0 -21px;  width: 7px; height: 5px;}
+.g-icon-downArrow{ background-position: 0 0;  width: 7px; height: 5px;}
+.g-icon-refresh{ background-position:0 -339px; width:17px; height:17px;}
+a:hover .g-icon-refresh{ background-position:0 -367px;}
+.g-icon-viewCount{ background-position:0 -387px; width:17px; height:13px;}
+a:hover .g-icon-viewCount{background-position:-1px -406px;}
+.g-icon-messageCount{ background-position:-2px -422px; width:14px; height:17px;}
+a:hover .g-icon-messageCount{ background-position:-2px -440px; }
+.g-icon-timeDown{ background-position:0 -459px; width:16px; height:17px;}
+.g-icon-cshop-gray{background-position:0 -170px;  height: 22px; width: 18px;}
+.g-icon-cx{ background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/cx.gif) no-repeat; display: inline-block; vertical-align: middle; width: 20px; height: 20px  }
+.g-icon-yz{ background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/yz.gif) no-repeat; display: inline-block; vertical-align: middle; width: 20px; height: 20px  }
+.g-icon-pp{ background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/pp.gif) no-repeat; display: inline-block; vertical-align: middle; width: 20px; height: 20px  }
+.pic{   background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr1/css/nopic.png) no-repeat center center; }
+.g-icon-drip{ background: #333; font-size: 0; width: 2px; height: 2px; border-radius: 2px; display: inline-block;  vertical-align: middle; }
+
+/* 置顶头部导航 */
+.topNav{  height: 36px;  _overflow: hidden; background: #f4f4f4; border-bottom: 1px solid #e4e4e4;}
+.topNavLeftMain{ display:block;} 
+.topNavRightMain{ float: right}
+.topNavLeftMain ul li,
+.topNavRightMain ul li{ float: left;background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/icon2015.png) no-repeat 0 -30px;  padding: 0 15px 0 16px; }
+.topNavLeftMain ul li.first{ margin-left: -15px; background: none}
+.topNavRightMain ul li.first{ background: none; padding: 0 15px; line-height: 36px; }
+.topNavLeftMain strong{ font-weight: normal; display: inline-block; line-height: 36px; }
+.topNavLeftMain strong span{ margin-left: 7px;}
+.topNavLeftMain ul li a.menu,
+.topNavRightMain ul li a.menu{  line-height: 36px; cursor: default; display: inline-block}
+.topNavLeftMain ul li a.menu .g-icon-downArrow,
+.topNavRightMain ul li a.menu .g-icon-downArrow{ margin: 0 0 0 5px; _margin: 3px 0 -3px 5px; }
+.topNavLeftMain ul li .con,
+.topNavRightMain ul li .con{ display: none; padding: 5px 15px; background: #fff; position: absolute; top: 36px; left: 1px; z-index: 2; border: 1px solid #e4e4e4; }
+.topNavLeftMain ul li.hover,
+.topNavRightMain ul li.hover{ padding: 0 0 0 1px; position: relative; z-index: 4;  }
+.topNavLeftMain ul li.hover a.menu,
+.topNavRightMain ul li.hover a.menu{ border: 1px solid #e4e4e4; border-bottom: none; background: #fff; padding: 0 14px; line-height: 34px; height: 36px; position: relative; z-index: 3;  white-space: nowrap;}
+.topNavLeftMain ul li.hover a.menu .g-icon-downArrow,
+.topNavRightMain ul li.hover a.menu .g-icon-downArrow{ background-position: 0 -21px;  }
+.topNavLeftMain ul li.hover .con,
+.topNavRightMain ul li.hover .con{ display: block; }
+.topNavLeftMain ul li.hover .con a,
+.topNavRightMain ul li.hover .con a{ white-space: nowrap; display: block; line-height: 20px;}
+.topNavLeftMain ul li a.ie6,
+.topNavRightMain ul li a.ie6{ _padding: 12px 0 0 ;}
+.topNavLeftMain ul li.hover a.ie6,
+.topNavRightMain ul li.hover a.ie6{ _height: 14px !important; _line-height: normal !important; _padding: 11px 14px 10px !important;}
+.topNavRightMain ul li.newIndex{ position: relative; z-index: 4;  }
+.topNavRightMain ul li.newIndex div{  position: absolute; top: 20px; left: 40px; z-index: 2;  }
+
+.g-topNav .topNavLeftMain ul li, 
+.g-topNav .topNavRightMain ul li{ padding: 0 10px 0 11px;}
+.g-topNav .topNavRightMain ul li.first{ padding: 0 10px;}
+.g-topNav .topNavLeftMain ul li.first{ margin-left: -10px;}
+.g-topNav .topNavLeftMain ul li.first{ margin-left: -10px;}
+.g-topNav .topNavLeftMain ul li.hover,
+.g-topNav .topNavRightMain ul li.hover{ padding: 0 0 0 1px;}
+.g-topNav .topNavLeftMain ul li.hover a.menu,
+.g-topNav .topNavRightMain ul li.hover a.menu{  padding: 0 9px; }
+.g-topNav .topNavLeftMain ul li .con,
+.g-topNav .topNavRightMain ul li .con{ padding: 5px 10px;}
+.g-topNav .topNavLeftMain ul li.hover a.ie6,
+.g-topNav .topNavRightMain ul li.hover a.ie6{  _padding: 11px 9px 10px !important;}
+
+.topNav-qiaqia{ left: auto !important; right: 0; _right: -1px; width: 102px; }
+.topNav-qiaqia p{ padding: 5px 0 3px; color: #555}
+
+.topNav-weixin{ left: auto !important; right: 0;  _right: -1px;}
+.topNav-weixin dl{ padding: 5px 0; float: left}
+.topNav-weixin dt{ text-align: center; white-space: nowrap; padding: 0 0 5px; color: #555}
+
+.topNav-mobile{ left: auto !important;  right: 0;  _right: -1px; width: 160px;}
+.topNav-mobile dl{ padding: 5px 0; float: left}
+.topNav-mobile dl.first{ margin: 0 20px 0 0} 
+.topNav-mobile dt{ text-align: center; padding: 0 0 5px; color: #555}
+
+.topNav-proService{ padding-top: 10px !important; padding-bottom: 10px !important;}
+.topNav-proService dl{ overflow: hidden; width: 227px}
+.topNav-proService dt{ font-weight: bold; color: #333; padding: 0 0 4px;}
+.topNav-proService dd a{ float: left; margin-right: 8px;  }
+
+
+
+/* 网站导航 */
+.siteMap{ right: 0 !important; left: auto !important;  width: 600px; }
+.siteMap .siteMapMenu{ margin: 0 0 5px; text-align: right; border-bottom: 1px dashed #eee; padding: 5px 0; color: #666}
+.siteMap .siteMapMenu a.lookMap{  display: inline-block !important;}
+.siteMap .g-f-l,
+.siteMap .g-f-r{ width: 300px;}
+.siteMap dl{ float: left; overflow: hidden; display: inline; margin: 5px 0 0 0; padding: 0 10px; width: 280px;}
+.siteMap dt{ width: 300px; font-weight: bold;}
+.siteMap dt a{ color: #333}
+.siteMap dd{ overflow: hidden; padding: 0 0 5px; line-height: 22px;}
+.siteMap dd a{ float: left; margin: 0 20px 0 0; display: inline; white-space: nowrap; }
+.siteMap dd.first a{ margin: 0 10px 0 0}
+
+/* 全站主导航 */
+.g-index-nav,
+.g-nav{ background: #1057a7; margin-bottom: 20px; height: 41px;}
+.g-index-nav li,
+.g-nav li{ float: left; text-align: center;  font-family: "宋体"; line-height: 41px;  font-size: 16px;}
+.g-index-nav li{width: 94px; }
+.g-index-nav li.All{width:250px;background:#fff; position: relative;z-index:3;}
+.g-index-nav li a,
+.g-nav li a{  float: left;  background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr1/css/icon2015.png) no-repeat 0 -67px;  padding: 0 0 0 1px; height: 41px; border-bottom: 3px solid #1057a7; font-weight: bold;}
+.g-index-nav li a{ width: 93px; }
+.g-index-nav li.All a.aName{text-align: left;padding-left: 40px; width: 210px;border-color:#1057a7; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/selectAllBg.png) top left no-repeat #1057a7; color:#fff;border-radius:5px 5px 0 0;}
+.g-index-nav li.first a,
+.g-nav li.first a{ background: #fff;}
+.g-index-nav li a:hover,
+.g-index-nav li.cur a,
+.g-nav li a:hover,
+.g-nav li.cur a{border-bottom: 3px solid #cc0000; text-decoration: none; color: #cc0000}
+.g-nav li{ width: 99px; }
+.g-nav li a{ width: 98px;;} 
+.g-index-nav li.All a.aName:hover{color:#fff;border-color:#1057a7;}
+.AllCategory{background:#f4f4f4; width:249px;height:350px;position: absolute; top: 44px; left: 0px;font-family: 宋体;z-index:3; border-left:1px solid #ddd;}
+.AllCategory dl{ border:1px solid #ddd; border-top-color:#fff;border-left:0; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/selectAllIco.png) no-repeat; padding:10px 20px 10px 42px; height:36px;line-height: 16px; text-align: left;}
+.AllCategory dl.ico1{background-position:5px 15px;}
+.AllCategory dl.ico2{background-position:5px -43px;}
+.AllCategory dl.ico3{background-position:5px -100px;}
+.AllCategory dl.ico4{background-position:5px -160px;}
+.AllCategory dl.ico5{background-position:5px -217px;}
+.AllCategory dl.ico6{background-position:5px -272px;}
+.AllCategory dl dt{height:20px;line-height: 20px; color:#333; font-size: 14px;font-weight: bold;position: relative;z-index:4;}
+.AllCategory dl dt i{position: absolute;background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/selectAllIco.png) -19px -342px no-repeat; width:5px; height:10px; right:-10px; top:14px;z-index:4;}
+.AllCategory dl dd{width: 186px; height: 18px; overflow: hidden;}
+.AllCategory dl dd a{ background:none; border:0; width:auto;float: none; height: auto; font-size: 12px; color:#999; margin-right:10px; font-weight: normal;}
+.AllCategory dl dd a:hover{ border:0; color:#00ccc; text-decoration: underline;}
+.AllCategory dl.hover{ background-color:#fff; border-right-color:#fff;z-index:3;}
+.AllCategory dl.hover dt i{ background: #fff;height: 57px;right: -21px;top: -11px;}
+.AllCategory .cldCategory{position: absolute; background:#f3f3f3; top:0; left:248px; width:651px; display:none; border-left:1px solid #ddd; border-bottom:2px solid #f3f3f3;}
+.AllCategory .cldCategory ul{ border:1px solid #ddd; border-left:0; width:640px; background:#fff; padding-left:10px; padding-top:20px;}
+.AllCategory .cldCategory ul li{ float: left; padding:5px 20px 3px 20px; width: 280px; line-height:20px;text-align: left;font-family:'宋体';}
+.AllCategory .cldCategory ul li .cnt {color: #333;display: inline-block; font-weight: bold; overflow: hidden; padding-top: 5px; vertical-align: bottom; font-weight: bold;}
+.AllCategory .cldCategory ul li .cnt a{ color:#666; margin-right:0;font-weight: bold;}
+.AllCategory .cldCategory ul li .cshopPink {vertical-align: bottom;}
+.AllCategory .cldCategory ul li .cshopPink .floorShopNamePink{overflow: hidden;}
+.AllCategory .cldCategory ul li .cshopPink a{ color:#333; margin:0;}
+.AllCategory .cldCategory ul li p {line-height: 22px; padding-top: 6px;overflow: hidden;padding-bottom:7px;}
+.AllCategory .cldCategory ul li p a{ color:#666; float: left;margin-right: 9px;white-space: nowrap; padding-left:0;}
+.AllCategory .cldCategory ul li p a:hover{color:#cc0000;}
+.AllCategory dl.hover .cldCategory{ display:block;z-index:3;}
+.AllCategory .cldCategory ul li.search{width:600px;margin-bottom: 5px; padding-top:0; padding-bottom:0;}
+.AllCategory .cldCategory .floorSearch{ height:25px; padding-top:5px;width:610px; line-height:25px; background:#fff;}
+.AllCategory .cldCategory .floorSearch .btn{ border:1px solid #dddddd; width:43px; text-align:center; line-height:23px; height:23px; color:#333; background-color:#f1f1f1;}
+.AllCategory .cldCategory .floorSearch .btn:hover{ border-color: #cc0000; background:#cc0000; color:#fff;}
+.AllCategory .cldCategory .floorSearch input{ float: left; border:1px solid #dddddd; border-right:0; width:230px; line-height:23px; height:23px; padding:0 5px; font-size:12px;}
+.AllCategory .cldCategory .letter{ padding:10px 0 15px; width:600px;height:auto; overflow:hidden; border-bottom:1px dashed #e2e2e2; background:#fff;}
+.AllCategory .cldCategory .letter a{ font-size:14px; float:left;}
+.AllCategory .cldCategory .letter a.last{ padding: 0;}
+
+
+
+/* 全站公共头部 */
+.g-index-header{  zoom: 1}
+.g-logo{ float: left; display: inline; margin:15px 0 25px 10px; height: 50px; width:150px}
+.g-index-search{ zoom: 1;  padding: 30px 0; margin: 0 0 0 316px;}
+.g-index-searchMenu{ height: 22px; overflow: hidden; }
+.g-index-searchMenu a{ float: left; background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/icon2015.png) no-repeat 0 -41px; padding: 0 10px 0 11px; margin: 0 10px 0 -10px;}
+.g-index-searchMenu a.cur{ color: #cc0000; font-weight: bold; margin-left: -10px;}
+.g-index-searchText{ float: left;  margin: 0;  width: 495px;}
+.g-index-searchBtn{ background: #cc0000; float: left; border: none; cursor: pointer; font-size: 18px; color: #fff; font-weight: 200; font-family: "微软雅黑", Arial, "宋体"; width: 100px; height: 40px}
+.g-index-searchCon .box{ position: relative; z-index: 2; float: left;}
+.g-index-searchCon .J-searchBtnHover{ background: #bb0000}
+.g-index-searchHotKeyword{ margin-left: 10px; padding: 13px 0; float: left}
+.g-index-searchHotKeyword a{ margin: 0 5px; color: #666;}
+.SearchFocus{    text-transform: uppercase; font-weight: bold; color: #333; }
+
+/* 全站公共底部 */
+.g-index-copyright{ background: #014399 url(http://www.madegas.com/Templates/blue2/skins/djr1/css/copyrightBg.png) no-repeat right bottom; margin-top: 30px; padding: 30px 0 50px; overflow: hidden;}
+.g-index-copyright dl{ padding: 0 35px; height: 205px; float: left; border-left: 1px solid #1556ab; border-right: 1px solid #003880}
+.g-index-copyright dl.first{ border-left: none}
+.g-index-copyright dl.last{ border-right: none; padding-right: 0}
+.g-index-copyright dt{ color: #fff; font-size: 14px; font-weight: bold; padding: 0 0 13px;}
+.g-index-copyright dd,
+.g-index-copyright dd a{ color: #6496d7;}
+.g-index-copyright dd a:hover{color:#fff;}
+.g-index-copyright dd{ padding: 0 0 8px;}
+
+/* 全站公共友情链接 */
+.g-index-link{ padding: 15px 0 0; overflow: hidden; border-bottom: 1px solid #fff;}
+.g-index-link dl{ zoom: 1; width: 1200px; line-height: 22px; overflow: hidden; padding-bottom: 5px; }
+.g-index-link dl dt{ color: #555; float: left; font-weight: bold}
+.g-index-link dl dd a{color:#999; padding: 0 10px 0 0;}
+.g-index-link dl dd a:hover{color:#cc0000;}
+.g-index-link dl.last{ padding-bottom: 15px; border-bottom: 1px solid #ddd;}
+
+/* 公共安全信息 */
+.safety{ background: #fff; padding:0 0 20px; }
+.safety a{ margin: 0 10px; display: inline-block}
+.safety .sz110,
+.safety .cnnic, 
+.safety .icp, 
+.safety .ebs,
+.safety .ebs2,
+.safety .ghwsx  { display:inline-block; height:44px; width:144px; border:#ddd solid 1px; background:#fff url(http://www.madegas.com/Templates/blue2/skins/djr1/css/foot.gif) no-repeat; }
+.safety .sz110 { background-position:2px 2px; }
+.safety .icp { background-position:2px -48px; }
+.safety .ebs { background-position:2px -98px; }
+.safety .cnnic { background-position:2px -148px; }
+.safety .ghwsx { background-position:2px -197px; }
+.safety .ebs2 { background-position:2px -247px; } 
+
+
+.g-w-500 { width:500px;}
+#toptrainstocks ul li.g-w-500 { width:500px; margin-top:10px;}
+#toptrainstocks ul li p { }
+#toptrainstocks ul li p a {color: #000000;font-family: Arial;font-size: 16px;font-weight: bold;margin-right: 10px;}  
+#toptrainstocks ul li a:hover { text-decoration: none; }
+
+#toptrainstocks ul{ height:66px; padding-left:10px; }
+#toptrainstocks img {float:left;width:66px; height:66px; margin-right:10px;}
+#toptrainstocks li { float:left; margin-top:20px;}
+#toptrainstocks dd { float:left;color: #666666;height: 24px;}
+
+.contact2 i{color: #FFFFFF;font-style: normal;height: 30px;padding-top: 3px;text-align: center;width:78px;display: block;float:left; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/toptrainbg.png) no-repeat center center;}
+.sort dd{width:580px}
+.sort ul{word-break:break-all; width:580px; float:left;}
+.sort li{margin-right:20px;display:inline}
+.sort dl{padding:4px 0 5px 0}
+.sort .current{color:#999999;}.pagerbar .ps{border:solid 1px #CC0000;display:inline-block; padding:0 3px; line-height:14px;margin-right:5px;color:#CC0000}
+.pagerbar .s{margin:0 3px}
+.filterbar{height:20px;line-height:20px;padding:4px 10px 6px 10px;*padding-bottom:3px}
+.filterbar .current{border-color:#999; color:#999}.comlist .c1{width:550px}
+.comlist .c1 .desc{width:430px}
+.comlist .c2{padding-top:23px}
+.comlist .tt{height:32px;line-height:32px;}
+.comlist .tc{line-height:17px;}
+.comlist img{margin-bottom:0}
+.comlist h4{margin-top:-2px}
+.nodata{padding:40px 0px; text-align:center;}
+
+.wrap{ width: 1000px; margin: 0 auto; min-height: 20px;background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/bg.png)}
+.searchMenu{ margin: 15px 0 0; background: #fff;}
+.searchMenu .title{ height: 38px; border-bottom: 1px solid #eee; background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/boxBgIcon.png) repeat-x; line-height: 38px; overflow: hidden}
+.searchMenu .title h2{ float: left; padding: 0 20px; font: normal 18px/38px "微软雅黑", Arial, "宋体"; color: #333;}
+.searchMenu .title p{ float: right; color: #999; font-size: 14px; line-height: 38px; padding: 0 20px; }
+.searchMenu .title p span{ color: #cc0000; font: normal 18px/38px Arial, Helvetica, sans-serif; padding: 0 5px;}
+.searchMenu .list{ font-size: 14px; overflow: hidden; padding: 20px}
+.searchMenu .list td{ height: 26px; padding: 5px 0; line-height: 26px;}
+.searchMenu .list td a{ white-space: nowrap; float: left;  color: #666; margin: 0 5px 0 0; text-decoration: none;padding: 0 10px; }
+.searchMenu .list td a.cur,
+.searchMenu .list td a:hover{ background:#945d56; border-radius: 3px; color: #fff;  }
+.shadow{background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/boxBgIcon.png) repeat-x 0 -38px; height: 3px; font-size: 0}
+.companyList{ overflow: hidden; width: 1000px;}
+.company{ margin: 15px 0 0; overflow: hidden; background: #fff;}
+.company .head{ padding: 20px 20px 15px;}
+.companyHover .head{ background: #ffe5e1;}
+.company .head dt{ overflow: hidden; width: 960px; height: 30px; }
+.company .head dt h3{ float: left; font-size: 20px; font-family: "微软雅黑", Arial, "宋体"; color: #333; font-weight: normal}
+.company .head dt h3 a{ color: #333; text-decoration: none}
+.company .head dt h3 a:hover{ color: #cc0000;  text-decoration: none}
+.company .head dt span{ float: right; color: #666; font-size: 14px; padding: 10px 0 0}
+.company .head dd{padding: 5px 0 0; font-size: 14px; color: #666; width: 960px; overflow:hidden;}
+.company .head dd span{ font-weight: bold; float: left; width:90px; }
+.company .head dd strong{ overflow: hidden; font-weight: normal; float: left;  width:865px;}
+.companyMeet{ width: 50%; float: right; color: #666; font-size: 14px; line-height: 24px;}
+.companyMeet img{ width: 165px; height: 100px;}
+.companyMeet .leftImg{ width: 180px; height: 100px; overflow: hidden}
+.companyNews{  background: #f8f8f8; border-top: 1px dotted #ccc;  height: 44px; font-weight: bold; font-size: 14px;  line-height: 44px;  overflow: hidden;  width: 960px; padding: 0 20px; color: #666; }
+.companyNews a{ color: #666; font-weight: normal; text-decoration: none }
+.companyPro{ border-top: 1px dotted #ccc;padding: 0 20px 15px 100px; }
+.detail ul li,.detail p{border-bottom:#CCC dashed 1px; width:100%}
+.detail{margin-left:2%; line-height:34px; margin-bottom:10px; width:43%}
+.desc {border:#CCC solid 1px; width:96%; padding:0 2% 2%}
+.desc .g-c-c0{border-bottom:#CCC solid 1px;}
+
+.classblock { padding:10px; line-height:2em;border-bottom: #CCC solid 1px;}
+.classblock dt a{ color:#333; font-size:16px; font-weight:bold}
+.classblock dd a{margin:0 5px; color:#945d56}
+
+
+#search {
+	position: absolute;
+	width:80px;
+	height: 38px;
+	border: 2px solid #b7b7b7;
+	border-right: 1px solid #dddddd;
+	font: normal 14px/38px microsoft yahei;
+	color: #666666;
+	text-indent: 14px;
+	top: 19px;
+	left: 0px;
+	cursor:pointer;
+}
+.header input.searchText {
+	position: absolute;
+	border: 0;
+	border-top: 2px solid #b7b7b7;
+	border-bottom: 2px solid #b7b7b7;
+	font: normal 14px/34px microsoft yahei;
+	color: #666666;
+	text-indent: 14px;
+	top: 19px;
+	left: 80px;
+	width: 355px;
+	height: 34px;
+	background: #fff;
+}
+.header button {
+	width: 100px;
+	height: 38px;
+	position: absolute;
+	border: 0;
+	font: normal 18px/34px microsoft yahei;
+	color: #fff;
+	text-align: center;
+	background: #1844a7;
+	cursor: pointer;
+	top: 19px;
+	left: 430px;
+}

@@ -1,0 +1,48 @@
+body, div, ul, ol, li, input, p , h1, h2, h3, dl, dd, dt {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+img {
+	border: none;
+    vertical-align: top;
+}
+input {
+	border: none;
+	background: none;
+}
+input:focus {
+	outline: none;
+}
+body { font:12px/1.5 tahoma,arial,"\5FAE\8F6F\96C5\9ED1","\5b8b\4f53"
+}
+a {
+	color: #545454;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff5e00;
+}
+.l {
+	float: left;
+}
+.r {
+	float: right;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
+.layout-center {
+	width: 1190px;
+	margin: 0 auto;
+}

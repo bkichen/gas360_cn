@@ -1,0 +1,15 @@
+.r {
+	FONT-SIZE: 12px; FLOAT: right
+}
+.l {
+	FLOAT: left
+}
+.i {
+	DISPLAY: inline
+}
+d {
+	DISPLAY: block
+}
+.cls_align {
+	CLEAR: both; DISPLAY: block; FONT-SIZE: 0px; LINE-HEIGHT: 0px
+}

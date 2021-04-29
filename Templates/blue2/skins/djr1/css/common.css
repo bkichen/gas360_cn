@@ -1,0 +1,977 @@
+
+
+
+
+
+.header ul li .button {
+	width: 41px;
+	height: 20px;
+	float: left;
+	line-height:20px;
+	color: white;
+	cursor: pointer;
+	background: #945d56;
+	border-radius: 2px;
+	text-align: center;
+	border: none
+}
+.header ul li a {
+	color: #666;
+	margin-left: 3px;
+}
+.header p {
+	float: right;
+	line-height: 33px;
+	color: #cfcfcf;
+}
+.header p a {
+	color: #666;
+	margin: 0px 4px 0 6px;
+	display: inline-block;
+}
+.header p a.moblie {
+	display: inline-block;
+	vertical-align: middle;
+	text-indent: 22px;
+	color: #945d56;
+	background: url("http://www.madegas.com/Templates/blue2/skins/djr1/css/login.png") no-repeat -62px -24px;
+}
+.header a:hover, .header p a.moblie:hover {
+	text-decoration: underline;
+	color: #ff6600;
+}
+.header span {
+	margin-left: 10px;
+	padding-left: 20px;
+	height: 20px;
+	line-height: 20px;
+	font: 14px/18px "Tahoma", "Arial", "Microsoft Yahei";
+	padding: 6px 0px 6px 28px;
+	float: left;
+	background: url("http://www.madegas.com/Templates/blue2/skins/djr1/css/index2015/2015index.png") no-repeat -75px -38px;
+}
+.header span a {
+	color: #34911a;
+	cursor: pointer
+}
+
+.bannerAdv {
+	width: 1100px;
+	margin: 0px auto 0;
+	overflow: hidden;
+	position: relative;
+	z-index: 6;
+}
+.bannerAdv ul {
+	width: 1110px;
+	display: inline;
+	float: left;
+	margin: 0px 0 0 -5px;
+}
+.bannerAdv ul li {
+	display: block;
+	float: left;
+	padding: 10px 5px 0 5px;
+	position: relative;
+}
+.bannerAdv ul li a, .bannerAdv ul li embed {
+	float: left;
+}
+.weixin{ background:url(../images/img_weixin.jpg) no-repeat; width: 90px;height: 90px; float: right; text-indent: -9999px; margin-top: 15px;}
+.weixin-header {
+	height: 16px;
+	font: bold 12px "\5b8b\4f53";
+	color: #000;
+	position: relative;
+}
+.weixin-header span {
+	font: bold 12px "\5b8b\4f53";
+	color: #000;
+	text-align: left;
+}
+.weixin-header a {
+	position: absolute;
+	color: #999;
+	width: 16px;
+	height: 16px;
+	right: 0;
+	top: 0;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer
+}
+.w-img {
+	min-height: 150px;
+	padding: 20px 20px;
+	width: 198px;
+	height: 198px;
+}
+.w-img table {
+	width: 198px;
+	height: 198px;
+	float: left;
+}
+.w-img table td {
+	width: 198px;
+	height: 198px;
+	text-align: center;
+	vertical-align: middle;
+}
+.w-img img {
+	width: 198px;
+	height: 198px;
+}
+.weixin p {
+	font: 12px "\5b8b\4f53";
+	color: #666;
+}
+.baidu {
+	width: 1000px;
+	height: 1px;
+	margin: 0px auto 0;
+	position: relative;
+	z-index: 99999;
+}
+.otherlogin {
+	width: 90px;
+	height: 32px;
+	position: absolute;
+	top: -35px;
+	left: 510px;
+	line-height: 30px;
+	text-indent: 11px;
+	background: url(http://www.madegas.com/Templates/blue2/skins/djr1/css/darrow.gif) no-repeat 73px 11px;
+	z-index: 99;
+}
+.otherlogin a {
+	color: #0163af;
+	text-decoration: none;
+}
+.otherlogin.hover1 {
+	width: 88px;
+	height: 30px;
+	position: absolute;
+	border: 1px solid #e3e3e3;
+	border-bottom: 1px solid #fff;
+	top: -35px;
+	left: 510px;
+	line-height: 28px;
+	text-indent: 10px;
+	background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr1/css/darrow.gif) no-repeat 72px 10px;
+	z-index: 99;
+}
+.otherlogin.hover1 a {
+	color: #333;
+}
+ul.loginbox {
+	display: block;
+	position: absolute;
+	top: -1px;
+	left: 510px;
+	width: 88px;
+	border: 1px solid #e3e3e3;
+	z-index: 98;
+	background: #fff;
+	padding: 5px 0 10px 0;
+	border-top: 0;
+}
+ul.loginbox li {
+	width: 88px;
+	line-height: 22px;
+	text-indent: 28px;
+	background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr1/css/qqico.jpg) no-repeat 10px 50%;
+}
+ul.loginbox li.sinaico {
+	background: #fff url(http://www.madegas.com/Templates/blue2/skins/djr1/css/sinaico.jpg) no-repeat 10px 50%;
+}
+ul.loginbox li a {
+	text-decoration: none;
+	color: #333;
+}
+ul.loginbox li a:hover {
+	text-decoration: underline;
+	color: #ff6600;
+}
+#bdshare {
+	position: absolute;
+	top: -32px;
+	left: 600px;
+}
+#bdshare span.bds_more {
+	color: #333;
+	line-height: 24px;
+	padding: 0px 0 0 23px;
+	height: 24px;
+}
+.top {
+	width: 1100px;
+	height: 95px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 9999;
+}
+.top img.logo {
+	position: absolute;
+	top: 23px;
+	left: 0px;
+}
+.topAdv {
+	position: absolute;
+	right: 0;
+	top: 16px;
+}
+.topAdv img, .topAdv embed {
+	width: 220px;
+	height: 60px;
+	display: block;
+}
+.top select#search {
+	position: absolute;
+	width:80px;
+	height: 38px;
+	border: 2px solid #b7b7b7;
+	border-right: 1px solid #dddddd;
+	font: normal 14px/38px microsoft yahei;
+	color: #666666;
+	text-indent: 14px;
+	top: 19px;
+	left: 315px;
+	cursor:pointer;
+}
+.top input.searchText {
+	position: absolute;
+	border: 0;
+	border-top: 2px solid #b7b7b7;
+	border-bottom: 2px solid #b7b7b7;
+	font: normal 14px/34px microsoft yahei;
+	color: #666666;
+	text-indent: 14px;
+	top: 19px;
+	left: 395px;
+	width: 355px;
+	height: 34px;
+	background: #fff;
+}
+.top button {
+	width: 100px;
+	height: 38px;
+	position: absolute;
+	border: 0;
+	font: normal 18px/34px microsoft yahei;
+	color: #fff;
+	text-align: center;
+	background: #b4675d;
+	cursor: pointer;
+	top: 19px;
+	left: 750px;
+}
+.top ul {
+	position: absolute;
+	z-index: 9999;
+	width: 78px;
+	border: 1px solid #ddd;
+	border-top: 0;
+	display: block;
+	top: 57px;
+	left: 315px;
+	padding: 5px 0;
+	background: #fff;
+}
+.top ul li {
+	display: block;
+	font: normal 14px/22px microsoft yahei;
+	color: #666;
+	text-indent: 15px;
+}
+.top ul li:hover {
+	background: #e8c5c1;
+}
+.keyWords {
+	position: absolute;
+	top:65px;
+	left:325px;
+	color: #666;
+}
+.keyWords b {
+	font-style: normal;
+	color: #ff6600;
+}
+.keyWords a {
+	margin: 0 5px;
+	color: #666;
+}
+.keyWords a:hover {
+	color: #ff6600;
+	text-decoration: underline;
+}
+#menu {
+	width: 100%;
+	height: 59px;
+	border-bottom: 1px solid #dddddd;
+	position: relative;
+	z-index: 8;
+}
+.menu {
+	width: 1100px;
+	height: 59px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 999;
+}
+.menu ul {
+	width: 1100px;
+	height: 60px;
+	position: absolute;
+	background: #945d56;
+	left: 0;
+	bottom: -1px;
+}
+.menu ul li {
+	width: 380px;
+	height: 60px;
+	position: relative;
+	float: left;
+	border-right: 1px solid #bb9793;
+	color: #fff;
+}
+.menu ul li b {
+	position: absolute;
+	font-size: 16px;
+	left: 17px;
+	top: 20px;
+}
+.menu ul li a {
+	color: #fff;
+}
+.menu ul li a:hover {
+	text-decoration: underline;
+}
+.menu ul li p {
+	position: absolute;
+	right:0px;
+	height: 53px;
+	border-right: 1px solid #733d36;
+	font: normal 13px/22px microsoft yahei;
+	padding: 7px 7px 0 0;
+}
+.menu ul li p a {
+	margin: 0 15px;
+}
+.menu ul li.Sub {
+	width:415px;
+	border: 0;
+}
+.menu ul li.Sub p {
+	padding-right: 35px;
+	border: 0;
+}
+.moreMenu {
+	position: absolute;
+	z-index: 99px;
+	right: -3px;
+	top: 27px;
+}
+.moreBox {
+	width: 50px;
+	height: 33px;
+	position: relative;
+}
+.moreTop {
+	width: 50px;
+	height: 24px;
+	position: absolute;
+	z-index: 1;
+	display: block;
+}
+.moreTop a {
+	width: 50px;
+	height: 24px;
+	display: block;
+	text-indent: 9px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	cursor:pointer;
+}
+.moreBot {
+	width: 138px;
+	background-color:#733d36;
+	padding:5px 5px 10px;
+	position: absolute;
+	right: 0px;
+	border:1px solid #dddddd;
+	top: 33px;
+	display: none;
+}
+.moreBot a {
+	font-size: 14px;
+	margin: 3px 0 0 6px;
+	display: inline-block;
+	width: 60px;
+}
+
+#footer {
+	width: 100%;
+	margin: 15px auto 0;
+	border-top: 1px solid #e8e8e8;
+	background: #f6f6f6;
+	padding: 12px 0;
+}
+.foot {
+	width: 1100px;
+	min-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 25px;
+	color: #666666;
+}
+.foot p {
+	text-align: center;
+	line-height: 46px;
+	color: #b2b2b2;
+}
+.foot p a {
+	color: #666666;
+	margin: 0 6px;
+}
+.foot a:hover {
+	color: #b31717;
+	text-decoration: underline;
+}
+.foot span {
+	font-size: 14px;
+	color: #000;
+	display: block;
+}
+.foot i {
+	font-style: normal;
+	color: #b31717;
+}
+
+
+
+.bottom img {
+	vertical-align: top;
+	margin-top: 3px;
+}
+.bottom b {
+	display: block;
+	line-height: 26px;
+	height: 26px;
+	font-weight: normal;
+	text-align: left;
+}
+.bottom b a {
+	color: #666;
+}
+.bottom.bg1 {
+	padding: 0 0 0 28px;
+	background: url("http://www.madegas.com/Templates/blue2/skins/djr1/css/index2016.png") no-repeat -84px -651px;
+}
+
+
+
+
+
+
+
+
+/*goTop*/
+.backHome{ width:54px; }
+.backHome a{ width:38px; height:46px; display:block; float:left; background:#945d56; text-align:center; font:normal 14px/20px "微软雅黑", "Microsoft Yahei", "宋体"; color:#fff; padding:8px 8px 0 8px; margin:2px 0; opacity:0.7; filter:alpha(opacity=70); background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/rightBar.png) no-repeat 0 0; overflow: hidden; text-indent: -9999px; }
+.backHome a:hover{ opacity:1; filter:alpha(opacity=100); }
+.backHome a.guest,.backHome a.guest:hover{ background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/rightBar.png) no-repeat 0 -114px; opacity: 0.7; filter:alpha(opacity=70); }
+.backHome a.price{ background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/rightBar.png) no-repeat 0px -57px; opacity: 0.7; filter:alpha(opacity=70); }
+.backHome a.guest:hover,.backHome a.price:hover{ opacity: 1; filter:alpha(opacity=100); }
+.toTop{ width:54px; height:54px; position:fixed; _position:absolute; top:379px; _top:expression(eval(document.documentElement.scrollTop+321)); display:none; }
+.toTop a,.toTop a:hover{ display:block; width:54px; height:54px; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/css/rightBar.png) no-repeat 0px -171px; opacity: 0.6; filter:alpha(opacity=60); }
+.toTop a:hover{ opacity:1; filter:alpha(opacity=100); }
+#goTop { position:fixed; _position:absolute; top:203px; display:block; right:10px; }
+*html, * html body { background-attachment:fixed; }
+*html #goTop { position:absolute; right:expression(eval(document.documentElement.scrollLeft+10)); top:expression(eval(document.documentElement.scrollTop+145)); }
+
+
+
+
+
+
+
+.productLeftBot{
+	width: 830px;
+	float: left;
+}
+.productLeftBot .classblock{
+	width: 385px;
+	display: block;
+	float: left;
+}
+.productLeftBot .classblock dl{
+	padding: 6px 15px;
+	display: block;
+	float: left;}
+.productLeftBot .classblock dt{
+	width: 380px;
+	height: 25px;
+	display: block;
+	float: left;
+	text-indent:10px;
+	margin-bottom: 5px;
+	font: bold 16px/25px "Microsoft Yahei", "simhei";
+	border-left:#a26058 solid 5px;
+}
+.productLeftBot .classblock dt a{
+	color: #333333;
+}
+.productLeftBot .classblock dd {
+	width: 385px;
+	display: block;
+	float: left;
+	line-height: 24px;
+	color: #dddddd;
+	overflow: hidden;
+}
+.productLeftBot .classblock dd a {
+	color: #555555;
+	margin: 0px 4px 0 6px; display:inline-block;
+}
+.productLeftBot .classblock dd a:hover{text-decoration:underline}
+.productLeftBot ul li span {
+	width: 383px;
+	height: 19px;
+	display: block;
+	float: left;
+	line-height: 19px;
+	color: #dddddd;
+	overflow: hidden;
+	border: 1px solid #dfdfdf;
+	background: #f7f7f7;
+	margin-top: 10px;
+	text-indent: 5px;
+}
+.productLeftBot ul li span a {
+	color: #888888;
+	margin: 0px 3px;
+}
+.productLeftBot ul li a:hover {
+	text-decoration: underline;
+	color: #ff6600;
+}
+#SocllDiv2 li {
+	line-height: 23px;
+	overflow: hidden;
+	border-bottom: 1px dotted #888;
+}
+#SocllDiv2 li strong {
+	color: #7b9305
+}
+#SocllDiv2 li span {
+	color: #7b9305;
+}
+#SocllDiv2 li span a {
+	color: #7b9305;
+}
+#backOld {
+	background:#945d56;
+	position: fixed;
+	left: 10px;
+	z-index: 9999999;
+	width:30px;
+}
+#backOld p {
+	width:30px;
+	height:80px;
+}
+#backOld a {
+	float:left;
+	padding: 5px 8px 5px 8px;
+	color: #FFF;
+	font:14px "Microsoft Yahei";
+	height:80px;
+	display:block
+}
+.year {
+	width: 100%;
+	margin:0 auto;
+	background: #a30000 url("http://www.madegas.com/Templates/blue2/skins/djr1/css/2016year.jpg") no-repeat top center;
+	padding-top: 83px;
+}
+.yearBox {
+	width:1100px;
+	margin:0 auto;
+	padding:10px 10px 10px 10px;
+	background: #fff;
+}
+.bottom.bg3 {
+	margin-bottom:31px;
+	margin-left:-5px;
+}
+#code {
+	position: fixed;
+	top: 437px;
+	display: block;
+	right: 5px;
+	z-index: 999999;
+	background: #fff;
+	text-align: center;
+	font:normal 12px/24px microsoft yahei;
+	width: 100px;
+}
+
+.list-path { color: #CCC; font-size: 14px; margin-bottom: 8px;background:url(../images/list2014.png) no-repeat -112px -117px;  height:54px;text-indent:25px; }
+.list-path p{ float:left; font:normal 14px/54px "Microsoft Yahei","simhei"; color:#666;}
+.list-path p a{ color:#666; padding:0 5px;}
+.list-path p a:hover{ color:#f60;}
+.list-path p span{ color:#446cb3; padding-left:5px; font-size: 12px; }
+
+
+/* topNav */
+#m-topnav{width:100%;background-color:#fff;font-size:12px;color:#999;height:29px; line-height: 29px; border-bottom: 1px solid #e6e6e6;}
+#m-topnav .fl span{padding:0 0 0 10px; color:#999;}
+#m-topnav .fl a{padding:0 10px; color: #999;}
+#m-topnav .fl em{height: 10px; line-height: 10px; color: #d2d2d2; font-style:normal;}
+#m-topnav a.mobile{padding-left:10px; }
+#m-topnav a.font_c1{color: #ff7300;padding-left:10px; }
+#m-topnav dd a.font_c1{color: #999;padding-left:2px; }
+#m-topnav a.font_c2{color: #999;}
+#m-topnav a:hover,#m-topnav dd a.font_c1:hover{color:#579ffb;}
+#m-topnav #mesCount{ background: url(http://www.madegas.com/Templates/blue2/skins/djr1/images/icon_mes.gif) no-repeat 0 1px; padding-left: 25px;color: #e70000; font-style: normal;}
+
+#m-topnav .tnr{ float: right;}
+#m-topnav .home,#m-topnav .home a{width:36px;padding-left: 0;}
+#m-topnav .weibo{ width: 72px;}
+#m-topnav .weibo a{background: url(http://www.madegas.com/Templates/blue2/skins/djr1/images/ico_weibo.gif) no-repeat right 4px;
+    width: 72px;padding-left: 0;}
+#m-topnav .tnl dd a:hover{color: #1981b7;}
+#m-topnav dd{position: relative;height: 29px;line-height: 29px;color:#999; float: left;}
+#m-topnav dd a{padding-left:10px;display: block;color:#999; }
+#m-topnav .u-menu{display: none;position: absolute;left:0px;top:29px;min-width: 100%;border: 1px solid #dedee0;border-top: 0;padding-bottom:5px; background: #fff;*width:100px;z-index: 9999;line-height: 30px;}
+#m-topnav .u-menu a{width:77px; padding-left:15px;color: #999;}
+#m-topnav .u-menu a:hover{color:#579ffb;}
+/*status下拉展开*/
+#m-topnav dd.traderoom{width:90px; float:left;}
+#m-topnav dd a.sve{ background:url(../images/icon_sev.png) no-repeat 75px 12px; display:block;width:82px; color: #999;}
+#m-topnav dd a.sve.active{border:1px solid #ddd;border-bottom: 0;border-top: 0;background:url(../images/icon_sev.png) no-repeat 75px -7px;color:#579ffb;}
+
+#m-topnav dd.traderoom.service{width:75px; float:left;}
+#m-topnav dd.traderoom.service a.sve{ background:url(../images/icon_sev.png) no-repeat 63px 12px; display:block;width:73px; color: #999;}
+#m-topnav dd.traderoom.service a.sve.active{border:1px solid #ddd;border-bottom: 0;border-top: 0;background:url(../images/icon_sev.png) no-repeat 63px -7px;color:#579ffb;}
+#m-topnav dd.traderoom.service .u-menu a{width:68px;}
+
+
+.g-row { width: 1190px; margin: 0 auto; zoom: 1; }
+.g-row.mt15{margin-top:15px;}
+.g-row.mb30{margin-bottom:30px;}
+.g-row:after { clear: both; content: " "; display: block; font-size: 0; height: 0; visibility: hidden; }
+.fl { float: left; }
+.fr { float: right; }
+
+.Tg_gg{clear:both;  background: #f6f6f6;; overflow: hidden; }
+.Tg_gg a { display:block; margin:0 auto; width:1190px;position:relative;}
+.Tg_gg a img{ display: block;width: 1190px;height: 70px;margin: 0 auto; }
+
+.m-header{width: 100%; height:158px;background: #f6f6f6; border-bottom: 1px solid #ececec;}
+.m-header .header{width:1190px;margin:0 auto; overflow: hidden;}
+
+.m-nav{clear:both;width: 100%; height: 40px; line-height: 40px; }
+.m-nav ul{width:1190px;margin:0 auto;height: 40px; background: #1844a7;position:relative;}
+.m-nav ul li{ float: left;margin-left: 5px;}
+.m-nav ul li a{display:block;padding: 0 20px;font-size: 16px;color: #fff;}
+.m-nav ul li a:hover{color: #1548bd;background: #fff;}
+.m-nav ul li.active{ background: #fff;border-top: 2px solid #1649be; font-weight: bold; margin-left: 10px;}
+.m-nav ul li.active a{color: #1548bd;border-top: 0;}
+
+.m-nav .icon_hot{ display:block; position:absolute; top:2px; left:180px; width:19px; height:23px;background:url(http://www.madegas.com/Templates/blue2/skins/djr1/images/icon_hot.gif) no-repeat; }
+
+.logo{float: left;width:240px; height: 75px; background: url(../../djr/images/logo.png) no-repeat;margin:20px 0 24px}
+.logo a{display:block;width:198px; height: 75px; position:relative;}
+.logo h1,.logo strong,.logotxt strong { text-indent: -9999px;}
+
+.m-search{width:550px; float:left;height:58px; position: relative; z-index: 11; margin-top: 30px;}
+.m-search .lisearch{ height: 10px; line-height: 10px; color: #dddddd;}
+.m-search .lisearch li{ display: inline;padding:5px 10px; font-size: 13px; color: #666; cursor: pointer;}
+.m-search .lisearch li.lisIn{color: #1844a7; font-weight: bold;}
+
+.m-search .search {margin:10px 0 5px; height: 40px; }
+.m-search .search .text { background:#fff;border:2px solid #e6e6e6; color: #333;float: left;font-size: 13px; line-height: 16px;height: 16px;  width:420px;padding:10px 6px 10px 12px;outline:0 none;border-right: 0;}
+.m-search .search .text:focus{border-color: #1844a7;}
+.m-search .search .button {  background: #1844a7;  border:none; color: #fff;cursor: pointer; float: left; font-size: 16px;height: 40px; line-height: 40px; width: 110px; letter-spacing: 10px; padding-left: 15px;}
+
+.btnLink{ float:left;width:260px; margin-left: 36px; margin-top: 51px;}
+.btnLink a{display:block; float:left;border:1px solid #ddd;border-radius:5px;width:118px; text-align:center;height:38px; line-height:38px; color:#579ffb; font-size:14px; color: #333; margin-right:10px;_display:inline;_margin-left:8px;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;background:#fff url(../../djr/images/icon_r_tip.gif) no-repeat 106px 0px;}
+.btnLink a:hover{color: #ff7300;border-color: #ff7300;}
+
+.btnLink2{margin-top: 18px; height: 76px;}
+.btnLink2 a{display:block;height:60px;float:left;width: 93px; text-align: center; font-size: 14px;color: #333;}
+.btnLink2 a i{display:block; margin:0 auto; border:2px solid #aaa;border-radius:50%;width:50px; text-align:center;height:50px; line-height:50px; color:#579ffb; font-size:30px; color: #aaa; 
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;}
+.btnLink2 a:hover{color: #ff7300;}
+.btnLink2 a:hover i{color: #ff7300;border-color: #ff7300;}
+
+.neiqiu{ line-height:30px;}
+.neigong{line-height:30px;}
+
+.chanxin a
+        {
+             padding-left:20px;
+            background: url("../images/http://www.madegas.com/Templates/blue2/skins/djr1/css/index2016.png") no-repeat -91px -141px;
+        }
+        
+        
+        
+  .m-footer {width: 100%; background: #282828; position: relative; overflow:hidden;margin-top:50px; padding-bottom:30px;}
+.m-footer .footer{width:906px;padding-left:250px; padding-top:48px; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/images/logo2.jpg) no-repeat left 35px;}      
+        
+.foot {
+	width: 1100px;
+	min-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+}
+.foot p {
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+}
+.foot p a {
+	color: #fff;
+	margin: 0 6px;
+}
+.foot a:hover {
+	color: #b31717;
+	text-decoration: underline;
+}
+.foot span {
+	font-size: 14px;
+	color: #fff;
+	display: block;
+}
+.foot i {
+	font-style: normal;
+	color: #fff;
+}
+#search {
+	position: absolute;
+	width:80px;
+	height: 38px;
+	border: 2px solid #b7b7b7;
+	border-right: 1px solid #dddddd;
+	font: normal 14px/38px microsoft yahei;
+	color: #666666;
+	text-indent: 14px;
+	top: 19px;
+	left: 0px;
+	cursor:pointer;
+}
+.header input.searchText {
+	position: absolute;
+	border: 0;
+	border-top: 2px solid #b7b7b7;
+	border-bottom: 2px solid #b7b7b7;
+	font: normal 14px/34px microsoft yahei;
+	color: #666666;
+	text-indent: 14px;
+	top: 19px;
+	left: 80px;
+	width: 355px;
+	height: 34px;
+	background: #fff;
+}
+.header button {
+	width: 100px;
+	height: 38px;
+	position: absolute;
+	border: 0;
+	font: normal 18px/34px microsoft yahei;
+	color: #fff;
+	text-align: center;
+	background: #1844a7;
+	cursor: pointer;
+	top: 19px;
+	left: 430px;
+}
+
+
+.friendlink {
+    width: 100%;
+    height: 170px;
+    background: #262626;
+    float: left;
+}
+
+    .friendlink h2 {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 12px;
+        margin-top: 30px;
+    }
+
+        .friendlink h2 em {
+            font-size: 12px;
+            color: #fff;
+        }
+
+    .friendlink a, .friendlink span {
+        float: left;
+        margin-bottom: 6px;
+    }
+
+    .friendlink a {
+        font-size: 12px;
+        color: #999;
+        /*兼容IE6*/
+        white-space: nowrap;
+    }
+
+        .friendlink a:hover {
+            color: #ff5e00;
+        }
+
+    .friendlink span {
+        color: #3b3b3b;
+    }
+/*底部*/
+.footer {
+    width: 100%;
+    background: #292929;
+    float: left;
+}
+
+.footer-top {
+    float: left;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #333;
+}
+
+    .footer-top .fT-xs {
+        float: left;
+        width: 160px;
+        border-right: 1px solid #292929;
+        margin-right: 36px;
+    }
+
+        .footer-top .fT-xs h3 {
+            float: left;
+            width: 160px;
+            margin-top: 0px;
+            padding-bottom: 25px;
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .footer-top .fT-xs ul li {
+            margin-bottom: 12px;
+        }
+
+            .footer-top .fT-xs ul li a {
+                font-size: 12px;
+                color: #878787;
+            }
+
+                .footer-top .fT-xs ul li a:hover {
+                    color: #ff5e00;
+                }
+
+.fT-tel {
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+    .fT-tel h1 {
+        font-size: 25px;
+        color: #ffffff;
+        font-family: "Arial";
+        font-weight: 500;
+    }
+
+    .fT-tel p {
+        font-size: 12px;
+        color: #878787;
+        margin-top: 8px;
+    }
+
+    .fT-tel a {
+        display: inline-block;
+        width: 126px;
+        height: 32px;
+        margin-top: 14px;
+        background: url(http://www.madegas.com/Content/images/icon01.png) no-repeat -130px -300px;
+    }
+
+.footer-bottom {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+	margin-bottom:10px;
+}
+
+    .footer-bottom p {
+        margin-top: 10px;
+    }
+
+    .footer-bottom .fB-p1 a {
+        color: #707070;
+    }
+
+        .footer-bottom .fB-p1 a:hover {
+            color: #ff5e00;
+        }
+
+    .footer-bottom .fB-p1 span {
+        color: #707070;
+    }
+
+    .footer-bottom .fB-p2 span {
+        color: #707070;
+        margin-right: 5px;
+    }
+
+.fB-p3 {
+    color: #454545;
+    font-size: 12px;
+}
+
+.footer-bottom p.fB-p4 {
+    margin-top: 23px;
+}
+
+.fB-p4 a {
+    background: url(http://www.madegas.com/Content/images/icon01.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 112px;
+    height: 35px;
+    filter: alpha(opacity=22);
+    opacity: 0.22;
+}
+
+    .fB-p4 a:hover {
+        filter: alpha(opacity=80);
+        opacity: 0.8;
+    }
+
+    .fB-p4 a.p4-authority1 {
+        background-position: -130px -340px;
+        margin-right: 10px;
+    }
+
+    .fB-p4 a.p4-authority2 {
+        background-position: -130px -380px;
+        margin-right: 10px;
+    }
+
+    .fB-p4 a.p4-authority3 {
+        background-position: -130px -420px;
+    }.layout-center {
+	width: 1190px;
+	margin: 0 auto;
+}

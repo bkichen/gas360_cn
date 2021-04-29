@@ -1,0 +1,98 @@
+/*公共属性*/
+body, dl, dt, dd, ol, ul, pre, form, field, input, p, blockquote, th, td, h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-size:12px;}
+a:link, a:visited { text-decoration:none; color:#000;}
+a:hover, a:active { text-decoration:underline; color:#FF7300;}
+a.a1:link, a.a1:visited { text-decoration:none; color:#666;}
+a.a1:hover, a.a1:active { text-decoration:underline; color:#003278;}
+a.a2:link, a.a2:visited { text-decoration:none; color:#000;}
+a.a2:hover, a.a2:active { text-decoration:underline; color:#FF7300;}
+a.a3:link, a.a3:visited { font-weight:bold; font-size:14px; text-decoration:underline; color:#003399;}
+a.a3:hover, a.a3:active { font-weight:bold; font-size:14px; text-decoration:underline; color:#FF7300;}
+a.a4:link, a.a4:visited { font-weight:bold; font-size:12px;text-decoration: none; color:#003399;}
+a.a4:hover, a.a4:active { font-weight:bold; font-size:12px;text-decoration:underline; color:#FF7300;}
+a.a5:link, a.a5:visited { text-decoration: none; color:#000;}
+a.a5:hover, a.a5:active { text-decoration:underline; color:#FF7300;}
+ul, ol { list-style:none;}
+input, textarea, select, button, file {	font-size:12px;}
+img { border:0;}
+.span_r { float:right; margin-right: 5px; line-height: 24px;}
+.z14 { float:left; font-size: 14px;}
+.clr { clear: both;}
+.wz_left { float:left}
+.wz_right { float:right;}
+.xjbg { width:72px; height: 21px; cursor: hand; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/images/but6.gif); border:0px;}
+
+/*布局*/
+#main,#font { float:none; margin: 0 auto; width:1060px; clear:both;}
+#main { margin-top: 10px; overflow:hidden;}
+#main #main_left { float:left; width:100%; margin-right: -205px;}
+#main #main_right { float:right; width: 195px; overflow:hidden}
+#font { border-top: 2px #0F7CD4 solid; margin-top: 10px; padding-top: 10px;}
+#font p { float:none; margin: 0 auto; width: 970px; text-align:center; line-height: 25px;}
+
+
+/*导航&分类*/
+#nav_man { float:none; margin: 0 auto; width: 965px; padding-left: 5px; margin-top: 10px;}
+#main_class { float:left; width:1060px;margin-top: 5px; padding-bottom: 10px; border-bottom: 1px #C4C4C4 dotted;}
+#main_class #nade { float:left; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/images/2_001_9.gif) 5px 1px no-repeat; padding-left: 15px; font-size:16px;}
+#main_class #nade_cont { float:left; margin-left: 10px; width: 920px;}
+#main_class #nade_cont li { float:left; width: 124px; height: 20px; text-align:left;}
+#main_class #nade_cont td { padding-bottom: 10px ; font-size:14px;}
+
+/*主体内容*/
+#bix_top { height:24px; border-bottom: 3px #3C92DD solid; margin-top: 10px; margin-right: 210px;}
+#bix_top .dorun { float:left; width: 92px; height: 24px; background:url(../images/bix_left_top_92x24.gif) no-repeat; font: bold 14px/24px "宋体"; text-align:center; color:#FFFFFF;}
+#bix_top .dorun1 { float:left; width: 92px; height: 24px; background:url(../images/bix_left_top_92x24.gif) no-repeat; font: bold 14px/24px "宋体"; text-align:center; color:#FFFFFF;}
+#bix_nerog { height: 25px; border: 1px #CDE4F2 solid; background:#EBF5FB; margin-right: 210px;}
+#bix_nerog .le_1 { float:left; width: 20px; height: 25px; background:url(http://www.madegas.com/Templates/blue2/skins/djr1/images/icon_shang.gif) 6px 5px no-repeat;}
+#bix_nerog .le_2 { float:left; width: 72px; height: 23px; padding-top: 2px; margin-left: 10px; text-align: center; line-height: 23px;}
+#bix_nerog .le_3 { float:left; width: 130px; height: 25px; line-height: 25px; margin-left: 40px;}
+#bix_nerog .le_3c { float:left; width: 130px; height: 25px; line-height: 25px; margin-left: 10px;}
+#bix_nerog .le_4 { float:left; width: 130px; height: 23px; padding-top: 2px; padding-left: 120px; }
+#bix_nerog .le_4c { float:left; width: 130px; height: 23px; padding-top: 2px; padding-left: 210px; }
+
+#bix_nerog .ye_1 { float:right; width: 8%; height: 25px; line-height: 25px; text-align:center;}
+#bix_nerog .ye_2 { float:right; width: 9%; height: 25px; line-height: 25px; text-align:center;}
+#bix_nerog .ye_3 { float:right; width: 88px; height: 25px; line-height: 25px; text-align:center; margin-left: 8px; }
+#bix_nerog .ye_4 { float:right; display:block; height: 22px; padding-top: 3px; margin-left: 40%; *margin-left: 40%!important; *margin-left: 23% }
+#bix_nerog .yc_4 { float:right; display:block; height: 22px; text-align:center; padding-top: 3px; margin-left: 33%; *margin-left: 33%!important; *margin-left: 23% }
+#bix_nerog_cont { border-bottom: 1px #CCCCCC dashed; padding-bottom: 10px; margin-top: 15px; overflow:hidden; width:850px}
+#bix_nerog_cont .le_input { float:left; display:block; padding-top: 30px;}
+#bix_nerog_cont .lc_input { float:left; width: 13px;}
+#bix_nerog_cont .le_img { float:left; width: 100px; height:100px; text-align:center; border: 1px #CCCCCC solid; BACKGROUND-POSITION: center center; background-repeat:no-repeat; background-color:#FFF; margin-left: 10px; display:inline; background-size:100% 100%}
+#bix_nerog_cont .le_img  A { display: block; width: 100px; position: relative; height: 100px }
+#bix_nerog_cont .le_info { float: left; width: 370px; margin-left: 12px;}
+#bix_nerog_cont .le_info .title2 { float:left; width: 380px; line-height: 150%; text-align: left; word-wrap: break-word; color:#666}
+#bix_nerog_cont .le_info .zy,.company { float:left; width: 380px; line-height: 140%; text-align: left; word-wrap: break-word; color:#666; margin-top: 5px;}
+#bix_nerog_cont .le_info .tering { float:left; width: 380px; height: 21px; margin-top: 5px;}
+#bix_nerog_cont .le_info .tering span { background:url(http://www.madegas.com/Templates/blue2/skins/djr1/images/but_gy.gif) no-repeat; color:#FF7300; float:left; width: 66px; height: 21px; text-align:center; line-height: 21px; margin-right: 10px; padding-left: 3px;}
+#bix_nerog_cont .le_info .area { float:left; display:block; padding-left: 250px; margin-top: -15px;}
+#bix_nerog_cont .le_info1 { float: left; width:700px; margin-left: 12px;}
+#bix_nerog_cont .le_info1 .title2 { float:left; width: 700px; line-height: 150%; text-align: left; word-wrap: break-word; color:#666}
+#bix_nerog_cont .le_info1 .zy { float:left; width:700px; line-height: 160%; text-align: left; word-wrap: break-word; color:#444; margin-top: 5px;}
+#bix_nerog_cont .le_info1 .company { float:left; width: 380px; line-height: 140%; text-align: left; word-wrap: break-word; color:#666; margin-top: 5px;}
+#bix_nerog_cont .le_info1 .area1 { float:left; width: 100px; }
+#bix_nerog_cont .rige {float: right; width: 9%; text-align:center; line-height: 140%; padding-top: 30px; overflow:hidden;}
+#bix_nerog_cont .rige1 {float: right; width: 88px; padding-top: 20px; padding-left: 10px; }
+#bix_nerog_cont .rige2 {float: right; width: 9%; text-align:center; line-height: 140%; padding-top: 30px; overflow:hidden;}
+#bix_nerog_cont .rige3 {float: right; width: 88px; padding-top: 20px; padding-left: 10px; }
+.hzzw { float:left; width: 195px; height: 49px; background:url(../images/zy.gif) no-repeat; margin-top: 15px; margin-bottom: 10px}
+.hzzw span { float:left; padding-top: 30px; padding-left:10px;}
+.loca_G { float:left; width: 195px; margin-bottom: 10px; overflow:hidden}
+/*分页*/
+.page_tion { float:left; width:80%; height:33px; padding-top:17px; margin-bottom:20px}
+.page_tion li { width: 100%; text-align:center; font-size:16px; font-weight:bold; color:#000000;}
+.page_tion A { COLOR: #000;}
+.page_tion A:visited { COLOR: #000;}
+.page_b { padding: 1px 3px; background:#0F7CD4; text-align:center; color:#FFFFFF;}
+
+/*快速发布求购信息*/
+.pur_info { float:left; width: 570px; margin-top: 15px;}
+.pur_info .pur_t { float:left; width: 755px; height: 25px; border-bottom: 1px #CCCCCC solid; padding-left: 5px; font: bold 14px/25px "宋体"; color:#FE5A01; margin-bottom: 15px; display: inline;}
+.pur_info .pur_t span { font-size:12px; color:#000000; font-weight:normal;}
+.pur_info .pur_cont { float:left; width: 755px; padding-bottom: 10px;}
+.pur_info .pur_cont li { float: none; margin: 0 auto; padding-left: 15px; line-height: 25px;}
+
+.list li{line-height:2em}
+.px14 {margin-right:10px}
+.list{border-bottom:#CCC dashed 1px; padding:10px 0}

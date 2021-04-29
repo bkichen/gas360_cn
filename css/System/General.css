@@ -1,0 +1,23 @@
+/* 通用样式 */
+body, dl, dt, dd, ol, ul, pre, form, field, input, p, blockquote, th, td, h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-size:12px;}
+ul, ol { list-style:none;}
+input, textarea, select, button, file {	font-size:12px;}
+.clr {clear:both}
+a { color: #1b1b1b; text-decoration: none;}
+a:hover { color: #ff0000; text-decoration: none;}
+
+/* 头部&导航 */
+#header {
+	float:none; margin: 0 auto; width: 779px; height: 61px; margin-bottom: 10px; margin-top:10px;
+}
+#logo { 
+	float:left;
+}
+#muve_top { float: right; width: 495px; margin: 5px 0px;}
+#muve_top li { float:right;}
+#muve_top li span { float:left; height: 17px; line-height: 17px; text-align:center;}
+#login_button { width: 38px; background:url(../../Templates/blue2/images/login_button.gif) no-repeat; margin-left: 10px;}
+#reg_button { width:60px; background:url(../../Templates/blue2/images/register_button.gif) no-repeat;}
+#muve_nav { float: right; width: 495px; height: 28px; border-bottom: 4px #0197D8 solid; border-left: 1px #0197D8 solid; border-right: 1px #0197D8 solid; border-top: 1px #0197D8 solid;}
+#muve_nav li { float:left; width: 61px; height: 28px; background:url(../../Templates/blue2/images/tagBG.gif) repeat-x; text-align:center; line-height: 28px; font-size:14px; font-weight:bold;}
+#muve_nav li.bre { border-right: 1px #0197D8 solid;} 
